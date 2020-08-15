@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Segoe UI';
+	src: local('Segoe UI'), url(../../assets/fonts/Segoe\ UI.ttf) format('truetype');
+}
+
+.landing-page {
+	background-image: url("../../assets/Login\ Wallpaper.jpg");
+}
