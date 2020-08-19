@@ -1,6 +1,6 @@
 import React from 'react';
 import './LandingPage.css';
-import userLogo from '../../assets/default-user-placeholder.png';
+import userLogo from '../../assets/Icons/default-user-placeholder.png';
 import { Link } from 'react-router-dom';
 import ReactTooltip from 'react-tooltip';
 
