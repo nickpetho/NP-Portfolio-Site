@@ -22,7 +22,9 @@ function LandingPage() {
 			<h2 className="text-2xl text-white mb-6">Choose Your Version</h2>
 			<div>
 				<LandingPageButton to="/simple">Simple</LandingPageButton>
-				<LandingPageButton data-tip="Coming Soon!">Full</LandingPageButton>
+				<LandingPageButton data-tip="Coming Soon!" to="/home">
+					Full
+				</LandingPageButton>
 			</div>
 			<ReactTooltip />
 		</div>
