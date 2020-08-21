@@ -11,12 +11,12 @@ function StartMenu({ isOpen }) {
 
 	return (
 		<div className="bg-gray-800 absolute bottom-0 flex flex-col w-56 text-white">
-			<div className="bg-gray-Windows pb-2 pt-3 px-3 font-bold">START</div>
-			<Link to="/aboutMe" className="pb-1 pt-2 px-3 mt-20 flex hover:bg-gray-Windows">
+			<div className="bg-gray-Windows10 pb-2 pt-3 px-3 font-bold">START</div>
+			<Link to="/aboutMe" className="pb-1 pt-2 px-3 mt-20 flex hover:bg-gray-Windows10">
 				<img className="w-6 h-6 mr-3" src={userLogo} alt="" />
 				<div>Nick Petho</div>
 			</Link>
-			<Link to="/" className="pb-2 pt-1 px-3 flex hover:bg-gray-Windows">
+			<Link to="/" className="pb-2 pt-1 px-3 flex hover:bg-gray-Windows10">
 				<div className="w-6 h-6 mr-2 ml-1">
 					<FontAwesomeIcon icon={faPowerOff} />
 				</div>
