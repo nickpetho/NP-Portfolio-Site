@@ -1217,6 +1217,18 @@ video {
   border-color: rgba(128, 128, 128, var(--divide-opacity));
 }
 
+.divide-gray-Windows7 > :not(template) ~ :not(template) {
+  --divide-opacity: 1;
+  border-color: #A5C2DF;
+  border-color: rgba(165, 194, 223, var(--divide-opacity));
+}
+
+.divide-gray-Windows7Highlight > :not(template) ~ :not(template) {
+  --divide-opacity: 1;
+  border-color: #D7E8F8;
+  border-color: rgba(215, 232, 248, var(--divide-opacity));
+}
+
 .divide-red-100 > :not(template) ~ :not(template) {
   --divide-opacity: 1;
   border-color: #fff5f5;
@@ -1565,6 +1577,18 @@ video {
   border-color: rgba(36, 148, 220, var(--divide-opacity));
 }
 
+.divide-blue-XPStartHighlight > :not(template) ~ :not(template) {
+  --divide-opacity: 1;
+  border-color: #326BC5;
+  border-color: rgba(50, 107, 197, var(--divide-opacity));
+}
+
+.divide-blue-XPLogOff > :not(template) ~ :not(template) {
+  --divide-opacity: 1;
+  border-color: #0843C3;
+  border-color: rgba(8, 67, 195, var(--divide-opacity));
+}
+
 .divide-blue-W95Start > :not(template) ~ :not(template) {
   --divide-opacity: 1;
   border-color: #010A7F;
@@ -1907,6 +1931,18 @@ video {
   --bg-opacity: 1;
   background-color: #808080;
   background-color: rgba(128, 128, 128, var(--bg-opacity));
+}
+
+.bg-gray-Windows7 {
+  --bg-opacity: 1;
+  background-color: #A5C2DF;
+  background-color: rgba(165, 194, 223, var(--bg-opacity));
+}
+
+.bg-gray-Windows7Highlight {
+  --bg-opacity: 1;
+  background-color: #D7E8F8;
+  background-color: rgba(215, 232, 248, var(--bg-opacity));
 }
 
 .bg-red-100 {
@@ -2257,6 +2293,18 @@ video {
   background-color: rgba(36, 148, 220, var(--bg-opacity));
 }
 
+.bg-blue-XPStartHighlight {
+  --bg-opacity: 1;
+  background-color: #326BC5;
+  background-color: rgba(50, 107, 197, var(--bg-opacity));
+}
+
+.bg-blue-XPLogOff {
+  --bg-opacity: 1;
+  background-color: #0843C3;
+  background-color: rgba(8, 67, 195, var(--bg-opacity));
+}
+
 .bg-blue-W95Start {
   --bg-opacity: 1;
   background-color: #010A7F;
@@ -2515,6 +2563,18 @@ video {
   --bg-opacity: 1;
   background-color: #808080;
   background-color: rgba(128, 128, 128, var(--bg-opacity));
+}
+
+.hover\:bg-gray-Windows7:hover {
+  --bg-opacity: 1;
+  background-color: #A5C2DF;
+  background-color: rgba(165, 194, 223, var(--bg-opacity));
+}
+
+.hover\:bg-gray-Windows7Highlight:hover {
+  --bg-opacity: 1;
+  background-color: #D7E8F8;
+  background-color: rgba(215, 232, 248, var(--bg-opacity));
 }
 
 .hover\:bg-red-100:hover {
@@ -2865,6 +2925,18 @@ video {
   background-color: rgba(36, 148, 220, var(--bg-opacity));
 }
 
+.hover\:bg-blue-XPStartHighlight:hover {
+  --bg-opacity: 1;
+  background-color: #326BC5;
+  background-color: rgba(50, 107, 197, var(--bg-opacity));
+}
+
+.hover\:bg-blue-XPLogOff:hover {
+  --bg-opacity: 1;
+  background-color: #0843C3;
+  background-color: rgba(8, 67, 195, var(--bg-opacity));
+}
+
 .hover\:bg-blue-W95Start:hover {
   --bg-opacity: 1;
   background-color: #010A7F;
@@ -3123,6 +3195,18 @@ video {
   --bg-opacity: 1;
   background-color: #808080;
   background-color: rgba(128, 128, 128, var(--bg-opacity));
+}
+
+.focus\:bg-gray-Windows7:focus {
+  --bg-opacity: 1;
+  background-color: #A5C2DF;
+  background-color: rgba(165, 194, 223, var(--bg-opacity));
+}
+
+.focus\:bg-gray-Windows7Highlight:focus {
+  --bg-opacity: 1;
+  background-color: #D7E8F8;
+  background-color: rgba(215, 232, 248, var(--bg-opacity));
 }
 
 .focus\:bg-red-100:focus {
@@ -3471,6 +3555,18 @@ video {
   --bg-opacity: 1;
   background-color: #2494DC;
   background-color: rgba(36, 148, 220, var(--bg-opacity));
+}
+
+.focus\:bg-blue-XPStartHighlight:focus {
+  --bg-opacity: 1;
+  background-color: #326BC5;
+  background-color: rgba(50, 107, 197, var(--bg-opacity));
+}
+
+.focus\:bg-blue-XPLogOff:focus {
+  --bg-opacity: 1;
+  background-color: #0843C3;
+  background-color: rgba(8, 67, 195, var(--bg-opacity));
 }
 
 .focus\:bg-blue-W95Start:focus {
@@ -3873,6 +3969,18 @@ video {
   border-color: rgba(128, 128, 128, var(--border-opacity));
 }
 
+.border-gray-Windows7 {
+  --border-opacity: 1;
+  border-color: #A5C2DF;
+  border-color: rgba(165, 194, 223, var(--border-opacity));
+}
+
+.border-gray-Windows7Highlight {
+  --border-opacity: 1;
+  border-color: #D7E8F8;
+  border-color: rgba(215, 232, 248, var(--border-opacity));
+}
+
 .border-red-100 {
   --border-opacity: 1;
   border-color: #fff5f5;
@@ -4221,6 +4329,18 @@ video {
   border-color: rgba(36, 148, 220, var(--border-opacity));
 }
 
+.border-blue-XPStartHighlight {
+  --border-opacity: 1;
+  border-color: #326BC5;
+  border-color: rgba(50, 107, 197, var(--border-opacity));
+}
+
+.border-blue-XPLogOff {
+  --border-opacity: 1;
+  border-color: #0843C3;
+  border-color: rgba(8, 67, 195, var(--border-opacity));
+}
+
 .border-blue-W95Start {
   --border-opacity: 1;
   border-color: #010A7F;
@@ -4479,6 +4599,18 @@ video {
   --border-opacity: 1;
   border-color: #808080;
   border-color: rgba(128, 128, 128, var(--border-opacity));
+}
+
+.hover\:border-gray-Windows7:hover {
+  --border-opacity: 1;
+  border-color: #A5C2DF;
+  border-color: rgba(165, 194, 223, var(--border-opacity));
+}
+
+.hover\:border-gray-Windows7Highlight:hover {
+  --border-opacity: 1;
+  border-color: #D7E8F8;
+  border-color: rgba(215, 232, 248, var(--border-opacity));
 }
 
 .hover\:border-red-100:hover {
@@ -4829,6 +4961,18 @@ video {
   border-color: rgba(36, 148, 220, var(--border-opacity));
 }
 
+.hover\:border-blue-XPStartHighlight:hover {
+  --border-opacity: 1;
+  border-color: #326BC5;
+  border-color: rgba(50, 107, 197, var(--border-opacity));
+}
+
+.hover\:border-blue-XPLogOff:hover {
+  --border-opacity: 1;
+  border-color: #0843C3;
+  border-color: rgba(8, 67, 195, var(--border-opacity));
+}
+
 .hover\:border-blue-W95Start:hover {
   --border-opacity: 1;
   border-color: #010A7F;
@@ -5087,6 +5231,18 @@ video {
   --border-opacity: 1;
   border-color: #808080;
   border-color: rgba(128, 128, 128, var(--border-opacity));
+}
+
+.focus\:border-gray-Windows7:focus {
+  --border-opacity: 1;
+  border-color: #A5C2DF;
+  border-color: rgba(165, 194, 223, var(--border-opacity));
+}
+
+.focus\:border-gray-Windows7Highlight:focus {
+  --border-opacity: 1;
+  border-color: #D7E8F8;
+  border-color: rgba(215, 232, 248, var(--border-opacity));
 }
 
 .focus\:border-red-100:focus {
@@ -5435,6 +5591,18 @@ video {
   --border-opacity: 1;
   border-color: #2494DC;
   border-color: rgba(36, 148, 220, var(--border-opacity));
+}
+
+.focus\:border-blue-XPStartHighlight:focus {
+  --border-opacity: 1;
+  border-color: #326BC5;
+  border-color: rgba(50, 107, 197, var(--border-opacity));
+}
+
+.focus\:border-blue-XPLogOff:focus {
+  --border-opacity: 1;
+  border-color: #0843C3;
+  border-color: rgba(8, 67, 195, var(--border-opacity));
 }
 
 .focus\:border-blue-W95Start:focus {
@@ -8805,6 +8973,18 @@ video {
   color: rgba(128, 128, 128, var(--placeholder-opacity));
 }
 
+.placeholder-gray-Windows7::placeholder {
+  --placeholder-opacity: 1;
+  color: #A5C2DF;
+  color: rgba(165, 194, 223, var(--placeholder-opacity));
+}
+
+.placeholder-gray-Windows7Highlight::placeholder {
+  --placeholder-opacity: 1;
+  color: #D7E8F8;
+  color: rgba(215, 232, 248, var(--placeholder-opacity));
+}
+
 .placeholder-red-100::placeholder {
   --placeholder-opacity: 1;
   color: #fff5f5;
@@ -9153,6 +9333,18 @@ video {
   color: rgba(36, 148, 220, var(--placeholder-opacity));
 }
 
+.placeholder-blue-XPStartHighlight::placeholder {
+  --placeholder-opacity: 1;
+  color: #326BC5;
+  color: rgba(50, 107, 197, var(--placeholder-opacity));
+}
+
+.placeholder-blue-XPLogOff::placeholder {
+  --placeholder-opacity: 1;
+  color: #0843C3;
+  color: rgba(8, 67, 195, var(--placeholder-opacity));
+}
+
 .placeholder-blue-W95Start::placeholder {
   --placeholder-opacity: 1;
   color: #010A7F;
@@ -9411,6 +9603,18 @@ video {
   --placeholder-opacity: 1;
   color: #808080;
   color: rgba(128, 128, 128, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-gray-Windows7:focus::placeholder {
+  --placeholder-opacity: 1;
+  color: #A5C2DF;
+  color: rgba(165, 194, 223, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-gray-Windows7Highlight:focus::placeholder {
+  --placeholder-opacity: 1;
+  color: #D7E8F8;
+  color: rgba(215, 232, 248, var(--placeholder-opacity));
 }
 
 .focus\:placeholder-red-100:focus::placeholder {
@@ -9759,6 +9963,18 @@ video {
   --placeholder-opacity: 1;
   color: #2494DC;
   color: rgba(36, 148, 220, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-blue-XPStartHighlight:focus::placeholder {
+  --placeholder-opacity: 1;
+  color: #326BC5;
+  color: rgba(50, 107, 197, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-blue-XPLogOff:focus::placeholder {
+  --placeholder-opacity: 1;
+  color: #0843C3;
+  color: rgba(8, 67, 195, var(--placeholder-opacity));
 }
 
 .focus\:placeholder-blue-W95Start:focus::placeholder {
@@ -10335,6 +10551,18 @@ video {
   color: rgba(128, 128, 128, var(--text-opacity));
 }
 
+.text-gray-Windows7 {
+  --text-opacity: 1;
+  color: #A5C2DF;
+  color: rgba(165, 194, 223, var(--text-opacity));
+}
+
+.text-gray-Windows7Highlight {
+  --text-opacity: 1;
+  color: #D7E8F8;
+  color: rgba(215, 232, 248, var(--text-opacity));
+}
+
 .text-red-100 {
   --text-opacity: 1;
   color: #fff5f5;
@@ -10683,6 +10911,18 @@ video {
   color: rgba(36, 148, 220, var(--text-opacity));
 }
 
+.text-blue-XPStartHighlight {
+  --text-opacity: 1;
+  color: #326BC5;
+  color: rgba(50, 107, 197, var(--text-opacity));
+}
+
+.text-blue-XPLogOff {
+  --text-opacity: 1;
+  color: #0843C3;
+  color: rgba(8, 67, 195, var(--text-opacity));
+}
+
 .text-blue-W95Start {
   --text-opacity: 1;
   color: #010A7F;
@@ -10941,6 +11181,18 @@ video {
   --text-opacity: 1;
   color: #808080;
   color: rgba(128, 128, 128, var(--text-opacity));
+}
+
+.hover\:text-gray-Windows7:hover {
+  --text-opacity: 1;
+  color: #A5C2DF;
+  color: rgba(165, 194, 223, var(--text-opacity));
+}
+
+.hover\:text-gray-Windows7Highlight:hover {
+  --text-opacity: 1;
+  color: #D7E8F8;
+  color: rgba(215, 232, 248, var(--text-opacity));
 }
 
 .hover\:text-red-100:hover {
@@ -11291,6 +11543,18 @@ video {
   color: rgba(36, 148, 220, var(--text-opacity));
 }
 
+.hover\:text-blue-XPStartHighlight:hover {
+  --text-opacity: 1;
+  color: #326BC5;
+  color: rgba(50, 107, 197, var(--text-opacity));
+}
+
+.hover\:text-blue-XPLogOff:hover {
+  --text-opacity: 1;
+  color: #0843C3;
+  color: rgba(8, 67, 195, var(--text-opacity));
+}
+
 .hover\:text-blue-W95Start:hover {
   --text-opacity: 1;
   color: #010A7F;
@@ -11549,6 +11813,18 @@ video {
   --text-opacity: 1;
   color: #808080;
   color: rgba(128, 128, 128, var(--text-opacity));
+}
+
+.focus\:text-gray-Windows7:focus {
+  --text-opacity: 1;
+  color: #A5C2DF;
+  color: rgba(165, 194, 223, var(--text-opacity));
+}
+
+.focus\:text-gray-Windows7Highlight:focus {
+  --text-opacity: 1;
+  color: #D7E8F8;
+  color: rgba(215, 232, 248, var(--text-opacity));
 }
 
 .focus\:text-red-100:focus {
@@ -11897,6 +12173,18 @@ video {
   --text-opacity: 1;
   color: #2494DC;
   color: rgba(36, 148, 220, var(--text-opacity));
+}
+
+.focus\:text-blue-XPStartHighlight:focus {
+  --text-opacity: 1;
+  color: #326BC5;
+  color: rgba(50, 107, 197, var(--text-opacity));
+}
+
+.focus\:text-blue-XPLogOff:focus {
+  --text-opacity: 1;
+  color: #0843C3;
+  color: rgba(8, 67, 195, var(--text-opacity));
 }
 
 .focus\:text-blue-W95Start:focus {
@@ -15659,6 +15947,18 @@ video {
     border-color: rgba(128, 128, 128, var(--divide-opacity));
   }
 
+  .sm\:divide-gray-Windows7 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--divide-opacity));
+  }
+
+  .sm\:divide-gray-Windows7Highlight > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--divide-opacity));
+  }
+
   .sm\:divide-red-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #fff5f5;
@@ -16007,6 +16307,18 @@ video {
     border-color: rgba(36, 148, 220, var(--divide-opacity));
   }
 
+  .sm\:divide-blue-XPStartHighlight > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--divide-opacity));
+  }
+
+  .sm\:divide-blue-XPLogOff > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--divide-opacity));
+  }
+
   .sm\:divide-blue-W95Start > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #010A7F;
@@ -16349,6 +16661,18 @@ video {
     --bg-opacity: 1;
     background-color: #808080;
     background-color: rgba(128, 128, 128, var(--bg-opacity));
+  }
+
+  .sm\:bg-gray-Windows7 {
+    --bg-opacity: 1;
+    background-color: #A5C2DF;
+    background-color: rgba(165, 194, 223, var(--bg-opacity));
+  }
+
+  .sm\:bg-gray-Windows7Highlight {
+    --bg-opacity: 1;
+    background-color: #D7E8F8;
+    background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
   .sm\:bg-red-100 {
@@ -16699,6 +17023,18 @@ video {
     background-color: rgba(36, 148, 220, var(--bg-opacity));
   }
 
+  .sm\:bg-blue-XPStartHighlight {
+    --bg-opacity: 1;
+    background-color: #326BC5;
+    background-color: rgba(50, 107, 197, var(--bg-opacity));
+  }
+
+  .sm\:bg-blue-XPLogOff {
+    --bg-opacity: 1;
+    background-color: #0843C3;
+    background-color: rgba(8, 67, 195, var(--bg-opacity));
+  }
+
   .sm\:bg-blue-W95Start {
     --bg-opacity: 1;
     background-color: #010A7F;
@@ -16957,6 +17293,18 @@ video {
     --bg-opacity: 1;
     background-color: #808080;
     background-color: rgba(128, 128, 128, var(--bg-opacity));
+  }
+
+  .sm\:hover\:bg-gray-Windows7:hover {
+    --bg-opacity: 1;
+    background-color: #A5C2DF;
+    background-color: rgba(165, 194, 223, var(--bg-opacity));
+  }
+
+  .sm\:hover\:bg-gray-Windows7Highlight:hover {
+    --bg-opacity: 1;
+    background-color: #D7E8F8;
+    background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
   .sm\:hover\:bg-red-100:hover {
@@ -17307,6 +17655,18 @@ video {
     background-color: rgba(36, 148, 220, var(--bg-opacity));
   }
 
+  .sm\:hover\:bg-blue-XPStartHighlight:hover {
+    --bg-opacity: 1;
+    background-color: #326BC5;
+    background-color: rgba(50, 107, 197, var(--bg-opacity));
+  }
+
+  .sm\:hover\:bg-blue-XPLogOff:hover {
+    --bg-opacity: 1;
+    background-color: #0843C3;
+    background-color: rgba(8, 67, 195, var(--bg-opacity));
+  }
+
   .sm\:hover\:bg-blue-W95Start:hover {
     --bg-opacity: 1;
     background-color: #010A7F;
@@ -17565,6 +17925,18 @@ video {
     --bg-opacity: 1;
     background-color: #808080;
     background-color: rgba(128, 128, 128, var(--bg-opacity));
+  }
+
+  .sm\:focus\:bg-gray-Windows7:focus {
+    --bg-opacity: 1;
+    background-color: #A5C2DF;
+    background-color: rgba(165, 194, 223, var(--bg-opacity));
+  }
+
+  .sm\:focus\:bg-gray-Windows7Highlight:focus {
+    --bg-opacity: 1;
+    background-color: #D7E8F8;
+    background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
   .sm\:focus\:bg-red-100:focus {
@@ -17913,6 +18285,18 @@ video {
     --bg-opacity: 1;
     background-color: #2494DC;
     background-color: rgba(36, 148, 220, var(--bg-opacity));
+  }
+
+  .sm\:focus\:bg-blue-XPStartHighlight:focus {
+    --bg-opacity: 1;
+    background-color: #326BC5;
+    background-color: rgba(50, 107, 197, var(--bg-opacity));
+  }
+
+  .sm\:focus\:bg-blue-XPLogOff:focus {
+    --bg-opacity: 1;
+    background-color: #0843C3;
+    background-color: rgba(8, 67, 195, var(--bg-opacity));
   }
 
   .sm\:focus\:bg-blue-W95Start:focus {
@@ -18315,6 +18699,18 @@ video {
     border-color: rgba(128, 128, 128, var(--border-opacity));
   }
 
+  .sm\:border-gray-Windows7 {
+    --border-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--border-opacity));
+  }
+
+  .sm\:border-gray-Windows7Highlight {
+    --border-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--border-opacity));
+  }
+
   .sm\:border-red-100 {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -18663,6 +19059,18 @@ video {
     border-color: rgba(36, 148, 220, var(--border-opacity));
   }
 
+  .sm\:border-blue-XPStartHighlight {
+    --border-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--border-opacity));
+  }
+
+  .sm\:border-blue-XPLogOff {
+    --border-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--border-opacity));
+  }
+
   .sm\:border-blue-W95Start {
     --border-opacity: 1;
     border-color: #010A7F;
@@ -18921,6 +19329,18 @@ video {
     --border-opacity: 1;
     border-color: #808080;
     border-color: rgba(128, 128, 128, var(--border-opacity));
+  }
+
+  .sm\:hover\:border-gray-Windows7:hover {
+    --border-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--border-opacity));
+  }
+
+  .sm\:hover\:border-gray-Windows7Highlight:hover {
+    --border-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
   .sm\:hover\:border-red-100:hover {
@@ -19271,6 +19691,18 @@ video {
     border-color: rgba(36, 148, 220, var(--border-opacity));
   }
 
+  .sm\:hover\:border-blue-XPStartHighlight:hover {
+    --border-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--border-opacity));
+  }
+
+  .sm\:hover\:border-blue-XPLogOff:hover {
+    --border-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--border-opacity));
+  }
+
   .sm\:hover\:border-blue-W95Start:hover {
     --border-opacity: 1;
     border-color: #010A7F;
@@ -19529,6 +19961,18 @@ video {
     --border-opacity: 1;
     border-color: #808080;
     border-color: rgba(128, 128, 128, var(--border-opacity));
+  }
+
+  .sm\:focus\:border-gray-Windows7:focus {
+    --border-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--border-opacity));
+  }
+
+  .sm\:focus\:border-gray-Windows7Highlight:focus {
+    --border-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
   .sm\:focus\:border-red-100:focus {
@@ -19877,6 +20321,18 @@ video {
     --border-opacity: 1;
     border-color: #2494DC;
     border-color: rgba(36, 148, 220, var(--border-opacity));
+  }
+
+  .sm\:focus\:border-blue-XPStartHighlight:focus {
+    --border-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--border-opacity));
+  }
+
+  .sm\:focus\:border-blue-XPLogOff:focus {
+    --border-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--border-opacity));
   }
 
   .sm\:focus\:border-blue-W95Start:focus {
@@ -23247,6 +23703,18 @@ video {
     color: rgba(128, 128, 128, var(--placeholder-opacity));
   }
 
+  .sm\:placeholder-gray-Windows7::placeholder {
+    --placeholder-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--placeholder-opacity));
+  }
+
+  .sm\:placeholder-gray-Windows7Highlight::placeholder {
+    --placeholder-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--placeholder-opacity));
+  }
+
   .sm\:placeholder-red-100::placeholder {
     --placeholder-opacity: 1;
     color: #fff5f5;
@@ -23595,6 +24063,18 @@ video {
     color: rgba(36, 148, 220, var(--placeholder-opacity));
   }
 
+  .sm\:placeholder-blue-XPStartHighlight::placeholder {
+    --placeholder-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--placeholder-opacity));
+  }
+
+  .sm\:placeholder-blue-XPLogOff::placeholder {
+    --placeholder-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--placeholder-opacity));
+  }
+
   .sm\:placeholder-blue-W95Start::placeholder {
     --placeholder-opacity: 1;
     color: #010A7F;
@@ -23853,6 +24333,18 @@ video {
     --placeholder-opacity: 1;
     color: #808080;
     color: rgba(128, 128, 128, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-gray-Windows7:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-gray-Windows7Highlight:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--placeholder-opacity));
   }
 
   .sm\:focus\:placeholder-red-100:focus::placeholder {
@@ -24201,6 +24693,18 @@ video {
     --placeholder-opacity: 1;
     color: #2494DC;
     color: rgba(36, 148, 220, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-blue-XPStartHighlight:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-blue-XPLogOff:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--placeholder-opacity));
   }
 
   .sm\:focus\:placeholder-blue-W95Start:focus::placeholder {
@@ -24777,6 +25281,18 @@ video {
     color: rgba(128, 128, 128, var(--text-opacity));
   }
 
+  .sm\:text-gray-Windows7 {
+    --text-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--text-opacity));
+  }
+
+  .sm\:text-gray-Windows7Highlight {
+    --text-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--text-opacity));
+  }
+
   .sm\:text-red-100 {
     --text-opacity: 1;
     color: #fff5f5;
@@ -25125,6 +25641,18 @@ video {
     color: rgba(36, 148, 220, var(--text-opacity));
   }
 
+  .sm\:text-blue-XPStartHighlight {
+    --text-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--text-opacity));
+  }
+
+  .sm\:text-blue-XPLogOff {
+    --text-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--text-opacity));
+  }
+
   .sm\:text-blue-W95Start {
     --text-opacity: 1;
     color: #010A7F;
@@ -25383,6 +25911,18 @@ video {
     --text-opacity: 1;
     color: #808080;
     color: rgba(128, 128, 128, var(--text-opacity));
+  }
+
+  .sm\:hover\:text-gray-Windows7:hover {
+    --text-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--text-opacity));
+  }
+
+  .sm\:hover\:text-gray-Windows7Highlight:hover {
+    --text-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--text-opacity));
   }
 
   .sm\:hover\:text-red-100:hover {
@@ -25733,6 +26273,18 @@ video {
     color: rgba(36, 148, 220, var(--text-opacity));
   }
 
+  .sm\:hover\:text-blue-XPStartHighlight:hover {
+    --text-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--text-opacity));
+  }
+
+  .sm\:hover\:text-blue-XPLogOff:hover {
+    --text-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--text-opacity));
+  }
+
   .sm\:hover\:text-blue-W95Start:hover {
     --text-opacity: 1;
     color: #010A7F;
@@ -25991,6 +26543,18 @@ video {
     --text-opacity: 1;
     color: #808080;
     color: rgba(128, 128, 128, var(--text-opacity));
+  }
+
+  .sm\:focus\:text-gray-Windows7:focus {
+    --text-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--text-opacity));
+  }
+
+  .sm\:focus\:text-gray-Windows7Highlight:focus {
+    --text-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--text-opacity));
   }
 
   .sm\:focus\:text-red-100:focus {
@@ -26339,6 +26903,18 @@ video {
     --text-opacity: 1;
     color: #2494DC;
     color: rgba(36, 148, 220, var(--text-opacity));
+  }
+
+  .sm\:focus\:text-blue-XPStartHighlight:focus {
+    --text-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--text-opacity));
+  }
+
+  .sm\:focus\:text-blue-XPLogOff:focus {
+    --text-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--text-opacity));
   }
 
   .sm\:focus\:text-blue-W95Start:focus {
@@ -30058,6 +30634,18 @@ video {
     border-color: rgba(128, 128, 128, var(--divide-opacity));
   }
 
+  .md\:divide-gray-Windows7 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--divide-opacity));
+  }
+
+  .md\:divide-gray-Windows7Highlight > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--divide-opacity));
+  }
+
   .md\:divide-red-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #fff5f5;
@@ -30406,6 +30994,18 @@ video {
     border-color: rgba(36, 148, 220, var(--divide-opacity));
   }
 
+  .md\:divide-blue-XPStartHighlight > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--divide-opacity));
+  }
+
+  .md\:divide-blue-XPLogOff > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--divide-opacity));
+  }
+
   .md\:divide-blue-W95Start > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #010A7F;
@@ -30748,6 +31348,18 @@ video {
     --bg-opacity: 1;
     background-color: #808080;
     background-color: rgba(128, 128, 128, var(--bg-opacity));
+  }
+
+  .md\:bg-gray-Windows7 {
+    --bg-opacity: 1;
+    background-color: #A5C2DF;
+    background-color: rgba(165, 194, 223, var(--bg-opacity));
+  }
+
+  .md\:bg-gray-Windows7Highlight {
+    --bg-opacity: 1;
+    background-color: #D7E8F8;
+    background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
   .md\:bg-red-100 {
@@ -31098,6 +31710,18 @@ video {
     background-color: rgba(36, 148, 220, var(--bg-opacity));
   }
 
+  .md\:bg-blue-XPStartHighlight {
+    --bg-opacity: 1;
+    background-color: #326BC5;
+    background-color: rgba(50, 107, 197, var(--bg-opacity));
+  }
+
+  .md\:bg-blue-XPLogOff {
+    --bg-opacity: 1;
+    background-color: #0843C3;
+    background-color: rgba(8, 67, 195, var(--bg-opacity));
+  }
+
   .md\:bg-blue-W95Start {
     --bg-opacity: 1;
     background-color: #010A7F;
@@ -31356,6 +31980,18 @@ video {
     --bg-opacity: 1;
     background-color: #808080;
     background-color: rgba(128, 128, 128, var(--bg-opacity));
+  }
+
+  .md\:hover\:bg-gray-Windows7:hover {
+    --bg-opacity: 1;
+    background-color: #A5C2DF;
+    background-color: rgba(165, 194, 223, var(--bg-opacity));
+  }
+
+  .md\:hover\:bg-gray-Windows7Highlight:hover {
+    --bg-opacity: 1;
+    background-color: #D7E8F8;
+    background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
   .md\:hover\:bg-red-100:hover {
@@ -31706,6 +32342,18 @@ video {
     background-color: rgba(36, 148, 220, var(--bg-opacity));
   }
 
+  .md\:hover\:bg-blue-XPStartHighlight:hover {
+    --bg-opacity: 1;
+    background-color: #326BC5;
+    background-color: rgba(50, 107, 197, var(--bg-opacity));
+  }
+
+  .md\:hover\:bg-blue-XPLogOff:hover {
+    --bg-opacity: 1;
+    background-color: #0843C3;
+    background-color: rgba(8, 67, 195, var(--bg-opacity));
+  }
+
   .md\:hover\:bg-blue-W95Start:hover {
     --bg-opacity: 1;
     background-color: #010A7F;
@@ -31964,6 +32612,18 @@ video {
     --bg-opacity: 1;
     background-color: #808080;
     background-color: rgba(128, 128, 128, var(--bg-opacity));
+  }
+
+  .md\:focus\:bg-gray-Windows7:focus {
+    --bg-opacity: 1;
+    background-color: #A5C2DF;
+    background-color: rgba(165, 194, 223, var(--bg-opacity));
+  }
+
+  .md\:focus\:bg-gray-Windows7Highlight:focus {
+    --bg-opacity: 1;
+    background-color: #D7E8F8;
+    background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
   .md\:focus\:bg-red-100:focus {
@@ -32312,6 +32972,18 @@ video {
     --bg-opacity: 1;
     background-color: #2494DC;
     background-color: rgba(36, 148, 220, var(--bg-opacity));
+  }
+
+  .md\:focus\:bg-blue-XPStartHighlight:focus {
+    --bg-opacity: 1;
+    background-color: #326BC5;
+    background-color: rgba(50, 107, 197, var(--bg-opacity));
+  }
+
+  .md\:focus\:bg-blue-XPLogOff:focus {
+    --bg-opacity: 1;
+    background-color: #0843C3;
+    background-color: rgba(8, 67, 195, var(--bg-opacity));
   }
 
   .md\:focus\:bg-blue-W95Start:focus {
@@ -32714,6 +33386,18 @@ video {
     border-color: rgba(128, 128, 128, var(--border-opacity));
   }
 
+  .md\:border-gray-Windows7 {
+    --border-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--border-opacity));
+  }
+
+  .md\:border-gray-Windows7Highlight {
+    --border-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--border-opacity));
+  }
+
   .md\:border-red-100 {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -33062,6 +33746,18 @@ video {
     border-color: rgba(36, 148, 220, var(--border-opacity));
   }
 
+  .md\:border-blue-XPStartHighlight {
+    --border-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--border-opacity));
+  }
+
+  .md\:border-blue-XPLogOff {
+    --border-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--border-opacity));
+  }
+
   .md\:border-blue-W95Start {
     --border-opacity: 1;
     border-color: #010A7F;
@@ -33320,6 +34016,18 @@ video {
     --border-opacity: 1;
     border-color: #808080;
     border-color: rgba(128, 128, 128, var(--border-opacity));
+  }
+
+  .md\:hover\:border-gray-Windows7:hover {
+    --border-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--border-opacity));
+  }
+
+  .md\:hover\:border-gray-Windows7Highlight:hover {
+    --border-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
   .md\:hover\:border-red-100:hover {
@@ -33670,6 +34378,18 @@ video {
     border-color: rgba(36, 148, 220, var(--border-opacity));
   }
 
+  .md\:hover\:border-blue-XPStartHighlight:hover {
+    --border-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--border-opacity));
+  }
+
+  .md\:hover\:border-blue-XPLogOff:hover {
+    --border-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--border-opacity));
+  }
+
   .md\:hover\:border-blue-W95Start:hover {
     --border-opacity: 1;
     border-color: #010A7F;
@@ -33928,6 +34648,18 @@ video {
     --border-opacity: 1;
     border-color: #808080;
     border-color: rgba(128, 128, 128, var(--border-opacity));
+  }
+
+  .md\:focus\:border-gray-Windows7:focus {
+    --border-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--border-opacity));
+  }
+
+  .md\:focus\:border-gray-Windows7Highlight:focus {
+    --border-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
   .md\:focus\:border-red-100:focus {
@@ -34276,6 +35008,18 @@ video {
     --border-opacity: 1;
     border-color: #2494DC;
     border-color: rgba(36, 148, 220, var(--border-opacity));
+  }
+
+  .md\:focus\:border-blue-XPStartHighlight:focus {
+    --border-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--border-opacity));
+  }
+
+  .md\:focus\:border-blue-XPLogOff:focus {
+    --border-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--border-opacity));
   }
 
   .md\:focus\:border-blue-W95Start:focus {
@@ -37646,6 +38390,18 @@ video {
     color: rgba(128, 128, 128, var(--placeholder-opacity));
   }
 
+  .md\:placeholder-gray-Windows7::placeholder {
+    --placeholder-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--placeholder-opacity));
+  }
+
+  .md\:placeholder-gray-Windows7Highlight::placeholder {
+    --placeholder-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--placeholder-opacity));
+  }
+
   .md\:placeholder-red-100::placeholder {
     --placeholder-opacity: 1;
     color: #fff5f5;
@@ -37994,6 +38750,18 @@ video {
     color: rgba(36, 148, 220, var(--placeholder-opacity));
   }
 
+  .md\:placeholder-blue-XPStartHighlight::placeholder {
+    --placeholder-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--placeholder-opacity));
+  }
+
+  .md\:placeholder-blue-XPLogOff::placeholder {
+    --placeholder-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--placeholder-opacity));
+  }
+
   .md\:placeholder-blue-W95Start::placeholder {
     --placeholder-opacity: 1;
     color: #010A7F;
@@ -38252,6 +39020,18 @@ video {
     --placeholder-opacity: 1;
     color: #808080;
     color: rgba(128, 128, 128, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-gray-Windows7:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-gray-Windows7Highlight:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--placeholder-opacity));
   }
 
   .md\:focus\:placeholder-red-100:focus::placeholder {
@@ -38600,6 +39380,18 @@ video {
     --placeholder-opacity: 1;
     color: #2494DC;
     color: rgba(36, 148, 220, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-blue-XPStartHighlight:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-blue-XPLogOff:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--placeholder-opacity));
   }
 
   .md\:focus\:placeholder-blue-W95Start:focus::placeholder {
@@ -39176,6 +39968,18 @@ video {
     color: rgba(128, 128, 128, var(--text-opacity));
   }
 
+  .md\:text-gray-Windows7 {
+    --text-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--text-opacity));
+  }
+
+  .md\:text-gray-Windows7Highlight {
+    --text-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--text-opacity));
+  }
+
   .md\:text-red-100 {
     --text-opacity: 1;
     color: #fff5f5;
@@ -39524,6 +40328,18 @@ video {
     color: rgba(36, 148, 220, var(--text-opacity));
   }
 
+  .md\:text-blue-XPStartHighlight {
+    --text-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--text-opacity));
+  }
+
+  .md\:text-blue-XPLogOff {
+    --text-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--text-opacity));
+  }
+
   .md\:text-blue-W95Start {
     --text-opacity: 1;
     color: #010A7F;
@@ -39782,6 +40598,18 @@ video {
     --text-opacity: 1;
     color: #808080;
     color: rgba(128, 128, 128, var(--text-opacity));
+  }
+
+  .md\:hover\:text-gray-Windows7:hover {
+    --text-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--text-opacity));
+  }
+
+  .md\:hover\:text-gray-Windows7Highlight:hover {
+    --text-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--text-opacity));
   }
 
   .md\:hover\:text-red-100:hover {
@@ -40132,6 +40960,18 @@ video {
     color: rgba(36, 148, 220, var(--text-opacity));
   }
 
+  .md\:hover\:text-blue-XPStartHighlight:hover {
+    --text-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--text-opacity));
+  }
+
+  .md\:hover\:text-blue-XPLogOff:hover {
+    --text-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--text-opacity));
+  }
+
   .md\:hover\:text-blue-W95Start:hover {
     --text-opacity: 1;
     color: #010A7F;
@@ -40390,6 +41230,18 @@ video {
     --text-opacity: 1;
     color: #808080;
     color: rgba(128, 128, 128, var(--text-opacity));
+  }
+
+  .md\:focus\:text-gray-Windows7:focus {
+    --text-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--text-opacity));
+  }
+
+  .md\:focus\:text-gray-Windows7Highlight:focus {
+    --text-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--text-opacity));
   }
 
   .md\:focus\:text-red-100:focus {
@@ -40738,6 +41590,18 @@ video {
     --text-opacity: 1;
     color: #2494DC;
     color: rgba(36, 148, 220, var(--text-opacity));
+  }
+
+  .md\:focus\:text-blue-XPStartHighlight:focus {
+    --text-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--text-opacity));
+  }
+
+  .md\:focus\:text-blue-XPLogOff:focus {
+    --text-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--text-opacity));
   }
 
   .md\:focus\:text-blue-W95Start:focus {
@@ -44457,6 +45321,18 @@ video {
     border-color: rgba(128, 128, 128, var(--divide-opacity));
   }
 
+  .lg\:divide-gray-Windows7 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--divide-opacity));
+  }
+
+  .lg\:divide-gray-Windows7Highlight > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--divide-opacity));
+  }
+
   .lg\:divide-red-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #fff5f5;
@@ -44805,6 +45681,18 @@ video {
     border-color: rgba(36, 148, 220, var(--divide-opacity));
   }
 
+  .lg\:divide-blue-XPStartHighlight > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--divide-opacity));
+  }
+
+  .lg\:divide-blue-XPLogOff > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--divide-opacity));
+  }
+
   .lg\:divide-blue-W95Start > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #010A7F;
@@ -45147,6 +46035,18 @@ video {
     --bg-opacity: 1;
     background-color: #808080;
     background-color: rgba(128, 128, 128, var(--bg-opacity));
+  }
+
+  .lg\:bg-gray-Windows7 {
+    --bg-opacity: 1;
+    background-color: #A5C2DF;
+    background-color: rgba(165, 194, 223, var(--bg-opacity));
+  }
+
+  .lg\:bg-gray-Windows7Highlight {
+    --bg-opacity: 1;
+    background-color: #D7E8F8;
+    background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
   .lg\:bg-red-100 {
@@ -45497,6 +46397,18 @@ video {
     background-color: rgba(36, 148, 220, var(--bg-opacity));
   }
 
+  .lg\:bg-blue-XPStartHighlight {
+    --bg-opacity: 1;
+    background-color: #326BC5;
+    background-color: rgba(50, 107, 197, var(--bg-opacity));
+  }
+
+  .lg\:bg-blue-XPLogOff {
+    --bg-opacity: 1;
+    background-color: #0843C3;
+    background-color: rgba(8, 67, 195, var(--bg-opacity));
+  }
+
   .lg\:bg-blue-W95Start {
     --bg-opacity: 1;
     background-color: #010A7F;
@@ -45755,6 +46667,18 @@ video {
     --bg-opacity: 1;
     background-color: #808080;
     background-color: rgba(128, 128, 128, var(--bg-opacity));
+  }
+
+  .lg\:hover\:bg-gray-Windows7:hover {
+    --bg-opacity: 1;
+    background-color: #A5C2DF;
+    background-color: rgba(165, 194, 223, var(--bg-opacity));
+  }
+
+  .lg\:hover\:bg-gray-Windows7Highlight:hover {
+    --bg-opacity: 1;
+    background-color: #D7E8F8;
+    background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
   .lg\:hover\:bg-red-100:hover {
@@ -46105,6 +47029,18 @@ video {
     background-color: rgba(36, 148, 220, var(--bg-opacity));
   }
 
+  .lg\:hover\:bg-blue-XPStartHighlight:hover {
+    --bg-opacity: 1;
+    background-color: #326BC5;
+    background-color: rgba(50, 107, 197, var(--bg-opacity));
+  }
+
+  .lg\:hover\:bg-blue-XPLogOff:hover {
+    --bg-opacity: 1;
+    background-color: #0843C3;
+    background-color: rgba(8, 67, 195, var(--bg-opacity));
+  }
+
   .lg\:hover\:bg-blue-W95Start:hover {
     --bg-opacity: 1;
     background-color: #010A7F;
@@ -46363,6 +47299,18 @@ video {
     --bg-opacity: 1;
     background-color: #808080;
     background-color: rgba(128, 128, 128, var(--bg-opacity));
+  }
+
+  .lg\:focus\:bg-gray-Windows7:focus {
+    --bg-opacity: 1;
+    background-color: #A5C2DF;
+    background-color: rgba(165, 194, 223, var(--bg-opacity));
+  }
+
+  .lg\:focus\:bg-gray-Windows7Highlight:focus {
+    --bg-opacity: 1;
+    background-color: #D7E8F8;
+    background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
   .lg\:focus\:bg-red-100:focus {
@@ -46711,6 +47659,18 @@ video {
     --bg-opacity: 1;
     background-color: #2494DC;
     background-color: rgba(36, 148, 220, var(--bg-opacity));
+  }
+
+  .lg\:focus\:bg-blue-XPStartHighlight:focus {
+    --bg-opacity: 1;
+    background-color: #326BC5;
+    background-color: rgba(50, 107, 197, var(--bg-opacity));
+  }
+
+  .lg\:focus\:bg-blue-XPLogOff:focus {
+    --bg-opacity: 1;
+    background-color: #0843C3;
+    background-color: rgba(8, 67, 195, var(--bg-opacity));
   }
 
   .lg\:focus\:bg-blue-W95Start:focus {
@@ -47113,6 +48073,18 @@ video {
     border-color: rgba(128, 128, 128, var(--border-opacity));
   }
 
+  .lg\:border-gray-Windows7 {
+    --border-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--border-opacity));
+  }
+
+  .lg\:border-gray-Windows7Highlight {
+    --border-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--border-opacity));
+  }
+
   .lg\:border-red-100 {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -47461,6 +48433,18 @@ video {
     border-color: rgba(36, 148, 220, var(--border-opacity));
   }
 
+  .lg\:border-blue-XPStartHighlight {
+    --border-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--border-opacity));
+  }
+
+  .lg\:border-blue-XPLogOff {
+    --border-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--border-opacity));
+  }
+
   .lg\:border-blue-W95Start {
     --border-opacity: 1;
     border-color: #010A7F;
@@ -47719,6 +48703,18 @@ video {
     --border-opacity: 1;
     border-color: #808080;
     border-color: rgba(128, 128, 128, var(--border-opacity));
+  }
+
+  .lg\:hover\:border-gray-Windows7:hover {
+    --border-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--border-opacity));
+  }
+
+  .lg\:hover\:border-gray-Windows7Highlight:hover {
+    --border-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
   .lg\:hover\:border-red-100:hover {
@@ -48069,6 +49065,18 @@ video {
     border-color: rgba(36, 148, 220, var(--border-opacity));
   }
 
+  .lg\:hover\:border-blue-XPStartHighlight:hover {
+    --border-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--border-opacity));
+  }
+
+  .lg\:hover\:border-blue-XPLogOff:hover {
+    --border-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--border-opacity));
+  }
+
   .lg\:hover\:border-blue-W95Start:hover {
     --border-opacity: 1;
     border-color: #010A7F;
@@ -48327,6 +49335,18 @@ video {
     --border-opacity: 1;
     border-color: #808080;
     border-color: rgba(128, 128, 128, var(--border-opacity));
+  }
+
+  .lg\:focus\:border-gray-Windows7:focus {
+    --border-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--border-opacity));
+  }
+
+  .lg\:focus\:border-gray-Windows7Highlight:focus {
+    --border-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
   .lg\:focus\:border-red-100:focus {
@@ -48675,6 +49695,18 @@ video {
     --border-opacity: 1;
     border-color: #2494DC;
     border-color: rgba(36, 148, 220, var(--border-opacity));
+  }
+
+  .lg\:focus\:border-blue-XPStartHighlight:focus {
+    --border-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--border-opacity));
+  }
+
+  .lg\:focus\:border-blue-XPLogOff:focus {
+    --border-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--border-opacity));
   }
 
   .lg\:focus\:border-blue-W95Start:focus {
@@ -52045,6 +53077,18 @@ video {
     color: rgba(128, 128, 128, var(--placeholder-opacity));
   }
 
+  .lg\:placeholder-gray-Windows7::placeholder {
+    --placeholder-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--placeholder-opacity));
+  }
+
+  .lg\:placeholder-gray-Windows7Highlight::placeholder {
+    --placeholder-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--placeholder-opacity));
+  }
+
   .lg\:placeholder-red-100::placeholder {
     --placeholder-opacity: 1;
     color: #fff5f5;
@@ -52393,6 +53437,18 @@ video {
     color: rgba(36, 148, 220, var(--placeholder-opacity));
   }
 
+  .lg\:placeholder-blue-XPStartHighlight::placeholder {
+    --placeholder-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--placeholder-opacity));
+  }
+
+  .lg\:placeholder-blue-XPLogOff::placeholder {
+    --placeholder-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--placeholder-opacity));
+  }
+
   .lg\:placeholder-blue-W95Start::placeholder {
     --placeholder-opacity: 1;
     color: #010A7F;
@@ -52651,6 +53707,18 @@ video {
     --placeholder-opacity: 1;
     color: #808080;
     color: rgba(128, 128, 128, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-gray-Windows7:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-gray-Windows7Highlight:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--placeholder-opacity));
   }
 
   .lg\:focus\:placeholder-red-100:focus::placeholder {
@@ -52999,6 +54067,18 @@ video {
     --placeholder-opacity: 1;
     color: #2494DC;
     color: rgba(36, 148, 220, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-blue-XPStartHighlight:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-blue-XPLogOff:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--placeholder-opacity));
   }
 
   .lg\:focus\:placeholder-blue-W95Start:focus::placeholder {
@@ -53575,6 +54655,18 @@ video {
     color: rgba(128, 128, 128, var(--text-opacity));
   }
 
+  .lg\:text-gray-Windows7 {
+    --text-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--text-opacity));
+  }
+
+  .lg\:text-gray-Windows7Highlight {
+    --text-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--text-opacity));
+  }
+
   .lg\:text-red-100 {
     --text-opacity: 1;
     color: #fff5f5;
@@ -53923,6 +55015,18 @@ video {
     color: rgba(36, 148, 220, var(--text-opacity));
   }
 
+  .lg\:text-blue-XPStartHighlight {
+    --text-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--text-opacity));
+  }
+
+  .lg\:text-blue-XPLogOff {
+    --text-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--text-opacity));
+  }
+
   .lg\:text-blue-W95Start {
     --text-opacity: 1;
     color: #010A7F;
@@ -54181,6 +55285,18 @@ video {
     --text-opacity: 1;
     color: #808080;
     color: rgba(128, 128, 128, var(--text-opacity));
+  }
+
+  .lg\:hover\:text-gray-Windows7:hover {
+    --text-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--text-opacity));
+  }
+
+  .lg\:hover\:text-gray-Windows7Highlight:hover {
+    --text-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--text-opacity));
   }
 
   .lg\:hover\:text-red-100:hover {
@@ -54531,6 +55647,18 @@ video {
     color: rgba(36, 148, 220, var(--text-opacity));
   }
 
+  .lg\:hover\:text-blue-XPStartHighlight:hover {
+    --text-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--text-opacity));
+  }
+
+  .lg\:hover\:text-blue-XPLogOff:hover {
+    --text-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--text-opacity));
+  }
+
   .lg\:hover\:text-blue-W95Start:hover {
     --text-opacity: 1;
     color: #010A7F;
@@ -54789,6 +55917,18 @@ video {
     --text-opacity: 1;
     color: #808080;
     color: rgba(128, 128, 128, var(--text-opacity));
+  }
+
+  .lg\:focus\:text-gray-Windows7:focus {
+    --text-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--text-opacity));
+  }
+
+  .lg\:focus\:text-gray-Windows7Highlight:focus {
+    --text-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--text-opacity));
   }
 
   .lg\:focus\:text-red-100:focus {
@@ -55137,6 +56277,18 @@ video {
     --text-opacity: 1;
     color: #2494DC;
     color: rgba(36, 148, 220, var(--text-opacity));
+  }
+
+  .lg\:focus\:text-blue-XPStartHighlight:focus {
+    --text-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--text-opacity));
+  }
+
+  .lg\:focus\:text-blue-XPLogOff:focus {
+    --text-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--text-opacity));
   }
 
   .lg\:focus\:text-blue-W95Start:focus {
@@ -58856,6 +60008,18 @@ video {
     border-color: rgba(128, 128, 128, var(--divide-opacity));
   }
 
+  .xl\:divide-gray-Windows7 > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--divide-opacity));
+  }
+
+  .xl\:divide-gray-Windows7Highlight > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--divide-opacity));
+  }
+
   .xl\:divide-red-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #fff5f5;
@@ -59204,6 +60368,18 @@ video {
     border-color: rgba(36, 148, 220, var(--divide-opacity));
   }
 
+  .xl\:divide-blue-XPStartHighlight > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--divide-opacity));
+  }
+
+  .xl\:divide-blue-XPLogOff > :not(template) ~ :not(template) {
+    --divide-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--divide-opacity));
+  }
+
   .xl\:divide-blue-W95Start > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #010A7F;
@@ -59546,6 +60722,18 @@ video {
     --bg-opacity: 1;
     background-color: #808080;
     background-color: rgba(128, 128, 128, var(--bg-opacity));
+  }
+
+  .xl\:bg-gray-Windows7 {
+    --bg-opacity: 1;
+    background-color: #A5C2DF;
+    background-color: rgba(165, 194, 223, var(--bg-opacity));
+  }
+
+  .xl\:bg-gray-Windows7Highlight {
+    --bg-opacity: 1;
+    background-color: #D7E8F8;
+    background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
   .xl\:bg-red-100 {
@@ -59896,6 +61084,18 @@ video {
     background-color: rgba(36, 148, 220, var(--bg-opacity));
   }
 
+  .xl\:bg-blue-XPStartHighlight {
+    --bg-opacity: 1;
+    background-color: #326BC5;
+    background-color: rgba(50, 107, 197, var(--bg-opacity));
+  }
+
+  .xl\:bg-blue-XPLogOff {
+    --bg-opacity: 1;
+    background-color: #0843C3;
+    background-color: rgba(8, 67, 195, var(--bg-opacity));
+  }
+
   .xl\:bg-blue-W95Start {
     --bg-opacity: 1;
     background-color: #010A7F;
@@ -60154,6 +61354,18 @@ video {
     --bg-opacity: 1;
     background-color: #808080;
     background-color: rgba(128, 128, 128, var(--bg-opacity));
+  }
+
+  .xl\:hover\:bg-gray-Windows7:hover {
+    --bg-opacity: 1;
+    background-color: #A5C2DF;
+    background-color: rgba(165, 194, 223, var(--bg-opacity));
+  }
+
+  .xl\:hover\:bg-gray-Windows7Highlight:hover {
+    --bg-opacity: 1;
+    background-color: #D7E8F8;
+    background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
   .xl\:hover\:bg-red-100:hover {
@@ -60504,6 +61716,18 @@ video {
     background-color: rgba(36, 148, 220, var(--bg-opacity));
   }
 
+  .xl\:hover\:bg-blue-XPStartHighlight:hover {
+    --bg-opacity: 1;
+    background-color: #326BC5;
+    background-color: rgba(50, 107, 197, var(--bg-opacity));
+  }
+
+  .xl\:hover\:bg-blue-XPLogOff:hover {
+    --bg-opacity: 1;
+    background-color: #0843C3;
+    background-color: rgba(8, 67, 195, var(--bg-opacity));
+  }
+
   .xl\:hover\:bg-blue-W95Start:hover {
     --bg-opacity: 1;
     background-color: #010A7F;
@@ -60762,6 +61986,18 @@ video {
     --bg-opacity: 1;
     background-color: #808080;
     background-color: rgba(128, 128, 128, var(--bg-opacity));
+  }
+
+  .xl\:focus\:bg-gray-Windows7:focus {
+    --bg-opacity: 1;
+    background-color: #A5C2DF;
+    background-color: rgba(165, 194, 223, var(--bg-opacity));
+  }
+
+  .xl\:focus\:bg-gray-Windows7Highlight:focus {
+    --bg-opacity: 1;
+    background-color: #D7E8F8;
+    background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
   .xl\:focus\:bg-red-100:focus {
@@ -61110,6 +62346,18 @@ video {
     --bg-opacity: 1;
     background-color: #2494DC;
     background-color: rgba(36, 148, 220, var(--bg-opacity));
+  }
+
+  .xl\:focus\:bg-blue-XPStartHighlight:focus {
+    --bg-opacity: 1;
+    background-color: #326BC5;
+    background-color: rgba(50, 107, 197, var(--bg-opacity));
+  }
+
+  .xl\:focus\:bg-blue-XPLogOff:focus {
+    --bg-opacity: 1;
+    background-color: #0843C3;
+    background-color: rgba(8, 67, 195, var(--bg-opacity));
   }
 
   .xl\:focus\:bg-blue-W95Start:focus {
@@ -61512,6 +62760,18 @@ video {
     border-color: rgba(128, 128, 128, var(--border-opacity));
   }
 
+  .xl\:border-gray-Windows7 {
+    --border-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--border-opacity));
+  }
+
+  .xl\:border-gray-Windows7Highlight {
+    --border-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--border-opacity));
+  }
+
   .xl\:border-red-100 {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -61860,6 +63120,18 @@ video {
     border-color: rgba(36, 148, 220, var(--border-opacity));
   }
 
+  .xl\:border-blue-XPStartHighlight {
+    --border-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--border-opacity));
+  }
+
+  .xl\:border-blue-XPLogOff {
+    --border-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--border-opacity));
+  }
+
   .xl\:border-blue-W95Start {
     --border-opacity: 1;
     border-color: #010A7F;
@@ -62118,6 +63390,18 @@ video {
     --border-opacity: 1;
     border-color: #808080;
     border-color: rgba(128, 128, 128, var(--border-opacity));
+  }
+
+  .xl\:hover\:border-gray-Windows7:hover {
+    --border-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--border-opacity));
+  }
+
+  .xl\:hover\:border-gray-Windows7Highlight:hover {
+    --border-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
   .xl\:hover\:border-red-100:hover {
@@ -62468,6 +63752,18 @@ video {
     border-color: rgba(36, 148, 220, var(--border-opacity));
   }
 
+  .xl\:hover\:border-blue-XPStartHighlight:hover {
+    --border-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--border-opacity));
+  }
+
+  .xl\:hover\:border-blue-XPLogOff:hover {
+    --border-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--border-opacity));
+  }
+
   .xl\:hover\:border-blue-W95Start:hover {
     --border-opacity: 1;
     border-color: #010A7F;
@@ -62726,6 +64022,18 @@ video {
     --border-opacity: 1;
     border-color: #808080;
     border-color: rgba(128, 128, 128, var(--border-opacity));
+  }
+
+  .xl\:focus\:border-gray-Windows7:focus {
+    --border-opacity: 1;
+    border-color: #A5C2DF;
+    border-color: rgba(165, 194, 223, var(--border-opacity));
+  }
+
+  .xl\:focus\:border-gray-Windows7Highlight:focus {
+    --border-opacity: 1;
+    border-color: #D7E8F8;
+    border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
   .xl\:focus\:border-red-100:focus {
@@ -63074,6 +64382,18 @@ video {
     --border-opacity: 1;
     border-color: #2494DC;
     border-color: rgba(36, 148, 220, var(--border-opacity));
+  }
+
+  .xl\:focus\:border-blue-XPStartHighlight:focus {
+    --border-opacity: 1;
+    border-color: #326BC5;
+    border-color: rgba(50, 107, 197, var(--border-opacity));
+  }
+
+  .xl\:focus\:border-blue-XPLogOff:focus {
+    --border-opacity: 1;
+    border-color: #0843C3;
+    border-color: rgba(8, 67, 195, var(--border-opacity));
   }
 
   .xl\:focus\:border-blue-W95Start:focus {
@@ -66444,6 +67764,18 @@ video {
     color: rgba(128, 128, 128, var(--placeholder-opacity));
   }
 
+  .xl\:placeholder-gray-Windows7::placeholder {
+    --placeholder-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--placeholder-opacity));
+  }
+
+  .xl\:placeholder-gray-Windows7Highlight::placeholder {
+    --placeholder-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--placeholder-opacity));
+  }
+
   .xl\:placeholder-red-100::placeholder {
     --placeholder-opacity: 1;
     color: #fff5f5;
@@ -66792,6 +68124,18 @@ video {
     color: rgba(36, 148, 220, var(--placeholder-opacity));
   }
 
+  .xl\:placeholder-blue-XPStartHighlight::placeholder {
+    --placeholder-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--placeholder-opacity));
+  }
+
+  .xl\:placeholder-blue-XPLogOff::placeholder {
+    --placeholder-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--placeholder-opacity));
+  }
+
   .xl\:placeholder-blue-W95Start::placeholder {
     --placeholder-opacity: 1;
     color: #010A7F;
@@ -67050,6 +68394,18 @@ video {
     --placeholder-opacity: 1;
     color: #808080;
     color: rgba(128, 128, 128, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-gray-Windows7:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-gray-Windows7Highlight:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--placeholder-opacity));
   }
 
   .xl\:focus\:placeholder-red-100:focus::placeholder {
@@ -67398,6 +68754,18 @@ video {
     --placeholder-opacity: 1;
     color: #2494DC;
     color: rgba(36, 148, 220, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-blue-XPStartHighlight:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-blue-XPLogOff:focus::placeholder {
+    --placeholder-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--placeholder-opacity));
   }
 
   .xl\:focus\:placeholder-blue-W95Start:focus::placeholder {
@@ -67974,6 +69342,18 @@ video {
     color: rgba(128, 128, 128, var(--text-opacity));
   }
 
+  .xl\:text-gray-Windows7 {
+    --text-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--text-opacity));
+  }
+
+  .xl\:text-gray-Windows7Highlight {
+    --text-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--text-opacity));
+  }
+
   .xl\:text-red-100 {
     --text-opacity: 1;
     color: #fff5f5;
@@ -68322,6 +69702,18 @@ video {
     color: rgba(36, 148, 220, var(--text-opacity));
   }
 
+  .xl\:text-blue-XPStartHighlight {
+    --text-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--text-opacity));
+  }
+
+  .xl\:text-blue-XPLogOff {
+    --text-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--text-opacity));
+  }
+
   .xl\:text-blue-W95Start {
     --text-opacity: 1;
     color: #010A7F;
@@ -68580,6 +69972,18 @@ video {
     --text-opacity: 1;
     color: #808080;
     color: rgba(128, 128, 128, var(--text-opacity));
+  }
+
+  .xl\:hover\:text-gray-Windows7:hover {
+    --text-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--text-opacity));
+  }
+
+  .xl\:hover\:text-gray-Windows7Highlight:hover {
+    --text-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--text-opacity));
   }
 
   .xl\:hover\:text-red-100:hover {
@@ -68930,6 +70334,18 @@ video {
     color: rgba(36, 148, 220, var(--text-opacity));
   }
 
+  .xl\:hover\:text-blue-XPStartHighlight:hover {
+    --text-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--text-opacity));
+  }
+
+  .xl\:hover\:text-blue-XPLogOff:hover {
+    --text-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--text-opacity));
+  }
+
   .xl\:hover\:text-blue-W95Start:hover {
     --text-opacity: 1;
     color: #010A7F;
@@ -69188,6 +70604,18 @@ video {
     --text-opacity: 1;
     color: #808080;
     color: rgba(128, 128, 128, var(--text-opacity));
+  }
+
+  .xl\:focus\:text-gray-Windows7:focus {
+    --text-opacity: 1;
+    color: #A5C2DF;
+    color: rgba(165, 194, 223, var(--text-opacity));
+  }
+
+  .xl\:focus\:text-gray-Windows7Highlight:focus {
+    --text-opacity: 1;
+    color: #D7E8F8;
+    color: rgba(215, 232, 248, var(--text-opacity));
   }
 
   .xl\:focus\:text-red-100:focus {
@@ -69536,6 +70964,18 @@ video {
     --text-opacity: 1;
     color: #2494DC;
     color: rgba(36, 148, 220, var(--text-opacity));
+  }
+
+  .xl\:focus\:text-blue-XPStartHighlight:focus {
+    --text-opacity: 1;
+    color: #326BC5;
+    color: rgba(50, 107, 197, var(--text-opacity));
+  }
+
+  .xl\:focus\:text-blue-XPLogOff:focus {
+    --text-opacity: 1;
+    color: #0843C3;
+    color: rgba(8, 67, 195, var(--text-opacity));
   }
 
   .xl\:focus\:text-blue-W95Start:focus {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function DesktopIcon({ label, imgSrc, className }) {
+function FolderIcon({ label, imgSrc, className }) {
 	return (
 		<div className={[ 'text-center', className ].join(' ')}>
 			<img className="h-16 w-24" src={imgSrc} alt="" />
@@ -9,4 +9,4 @@ function DesktopIcon({ label, imgSrc, className }) {
 	);
 }
 
-export default DesktopIcon;
+export default FolderIcon;

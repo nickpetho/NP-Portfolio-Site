@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import DesktopIcon from '../Shared/DesktopIcon/MacDesktopIcon';
+import DesktopIcon from './DesktopIcon/DesktopIcon';
 import Taskbar from './Taskbar/Taskbar';
 import Banner from './Banner/Banner';
 
