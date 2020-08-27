@@ -1229,6 +1229,10 @@ video {
   border-color: rgba(215, 232, 248, var(--divide-opacity));
 }
 
+.divide-gray-MacTaskbar > :not(template) ~ :not(template) {
+  border-color: rgba(113,128,150, .85);
+}
+
 .divide-red-100 > :not(template) ~ :not(template) {
   --divide-opacity: 1;
   border-color: #fff5f5;
@@ -1945,6 +1949,10 @@ video {
   background-color: rgba(215, 232, 248, var(--bg-opacity));
 }
 
+.bg-gray-MacTaskbar {
+  background-color: rgba(113,128,150, .85);
+}
+
 .bg-red-100 {
   --bg-opacity: 1;
   background-color: #fff5f5;
@@ -2577,6 +2585,10 @@ video {
   background-color: rgba(215, 232, 248, var(--bg-opacity));
 }
 
+.hover\:bg-gray-MacTaskbar:hover {
+  background-color: rgba(113,128,150, .85);
+}
+
 .hover\:bg-red-100:hover {
   --bg-opacity: 1;
   background-color: #fff5f5;
@@ -3207,6 +3219,10 @@ video {
   --bg-opacity: 1;
   background-color: #D7E8F8;
   background-color: rgba(215, 232, 248, var(--bg-opacity));
+}
+
+.focus\:bg-gray-MacTaskbar:focus {
+  background-color: rgba(113,128,150, .85);
 }
 
 .focus\:bg-red-100:focus {
@@ -3981,6 +3997,10 @@ video {
   border-color: rgba(215, 232, 248, var(--border-opacity));
 }
 
+.border-gray-MacTaskbar {
+  border-color: rgba(113,128,150, .85);
+}
+
 .border-red-100 {
   --border-opacity: 1;
   border-color: #fff5f5;
@@ -4613,6 +4633,10 @@ video {
   border-color: rgba(215, 232, 248, var(--border-opacity));
 }
 
+.hover\:border-gray-MacTaskbar:hover {
+  border-color: rgba(113,128,150, .85);
+}
+
 .hover\:border-red-100:hover {
   --border-opacity: 1;
   border-color: #fff5f5;
@@ -5243,6 +5267,10 @@ video {
   --border-opacity: 1;
   border-color: #D7E8F8;
   border-color: rgba(215, 232, 248, var(--border-opacity));
+}
+
+.focus\:border-gray-MacTaskbar:focus {
+  border-color: rgba(113,128,150, .85);
 }
 
 .focus\:border-red-100:focus {
@@ -8985,6 +9013,10 @@ video {
   color: rgba(215, 232, 248, var(--placeholder-opacity));
 }
 
+.placeholder-gray-MacTaskbar::placeholder {
+  color: rgba(113,128,150, .85);
+}
+
 .placeholder-red-100::placeholder {
   --placeholder-opacity: 1;
   color: #fff5f5;
@@ -9615,6 +9647,10 @@ video {
   --placeholder-opacity: 1;
   color: #D7E8F8;
   color: rgba(215, 232, 248, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-gray-MacTaskbar:focus::placeholder {
+  color: rgba(113,128,150, .85);
 }
 
 .focus\:placeholder-red-100:focus::placeholder {
@@ -10563,6 +10599,10 @@ video {
   color: rgba(215, 232, 248, var(--text-opacity));
 }
 
+.text-gray-MacTaskbar {
+  color: rgba(113,128,150, .85);
+}
+
 .text-red-100 {
   --text-opacity: 1;
   color: #fff5f5;
@@ -11195,6 +11235,10 @@ video {
   color: rgba(215, 232, 248, var(--text-opacity));
 }
 
+.hover\:text-gray-MacTaskbar:hover {
+  color: rgba(113,128,150, .85);
+}
+
 .hover\:text-red-100:hover {
   --text-opacity: 1;
   color: #fff5f5;
@@ -11825,6 +11869,10 @@ video {
   --text-opacity: 1;
   color: #D7E8F8;
   color: rgba(215, 232, 248, var(--text-opacity));
+}
+
+.focus\:text-gray-MacTaskbar:focus {
+  color: rgba(113,128,150, .85);
 }
 
 .focus\:text-red-100:focus {
@@ -15959,6 +16007,10 @@ video {
     border-color: rgba(215, 232, 248, var(--divide-opacity));
   }
 
+  .sm\:divide-gray-MacTaskbar > :not(template) ~ :not(template) {
+    border-color: rgba(113,128,150, .85);
+  }
+
   .sm\:divide-red-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #fff5f5;
@@ -16675,6 +16727,10 @@ video {
     background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
+  .sm\:bg-gray-MacTaskbar {
+    background-color: rgba(113,128,150, .85);
+  }
+
   .sm\:bg-red-100 {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -17307,6 +17363,10 @@ video {
     background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
+  .sm\:hover\:bg-gray-MacTaskbar:hover {
+    background-color: rgba(113,128,150, .85);
+  }
+
   .sm\:hover\:bg-red-100:hover {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -17937,6 +17997,10 @@ video {
     --bg-opacity: 1;
     background-color: #D7E8F8;
     background-color: rgba(215, 232, 248, var(--bg-opacity));
+  }
+
+  .sm\:focus\:bg-gray-MacTaskbar:focus {
+    background-color: rgba(113,128,150, .85);
   }
 
   .sm\:focus\:bg-red-100:focus {
@@ -18711,6 +18775,10 @@ video {
     border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
+  .sm\:border-gray-MacTaskbar {
+    border-color: rgba(113,128,150, .85);
+  }
+
   .sm\:border-red-100 {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -19343,6 +19411,10 @@ video {
     border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
+  .sm\:hover\:border-gray-MacTaskbar:hover {
+    border-color: rgba(113,128,150, .85);
+  }
+
   .sm\:hover\:border-red-100:hover {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -19973,6 +20045,10 @@ video {
     --border-opacity: 1;
     border-color: #D7E8F8;
     border-color: rgba(215, 232, 248, var(--border-opacity));
+  }
+
+  .sm\:focus\:border-gray-MacTaskbar:focus {
+    border-color: rgba(113,128,150, .85);
   }
 
   .sm\:focus\:border-red-100:focus {
@@ -23715,6 +23791,10 @@ video {
     color: rgba(215, 232, 248, var(--placeholder-opacity));
   }
 
+  .sm\:placeholder-gray-MacTaskbar::placeholder {
+    color: rgba(113,128,150, .85);
+  }
+
   .sm\:placeholder-red-100::placeholder {
     --placeholder-opacity: 1;
     color: #fff5f5;
@@ -24345,6 +24425,10 @@ video {
     --placeholder-opacity: 1;
     color: #D7E8F8;
     color: rgba(215, 232, 248, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-gray-MacTaskbar:focus::placeholder {
+    color: rgba(113,128,150, .85);
   }
 
   .sm\:focus\:placeholder-red-100:focus::placeholder {
@@ -25293,6 +25377,10 @@ video {
     color: rgba(215, 232, 248, var(--text-opacity));
   }
 
+  .sm\:text-gray-MacTaskbar {
+    color: rgba(113,128,150, .85);
+  }
+
   .sm\:text-red-100 {
     --text-opacity: 1;
     color: #fff5f5;
@@ -25925,6 +26013,10 @@ video {
     color: rgba(215, 232, 248, var(--text-opacity));
   }
 
+  .sm\:hover\:text-gray-MacTaskbar:hover {
+    color: rgba(113,128,150, .85);
+  }
+
   .sm\:hover\:text-red-100:hover {
     --text-opacity: 1;
     color: #fff5f5;
@@ -26555,6 +26647,10 @@ video {
     --text-opacity: 1;
     color: #D7E8F8;
     color: rgba(215, 232, 248, var(--text-opacity));
+  }
+
+  .sm\:focus\:text-gray-MacTaskbar:focus {
+    color: rgba(113,128,150, .85);
   }
 
   .sm\:focus\:text-red-100:focus {
@@ -30646,6 +30742,10 @@ video {
     border-color: rgba(215, 232, 248, var(--divide-opacity));
   }
 
+  .md\:divide-gray-MacTaskbar > :not(template) ~ :not(template) {
+    border-color: rgba(113,128,150, .85);
+  }
+
   .md\:divide-red-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #fff5f5;
@@ -31362,6 +31462,10 @@ video {
     background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
+  .md\:bg-gray-MacTaskbar {
+    background-color: rgba(113,128,150, .85);
+  }
+
   .md\:bg-red-100 {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -31994,6 +32098,10 @@ video {
     background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
+  .md\:hover\:bg-gray-MacTaskbar:hover {
+    background-color: rgba(113,128,150, .85);
+  }
+
   .md\:hover\:bg-red-100:hover {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -32624,6 +32732,10 @@ video {
     --bg-opacity: 1;
     background-color: #D7E8F8;
     background-color: rgba(215, 232, 248, var(--bg-opacity));
+  }
+
+  .md\:focus\:bg-gray-MacTaskbar:focus {
+    background-color: rgba(113,128,150, .85);
   }
 
   .md\:focus\:bg-red-100:focus {
@@ -33398,6 +33510,10 @@ video {
     border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
+  .md\:border-gray-MacTaskbar {
+    border-color: rgba(113,128,150, .85);
+  }
+
   .md\:border-red-100 {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -34030,6 +34146,10 @@ video {
     border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
+  .md\:hover\:border-gray-MacTaskbar:hover {
+    border-color: rgba(113,128,150, .85);
+  }
+
   .md\:hover\:border-red-100:hover {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -34660,6 +34780,10 @@ video {
     --border-opacity: 1;
     border-color: #D7E8F8;
     border-color: rgba(215, 232, 248, var(--border-opacity));
+  }
+
+  .md\:focus\:border-gray-MacTaskbar:focus {
+    border-color: rgba(113,128,150, .85);
   }
 
   .md\:focus\:border-red-100:focus {
@@ -38402,6 +38526,10 @@ video {
     color: rgba(215, 232, 248, var(--placeholder-opacity));
   }
 
+  .md\:placeholder-gray-MacTaskbar::placeholder {
+    color: rgba(113,128,150, .85);
+  }
+
   .md\:placeholder-red-100::placeholder {
     --placeholder-opacity: 1;
     color: #fff5f5;
@@ -39032,6 +39160,10 @@ video {
     --placeholder-opacity: 1;
     color: #D7E8F8;
     color: rgba(215, 232, 248, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-gray-MacTaskbar:focus::placeholder {
+    color: rgba(113,128,150, .85);
   }
 
   .md\:focus\:placeholder-red-100:focus::placeholder {
@@ -39980,6 +40112,10 @@ video {
     color: rgba(215, 232, 248, var(--text-opacity));
   }
 
+  .md\:text-gray-MacTaskbar {
+    color: rgba(113,128,150, .85);
+  }
+
   .md\:text-red-100 {
     --text-opacity: 1;
     color: #fff5f5;
@@ -40612,6 +40748,10 @@ video {
     color: rgba(215, 232, 248, var(--text-opacity));
   }
 
+  .md\:hover\:text-gray-MacTaskbar:hover {
+    color: rgba(113,128,150, .85);
+  }
+
   .md\:hover\:text-red-100:hover {
     --text-opacity: 1;
     color: #fff5f5;
@@ -41242,6 +41382,10 @@ video {
     --text-opacity: 1;
     color: #D7E8F8;
     color: rgba(215, 232, 248, var(--text-opacity));
+  }
+
+  .md\:focus\:text-gray-MacTaskbar:focus {
+    color: rgba(113,128,150, .85);
   }
 
   .md\:focus\:text-red-100:focus {
@@ -45333,6 +45477,10 @@ video {
     border-color: rgba(215, 232, 248, var(--divide-opacity));
   }
 
+  .lg\:divide-gray-MacTaskbar > :not(template) ~ :not(template) {
+    border-color: rgba(113,128,150, .85);
+  }
+
   .lg\:divide-red-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #fff5f5;
@@ -46049,6 +46197,10 @@ video {
     background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
+  .lg\:bg-gray-MacTaskbar {
+    background-color: rgba(113,128,150, .85);
+  }
+
   .lg\:bg-red-100 {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -46681,6 +46833,10 @@ video {
     background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
+  .lg\:hover\:bg-gray-MacTaskbar:hover {
+    background-color: rgba(113,128,150, .85);
+  }
+
   .lg\:hover\:bg-red-100:hover {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -47311,6 +47467,10 @@ video {
     --bg-opacity: 1;
     background-color: #D7E8F8;
     background-color: rgba(215, 232, 248, var(--bg-opacity));
+  }
+
+  .lg\:focus\:bg-gray-MacTaskbar:focus {
+    background-color: rgba(113,128,150, .85);
   }
 
   .lg\:focus\:bg-red-100:focus {
@@ -48085,6 +48245,10 @@ video {
     border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
+  .lg\:border-gray-MacTaskbar {
+    border-color: rgba(113,128,150, .85);
+  }
+
   .lg\:border-red-100 {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -48717,6 +48881,10 @@ video {
     border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
+  .lg\:hover\:border-gray-MacTaskbar:hover {
+    border-color: rgba(113,128,150, .85);
+  }
+
   .lg\:hover\:border-red-100:hover {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -49347,6 +49515,10 @@ video {
     --border-opacity: 1;
     border-color: #D7E8F8;
     border-color: rgba(215, 232, 248, var(--border-opacity));
+  }
+
+  .lg\:focus\:border-gray-MacTaskbar:focus {
+    border-color: rgba(113,128,150, .85);
   }
 
   .lg\:focus\:border-red-100:focus {
@@ -53089,6 +53261,10 @@ video {
     color: rgba(215, 232, 248, var(--placeholder-opacity));
   }
 
+  .lg\:placeholder-gray-MacTaskbar::placeholder {
+    color: rgba(113,128,150, .85);
+  }
+
   .lg\:placeholder-red-100::placeholder {
     --placeholder-opacity: 1;
     color: #fff5f5;
@@ -53719,6 +53895,10 @@ video {
     --placeholder-opacity: 1;
     color: #D7E8F8;
     color: rgba(215, 232, 248, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-gray-MacTaskbar:focus::placeholder {
+    color: rgba(113,128,150, .85);
   }
 
   .lg\:focus\:placeholder-red-100:focus::placeholder {
@@ -54667,6 +54847,10 @@ video {
     color: rgba(215, 232, 248, var(--text-opacity));
   }
 
+  .lg\:text-gray-MacTaskbar {
+    color: rgba(113,128,150, .85);
+  }
+
   .lg\:text-red-100 {
     --text-opacity: 1;
     color: #fff5f5;
@@ -55299,6 +55483,10 @@ video {
     color: rgba(215, 232, 248, var(--text-opacity));
   }
 
+  .lg\:hover\:text-gray-MacTaskbar:hover {
+    color: rgba(113,128,150, .85);
+  }
+
   .lg\:hover\:text-red-100:hover {
     --text-opacity: 1;
     color: #fff5f5;
@@ -55929,6 +56117,10 @@ video {
     --text-opacity: 1;
     color: #D7E8F8;
     color: rgba(215, 232, 248, var(--text-opacity));
+  }
+
+  .lg\:focus\:text-gray-MacTaskbar:focus {
+    color: rgba(113,128,150, .85);
   }
 
   .lg\:focus\:text-red-100:focus {
@@ -60020,6 +60212,10 @@ video {
     border-color: rgba(215, 232, 248, var(--divide-opacity));
   }
 
+  .xl\:divide-gray-MacTaskbar > :not(template) ~ :not(template) {
+    border-color: rgba(113,128,150, .85);
+  }
+
   .xl\:divide-red-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #fff5f5;
@@ -60736,6 +60932,10 @@ video {
     background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
+  .xl\:bg-gray-MacTaskbar {
+    background-color: rgba(113,128,150, .85);
+  }
+
   .xl\:bg-red-100 {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -61368,6 +61568,10 @@ video {
     background-color: rgba(215, 232, 248, var(--bg-opacity));
   }
 
+  .xl\:hover\:bg-gray-MacTaskbar:hover {
+    background-color: rgba(113,128,150, .85);
+  }
+
   .xl\:hover\:bg-red-100:hover {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -61998,6 +62202,10 @@ video {
     --bg-opacity: 1;
     background-color: #D7E8F8;
     background-color: rgba(215, 232, 248, var(--bg-opacity));
+  }
+
+  .xl\:focus\:bg-gray-MacTaskbar:focus {
+    background-color: rgba(113,128,150, .85);
   }
 
   .xl\:focus\:bg-red-100:focus {
@@ -62772,6 +62980,10 @@ video {
     border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
+  .xl\:border-gray-MacTaskbar {
+    border-color: rgba(113,128,150, .85);
+  }
+
   .xl\:border-red-100 {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -63404,6 +63616,10 @@ video {
     border-color: rgba(215, 232, 248, var(--border-opacity));
   }
 
+  .xl\:hover\:border-gray-MacTaskbar:hover {
+    border-color: rgba(113,128,150, .85);
+  }
+
   .xl\:hover\:border-red-100:hover {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -64034,6 +64250,10 @@ video {
     --border-opacity: 1;
     border-color: #D7E8F8;
     border-color: rgba(215, 232, 248, var(--border-opacity));
+  }
+
+  .xl\:focus\:border-gray-MacTaskbar:focus {
+    border-color: rgba(113,128,150, .85);
   }
 
   .xl\:focus\:border-red-100:focus {
@@ -67776,6 +67996,10 @@ video {
     color: rgba(215, 232, 248, var(--placeholder-opacity));
   }
 
+  .xl\:placeholder-gray-MacTaskbar::placeholder {
+    color: rgba(113,128,150, .85);
+  }
+
   .xl\:placeholder-red-100::placeholder {
     --placeholder-opacity: 1;
     color: #fff5f5;
@@ -68406,6 +68630,10 @@ video {
     --placeholder-opacity: 1;
     color: #D7E8F8;
     color: rgba(215, 232, 248, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-gray-MacTaskbar:focus::placeholder {
+    color: rgba(113,128,150, .85);
   }
 
   .xl\:focus\:placeholder-red-100:focus::placeholder {
@@ -69354,6 +69582,10 @@ video {
     color: rgba(215, 232, 248, var(--text-opacity));
   }
 
+  .xl\:text-gray-MacTaskbar {
+    color: rgba(113,128,150, .85);
+  }
+
   .xl\:text-red-100 {
     --text-opacity: 1;
     color: #fff5f5;
@@ -69986,6 +70218,10 @@ video {
     color: rgba(215, 232, 248, var(--text-opacity));
   }
 
+  .xl\:hover\:text-gray-MacTaskbar:hover {
+    color: rgba(113,128,150, .85);
+  }
+
   .xl\:hover\:text-red-100:hover {
     --text-opacity: 1;
     color: #fff5f5;
@@ -70616,6 +70852,10 @@ video {
     --text-opacity: 1;
     color: #D7E8F8;
     color: rgba(215, 232, 248, var(--text-opacity));
+  }
+
+  .xl\:focus\:text-gray-MacTaskbar:focus {
+    color: rgba(113,128,150, .85);
   }
 
   .xl\:focus\:text-red-100:focus {

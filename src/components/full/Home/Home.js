@@ -5,15 +5,17 @@ import Taskbar from './Taskbar/Taskbar';
 import StartMenu from './Start Menu/StartMenu';
 import FolderIcon from './DesktopIcons/DesktopIcon';
 import DocumentIcon from './DesktopIcons/DocumentIcon';
+import OutsideClickHandler from 'react-outside-click-handler';
 
 function Home() {
 	const [ isStartMenuOpen, setIsStartMenuOpen ] = useState(false);
 
-	function handleLogoFocus() {
+	function enableStartMenu() {
 		setIsStartMenuOpen(true);
 	}
 
-	function handleLogoBlur() {
+	function disableStartMenu() {
+		console.log('Disable Menu');
 		setIsStartMenuOpen(false);
 	}
 
@@ -43,9 +45,11 @@ function Home() {
 						<DocumentIcon className={'px-3'} label={'Resume'} imgSrc={documentIcon} />
 					</Link>
 				</div>
-				<StartMenu isOpen={isStartMenuOpen} />
+				<OutsideClickHandler onOutsideClick={disableStartMenu}>
+					<StartMenu isOpen={isStartMenuOpen} />
+				</OutsideClickHandler>
 			</div>
-			<Taskbar onLogoFocus={handleLogoFocus} onLogoBlur={handleLogoBlur} />
+			<Taskbar onLogoClick={enableStartMenu} />
 		</div>
 	);
 }

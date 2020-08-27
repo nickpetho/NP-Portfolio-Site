@@ -15,10 +15,10 @@ const StartIcon = ({ children, ...props }) => (
 	</div>
 );
 
-function Taskbar({ onLogoFocus, onLogoBlur }) {
+function Taskbar({ onLogoClick }) {
 	return (
 		<div className="h-12 bg-gray-Windows95 flex items-center relative">
-			<StartIcon onFocus={onLogoFocus} tabIndex={1} onBlur={onLogoBlur}>
+			<StartIcon onClick={onLogoClick}>
 				<img className="h-10 w-10 p-1" src={Windows95Logo} alt="" />
 				<div className="font-black pr-1">Start</div>
 			</StartIcon>

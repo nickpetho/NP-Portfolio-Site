@@ -9,10 +9,10 @@ const TaskIcon = ({ children, ...props }) => (
 	</div>
 );
 
-function Taskbar({ onLogoFocus, onLogoBlur }) {
+function Taskbar({ onLogoClick }) {
 	return (
 		<div className="h-12 bg-gray-Windows7 flex items-center relative">
-			<TaskIcon onFocus={onLogoFocus} tabIndex={1} onBlur={onLogoBlur}>
+			<TaskIcon onClick={onLogoClick}>
 				<img className="h-10 w-10 p-1 mx-1" src={Windows7Logo} alt="" />
 			</TaskIcon>
 			<TaskIcon>

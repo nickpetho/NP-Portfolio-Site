@@ -10,7 +10,7 @@ function StartMenu({ isOpen }) {
 	}
 
 	return (
-		<div className="bg-gray-800 absolute bottom-0 flex flex-col w-56 text-white">
+		<div className="bg-gray-800 absolute bottom-0 flex flex-col w-56 text-white z-50">
 			<div className="bg-gray-Windows10 pb-2 pt-3 px-3 font-bold">START</div>
 			<Link to="/aboutMe" className="pb-1 pt-2 px-3 mt-20 flex hover:bg-gray-Windows10">
 				<img className="w-6 h-6 mr-3" src={userLogo} alt="" />

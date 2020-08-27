@@ -9,14 +9,18 @@ const TaskIcon = ({ children, ...props }) => (
 	</div>
 );
 
-function Taskbar({ onLogoFocus, onLogoBlur }) {
+function Taskbar({ onLogoClick }) {
 	return (
-		<div className="h-12 bg-gray-900 flex items-center relative">
-			<TaskIcon onFocus={onLogoFocus} tabIndex={1} onBlur={onLogoBlur}>
+		<div className="h-12 bg-gray-900 flex items-center relative z-40">
+			<TaskIcon onClick={onLogoClick}>
 				<img className="h-10 w-10 p-2" src={Windows10Logo} alt="" />
 			</TaskIcon>
 			<TaskIcon>
-				<a href="https://www.linkedin.com/in/nick-petho-708b1261/" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://www.linkedin.com/in/nick-petho-708b1261/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<img className="h-10 w-11 p-2" src={LinkenInLogo} alt="" />
 				</a>
 			</TaskIcon>

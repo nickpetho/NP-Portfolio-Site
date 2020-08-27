@@ -12,7 +12,8 @@ module.exports = {
 					Windows95: '#C1C1C1',
 					Windows95Start: '#808080',
 					Windows7: '#A5C2DF',
-					Windows7Highlight: '#D7E8F8'
+					Windows7Highlight: '#D7E8F8',
+					MacTaskbar: 'rgba(113,128,150, .85)'
 				},
 				blue: {
 					...colors.blue,
