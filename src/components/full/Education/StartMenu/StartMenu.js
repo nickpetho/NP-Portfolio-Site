@@ -15,7 +15,7 @@ function StartMenu({ isOpen }) {
 				<img className="w-6 h-6 mr-3" src={MagnifyingGlass} alt="" />
 				<div>About Me</div>
 			</Link>
-			<Link to="/" className="py-3 px-3 flex hover:bg-blue-W95Start hover:text-white">
+			<Link to="/home" className="py-3 px-3 flex hover:bg-blue-W95Start hover:text-white">
 				<img className="w-6 h-6 mr-3" src={ShutDownLogo} alt="" />
 				<div>Shut Down...</div>
 			</Link>

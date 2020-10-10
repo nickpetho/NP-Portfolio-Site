@@ -9,13 +9,16 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "iframe-resizer-react": "^1.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-iframe": "^1.8.0",
     "react-outside-click-handler": "^1.3.0",
+    "react-rnd": "^10.2.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "react-tooltip": "^4.2.8",
-    "tailwindcss": "^1.6.2"
+    "react-tooltip": "^8.10.8",
+    "tailwindcss": "^1.8.10"
   },
   "scripts": {
     "start": "npm run watch:css && react-scripts start",

@@ -13,7 +13,9 @@ module.exports = {
 					Windows95Start: '#808080',
 					Windows7: '#A5C2DF',
 					Windows7Highlight: '#D7E8F8',
-					MacTaskbar: 'rgba(113,128,150, .85)'
+					MacTaskbar: 'rgba(113,128,150, .85)',
+					MacWindow: '#D7D7D7',
+					MacWindowBG: '#ECECEC'
 				},
 				blue: {
 					...colors.blue,
@@ -27,7 +29,19 @@ module.exports = {
 					...colors.green,
 					XP_Start: '#46AA49',
 					StartHighlight: '#228b20'
-				}
+				},
+				macbutton: {
+					50: '#F3F9FF',
+					100: '#E7F2FF',
+					200: '#C2DFFF',
+					300: '#9ECCFF',
+					400: '#55A5FE',
+					500: '#0C7FFE',
+					600: '#0B72E5',
+					700: '#074C98',
+					800: '#053972',
+					900: '#04264C'
+				},
 			}
 		}
 	},
