@@ -21,7 +21,7 @@ function AboutMe() {
 			<div className="flex-grow relative">
 				<div className="px-6">
 					<div className="underline text-6xl">About Me</div>
-					<div className="text-4xl italic">Nick Petho</div>
+					<div className="text-4xl italic">Nick Petho (nick.petho@gmail.com)</div>
 					<div className="text-3xl pt-4">
 						A web developer with a passion for frontend design and development.
 					</div>

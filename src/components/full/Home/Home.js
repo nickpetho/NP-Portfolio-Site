@@ -41,7 +41,7 @@ function Home() {
 					<Link to="/aboutMe">
 						<FolderIcon className={'mb-5'} label={'About Me'} imgSrc={folderIcon} />
 					</Link>
-					<Link to="/resume">
+					<Link to="home/resume">
 						<DocumentIcon className={'px-3'} label={'Resume'} imgSrc={documentIcon} />
 					</Link>
 				</div>

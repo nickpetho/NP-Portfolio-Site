@@ -23,16 +23,22 @@ function A_Star() {
 					/>
 				</div>
 				<div className="flex justify-center">
-					<button className="bg-gradient-to-r text-lg focus:outline-none focus:shadow-outline px-5 py-1 rounded-md bg-gradient-to-b from-macbutton-400 to-macbutton-500 text-white">
-						Run
-					</button>
-				</div>
-				<div className="flex justify-center">
-					<button className="bg-gradient-to-r text-lg focus:outline-none focus:shadow-outline px-4 py-1 rounded-md bg-gradient-to-b from-macbutton-400 to-macbutton-500 text-white">
-						<a href="https://github.com/kmdiogo/TAC" target="_blank" rel="noopener noreferrer">
-							Code
-						</a>
-					</button>
+					<div className="pr-5">
+						<button className="bg-gradient-to-r text-lg focus:outline-none focus:shadow-outline px-5 py-1 rounded-md bg-gradient-to-b from-macbutton-400 to-macbutton-500 text-white">
+							Run
+						</button>
+					</div>
+					<div className="pl-5">
+						<button className="bg-gradient-to-r text-lg focus:outline-none focus:shadow-outline px-4 py-1 rounded-md bg-gradient-to-b from-macbutton-400 to-macbutton-500 text-white">
+							<a
+								href="https://github.com/nickpetho/A_Star_Path_Finding"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Code
+							</a>
+						</button>
+					</div>
 				</div>
 			</div>
 		</MacWindow>
