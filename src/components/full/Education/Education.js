@@ -21,10 +21,10 @@ function Education() {
 			<div className="flex-grow relative">
 				<div className="px-6">
 					<h1 className="text-6xl underline">Education</h1>
-					<div className="text-3xl">Youngstown State University (YSU), Youngstown, Ohio</div>
-					<div className="text-2xl">Bachelor of Science in Computer Science, with a minor in Mathematics (2016-2020)</div>
-					<div className="text-xl">- Member of the Honors College</div>
-					<div className="text-xl">- Achieved Dean's List (Spring 2017, Spring 2019)</div>
+					<div className="text-4xl italic">Youngstown State University (YSU), Youngstown, Ohio</div>
+					<div className="text-3xl">Bachelor of Science in Computer Science, with a minor in Mathematics (2016-2020)</div>
+					<div className="text-2xl">- Member of the Honors College</div>
+					<div className="text-2xl">- Achieved Dean's List (Spring 2017, Spring 2019)</div>
 				</div>
 				<OutsideClickHandler onOutsideClick={disableStartMenu}>
 					<StartMenu isOpen={isStartMenuOpen} />

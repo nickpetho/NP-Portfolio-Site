@@ -48,10 +48,10 @@ function Skills() {
 									<Logo imgSrc={HTML} />
 									HTML
 								</li>
-								<li className="flex py-2">
-									<Logo imgSrc={CSS} />
+								<li className="flex pb-2">
+									<Logo className="h-16" imgSrc={CSS} />
 									CSS/SASS
-									<Logo imgSrc={SASS} />
+									<Logo className="w-16" imgSrc={SASS} />
 								</li>
 								<li className="flex py-2">
 									<Logo imgSrc={Python} />
@@ -66,8 +66,8 @@ function Skills() {
 									<Logo imgSrc={C_Sharp} />
 									C#
 								</li>
-								<li className="flex py-2">
-									<Logo imgSrc={Java} />
+								<li className="flex">
+									<Logo className="h-16" imgSrc={Java} />
 									Java
 								</li>
 								<li className="flex py-2">
@@ -83,12 +83,12 @@ function Skills() {
 									<Logo imgSrc={React_js} />
 									React.js
 								</li>
-								<li className="flex py-2">
-									<Logo imgSrc={jQuery} />
+								<li className="flex pt-2">
+									<Logo className="h-16" imgSrc={jQuery} />
 									jQuery
 								</li>
 								<li className="flex py-2">
-									<Logo imgSrc={Node} />
+									<Logo className="w-20" imgSrc={Node} />
 									Node.js
 								</li>
 								<li className="flex py-2">
@@ -104,7 +104,7 @@ function Skills() {
 									Bootstrap 4
 								</li>
 								<li className="flex py-2">
-									<Logo imgSrc={Tailwind} />
+									<Logo className="w-20" imgSrc={Tailwind} />
 									Tailwind.css
 								</li>
 							</ul>
@@ -113,7 +113,7 @@ function Skills() {
 							<div className="text-6xl underline text-white">Technologies</div>
 							<ul className="text-3xl text-white">
 								<li className="flex py-2">
-									<Logo imgSrc={REST} />
+									<Logo className="w-16" imgSrc={REST} />
 									RESTful Web Services
 								</li>
 								<li className="flex py-2">

@@ -21,7 +21,7 @@ function Taskbar() {
 			</TaskIcon>
 			<TaskIcon>
 				<a href="https://github.com/nickpetho" target="_blank" rel="noopener noreferrer">
-					<img className="h-7 p-2" src={GitHubLogo} alt="" />
+					<img className="h-7" src={GitHubLogo} alt="" />
 				</a>
 			</TaskIcon>
 			<TaskIcon>

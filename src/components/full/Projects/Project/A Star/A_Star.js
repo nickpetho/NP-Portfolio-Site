@@ -1,5 +1,6 @@
 import React from 'react';
 import MacWindow from '../../MacWindow/MacWindow';
+import ReactTooltip from 'react-tooltip';
 
 function A_Star() {
 	return (
@@ -44,6 +45,7 @@ function A_Star() {
 					</div>
 				</div>
 			</div>
+			<ReactTooltip />
 		</MacWindow>
 	);
 }

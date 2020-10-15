@@ -24,16 +24,14 @@ function Experience() {
 			<div className="flex-grow relative">
 				<div className="px-6">
 					<h1 className="underline text-6xl">Work Experience</h1>
-					<div className="text-3xl font-semibold">AIB Technician</div>
-					<div className="text-2xl italic">TecnoCap LLC (2016-2020)</div>
-					<div className="text-xl">
-						{' '}
+					<div className="text-4xl font-semibold">AIB Technician</div>
+					<div className="text-3xl italic">TecnoCap LLC (2016-2020)</div>
+					<div className="text-2xl">
 						- Prepared the plant for the annual AIB (American Institute of Baking) certification inspection
 					</div>
-					<div className="text-xl"> - Developed an AIB certification technician worker's manual</div>
-					<div className="text-xl"> - Computerized inventory of storeroom and warehouse stock</div>
-					<div className="text-xl">
-						{' '}
+					<div className="text-2xl"> - Developed an AIB certification technician worker's manual</div>
+					<div className="text-2xl"> - Computerized inventory of storeroom and warehouse stock</div>
+					<div className="text-2xl">
 						- Assisted in improving the flow of raw material in the shearing department by designing new
 						input/output routes
 					</div>

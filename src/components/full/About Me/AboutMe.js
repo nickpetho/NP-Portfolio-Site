@@ -31,11 +31,11 @@ function AboutMe() {
 					</div>
 					<div className="text-2xl">
 						I've always been interested in software development but once I started learning about web
-						development I really fell in love with it. My favorite aspect about web development is frontend
-						development. I really enjoying using frontend frameworks, especially React.js, and I'm always
-						excited to learn new languages and technologies.
+						development I really fell in love with it. My favorite aspect about web development is working
+						on the frontend. I really enjoying using frontend frameworks, especially React.js, and I'm
+						always excited to learn new languages and technologies.
 					</div>
-					<div className="text-2xl pt-2">Here are some other things about me:</div>
+					<div className="text-2xl pt-2">Some other interesting things about me:</div>
 					<ul className="text-xl">
 						<li>- Member of the YSU Association for Computing Machinery (ACM)</li>
 						<li>- Musician in various bands since highschool</li>
