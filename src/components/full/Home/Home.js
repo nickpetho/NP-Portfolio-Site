@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Home.css';
 import Taskbar from './Taskbar/Taskbar';
 import StartMenu from './Start Menu/StartMenu';
-import FolderIcon from './DesktopIcons/DesktopIcon';
+import FolderIcon from './DesktopIcons/FolderIcon';
 import DocumentIcon from './DesktopIcons/DocumentIcon';
 import OutsideClickHandler from 'react-outside-click-handler';
 

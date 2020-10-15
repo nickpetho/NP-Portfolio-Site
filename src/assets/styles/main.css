@@ -1245,6 +1245,10 @@ video {
   border-color: rgba(236, 236, 236, var(--divide-opacity));
 }
 
+.divide-gray-LinuxTaskbar > :not(template) ~ :not(template) {
+  border-color: rgba(0,0,0, .75);
+}
+
 .divide-red-100 > :not(template) ~ :not(template) {
   --divide-opacity: 1;
   border-color: #fff5f5;
@@ -2073,6 +2077,10 @@ video {
   background-color: rgba(236, 236, 236, var(--bg-opacity));
 }
 
+.bg-gray-LinuxTaskbar {
+  background-color: rgba(0,0,0, .75);
+}
+
 .bg-red-100 {
   --bg-opacity: 1;
   background-color: #fff5f5;
@@ -2781,6 +2789,10 @@ video {
   background-color: rgba(236, 236, 236, var(--bg-opacity));
 }
 
+.hover\:bg-gray-LinuxTaskbar:hover {
+  background-color: rgba(0,0,0, .75);
+}
+
 .hover\:bg-red-100:hover {
   --bg-opacity: 1;
   background-color: #fff5f5;
@@ -3487,6 +3499,10 @@ video {
   --bg-opacity: 1;
   background-color: #ECECEC;
   background-color: rgba(236, 236, 236, var(--bg-opacity));
+}
+
+.focus\:bg-gray-LinuxTaskbar:focus {
+  background-color: rgba(0,0,0, .75);
 }
 
 .focus\:bg-red-100:focus {
@@ -4218,6 +4234,11 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
 }
 
+.from-gray-LinuxTaskbar {
+  --gradient-from-color: rgba(0,0,0, .75);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+}
+
 .from-red-100 {
   --gradient-from-color: #fff5f5;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -4813,6 +4834,11 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
 }
 
+.via-gray-LinuxTaskbar {
+  --gradient-via-color: rgba(0,0,0, .75);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+}
+
 .via-red-100 {
   --gradient-via-color: #fff5f5;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -5387,6 +5413,10 @@ video {
   --gradient-to-color: #ECECEC;
 }
 
+.to-gray-LinuxTaskbar {
+  --gradient-to-color: rgba(0,0,0, .75);
+}
+
 .to-red-100 {
   --gradient-to-color: #fff5f5;
 }
@@ -5882,6 +5912,11 @@ video {
 .hover\:from-gray-MacWindowBG:hover {
   --gradient-from-color: #ECECEC;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
+}
+
+.hover\:from-gray-LinuxTaskbar:hover {
+  --gradient-from-color: rgba(0,0,0, .75);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
 }
 
 .hover\:from-red-100:hover {
@@ -6479,6 +6514,11 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
 }
 
+.hover\:via-gray-LinuxTaskbar:hover {
+  --gradient-via-color: rgba(0,0,0, .75);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+}
+
 .hover\:via-red-100:hover {
   --gradient-via-color: #fff5f5;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -7053,6 +7093,10 @@ video {
   --gradient-to-color: #ECECEC;
 }
 
+.hover\:to-gray-LinuxTaskbar:hover {
+  --gradient-to-color: rgba(0,0,0, .75);
+}
+
 .hover\:to-red-100:hover {
   --gradient-to-color: #fff5f5;
 }
@@ -7548,6 +7592,11 @@ video {
 .focus\:from-gray-MacWindowBG:focus {
   --gradient-from-color: #ECECEC;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
+}
+
+.focus\:from-gray-LinuxTaskbar:focus {
+  --gradient-from-color: rgba(0,0,0, .75);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
 }
 
 .focus\:from-red-100:focus {
@@ -8145,6 +8194,11 @@ video {
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
 }
 
+.focus\:via-gray-LinuxTaskbar:focus {
+  --gradient-via-color: rgba(0,0,0, .75);
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+}
+
 .focus\:via-red-100:focus {
   --gradient-via-color: #fff5f5;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -8717,6 +8771,10 @@ video {
 
 .focus\:to-gray-MacWindowBG:focus {
   --gradient-to-color: #ECECEC;
+}
+
+.focus\:to-gray-LinuxTaskbar:focus {
+  --gradient-to-color: rgba(0,0,0, .75);
 }
 
 .focus\:to-red-100:focus {
@@ -9369,6 +9427,10 @@ video {
   --border-opacity: 1;
   border-color: #ECECEC;
   border-color: rgba(236, 236, 236, var(--border-opacity));
+}
+
+.border-gray-LinuxTaskbar {
+  border-color: rgba(0,0,0, .75);
 }
 
 .border-red-100 {
@@ -10079,6 +10141,10 @@ video {
   border-color: rgba(236, 236, 236, var(--border-opacity));
 }
 
+.hover\:border-gray-LinuxTaskbar:hover {
+  border-color: rgba(0,0,0, .75);
+}
+
 .hover\:border-red-100:hover {
   --border-opacity: 1;
   border-color: #fff5f5;
@@ -10785,6 +10851,10 @@ video {
   --border-opacity: 1;
   border-color: #ECECEC;
   border-color: rgba(236, 236, 236, var(--border-opacity));
+}
+
+.focus\:border-gray-LinuxTaskbar:focus {
+  border-color: rgba(0,0,0, .75);
 }
 
 .focus\:border-red-100:focus {
@@ -14719,6 +14789,10 @@ video {
   color: rgba(236, 236, 236, var(--placeholder-opacity));
 }
 
+.placeholder-gray-LinuxTaskbar::placeholder {
+  color: rgba(0,0,0, .75);
+}
+
 .placeholder-red-100::placeholder {
   --placeholder-opacity: 1;
   color: #fff5f5;
@@ -15425,6 +15499,10 @@ video {
   --placeholder-opacity: 1;
   color: #ECECEC;
   color: rgba(236, 236, 236, var(--placeholder-opacity));
+}
+
+.focus\:placeholder-gray-LinuxTaskbar:focus::placeholder {
+  color: rgba(0,0,0, .75);
 }
 
 .focus\:placeholder-red-100:focus::placeholder {
@@ -16449,6 +16527,10 @@ video {
   color: rgba(236, 236, 236, var(--text-opacity));
 }
 
+.text-gray-LinuxTaskbar {
+  color: rgba(0,0,0, .75);
+}
+
 .text-red-100 {
   --text-opacity: 1;
   color: #fff5f5;
@@ -17157,6 +17239,10 @@ video {
   color: rgba(236, 236, 236, var(--text-opacity));
 }
 
+.hover\:text-gray-LinuxTaskbar:hover {
+  color: rgba(0,0,0, .75);
+}
+
 .hover\:text-red-100:hover {
   --text-opacity: 1;
   color: #fff5f5;
@@ -17863,6 +17949,10 @@ video {
   --text-opacity: 1;
   color: #ECECEC;
   color: rgba(236, 236, 236, var(--text-opacity));
+}
+
+.focus\:text-gray-LinuxTaskbar:focus {
+  color: rgba(0,0,0, .75);
 }
 
 .focus\:text-red-100:focus {
@@ -22295,6 +22385,10 @@ video {
     border-color: rgba(236, 236, 236, var(--divide-opacity));
   }
 
+  .sm\:divide-gray-LinuxTaskbar > :not(template) ~ :not(template) {
+    border-color: rgba(0,0,0, .75);
+  }
+
   .sm\:divide-red-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #fff5f5;
@@ -23123,6 +23217,10 @@ video {
     background-color: rgba(236, 236, 236, var(--bg-opacity));
   }
 
+  .sm\:bg-gray-LinuxTaskbar {
+    background-color: rgba(0,0,0, .75);
+  }
+
   .sm\:bg-red-100 {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -23831,6 +23929,10 @@ video {
     background-color: rgba(236, 236, 236, var(--bg-opacity));
   }
 
+  .sm\:hover\:bg-gray-LinuxTaskbar:hover {
+    background-color: rgba(0,0,0, .75);
+  }
+
   .sm\:hover\:bg-red-100:hover {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -24537,6 +24639,10 @@ video {
     --bg-opacity: 1;
     background-color: #ECECEC;
     background-color: rgba(236, 236, 236, var(--bg-opacity));
+  }
+
+  .sm\:focus\:bg-gray-LinuxTaskbar:focus {
+    background-color: rgba(0,0,0, .75);
   }
 
   .sm\:focus\:bg-red-100:focus {
@@ -25268,6 +25374,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .sm\:from-gray-LinuxTaskbar {
+    --gradient-from-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .sm\:from-red-100 {
     --gradient-from-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -25863,6 +25974,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .sm\:via-gray-LinuxTaskbar {
+    --gradient-via-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .sm\:via-red-100 {
     --gradient-via-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -26437,6 +26553,10 @@ video {
     --gradient-to-color: #ECECEC;
   }
 
+  .sm\:to-gray-LinuxTaskbar {
+    --gradient-to-color: rgba(0,0,0, .75);
+  }
+
   .sm\:to-red-100 {
     --gradient-to-color: #fff5f5;
   }
@@ -26932,6 +27052,11 @@ video {
   .sm\:hover\:from-gray-MacWindowBG:hover {
     --gradient-from-color: #ECECEC;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
+  }
+
+  .sm\:hover\:from-gray-LinuxTaskbar:hover {
+    --gradient-from-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
   }
 
   .sm\:hover\:from-red-100:hover {
@@ -27529,6 +27654,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .sm\:hover\:via-gray-LinuxTaskbar:hover {
+    --gradient-via-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .sm\:hover\:via-red-100:hover {
     --gradient-via-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -28103,6 +28233,10 @@ video {
     --gradient-to-color: #ECECEC;
   }
 
+  .sm\:hover\:to-gray-LinuxTaskbar:hover {
+    --gradient-to-color: rgba(0,0,0, .75);
+  }
+
   .sm\:hover\:to-red-100:hover {
     --gradient-to-color: #fff5f5;
   }
@@ -28598,6 +28732,11 @@ video {
   .sm\:focus\:from-gray-MacWindowBG:focus {
     --gradient-from-color: #ECECEC;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
+  }
+
+  .sm\:focus\:from-gray-LinuxTaskbar:focus {
+    --gradient-from-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
   }
 
   .sm\:focus\:from-red-100:focus {
@@ -29195,6 +29334,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .sm\:focus\:via-gray-LinuxTaskbar:focus {
+    --gradient-via-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .sm\:focus\:via-red-100:focus {
     --gradient-via-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -29767,6 +29911,10 @@ video {
 
   .sm\:focus\:to-gray-MacWindowBG:focus {
     --gradient-to-color: #ECECEC;
+  }
+
+  .sm\:focus\:to-gray-LinuxTaskbar:focus {
+    --gradient-to-color: rgba(0,0,0, .75);
   }
 
   .sm\:focus\:to-red-100:focus {
@@ -30419,6 +30567,10 @@ video {
     --border-opacity: 1;
     border-color: #ECECEC;
     border-color: rgba(236, 236, 236, var(--border-opacity));
+  }
+
+  .sm\:border-gray-LinuxTaskbar {
+    border-color: rgba(0,0,0, .75);
   }
 
   .sm\:border-red-100 {
@@ -31129,6 +31281,10 @@ video {
     border-color: rgba(236, 236, 236, var(--border-opacity));
   }
 
+  .sm\:hover\:border-gray-LinuxTaskbar:hover {
+    border-color: rgba(0,0,0, .75);
+  }
+
   .sm\:hover\:border-red-100:hover {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -31835,6 +31991,10 @@ video {
     --border-opacity: 1;
     border-color: #ECECEC;
     border-color: rgba(236, 236, 236, var(--border-opacity));
+  }
+
+  .sm\:focus\:border-gray-LinuxTaskbar:focus {
+    border-color: rgba(0,0,0, .75);
   }
 
   .sm\:focus\:border-red-100:focus {
@@ -35769,6 +35929,10 @@ video {
     color: rgba(236, 236, 236, var(--placeholder-opacity));
   }
 
+  .sm\:placeholder-gray-LinuxTaskbar::placeholder {
+    color: rgba(0,0,0, .75);
+  }
+
   .sm\:placeholder-red-100::placeholder {
     --placeholder-opacity: 1;
     color: #fff5f5;
@@ -36475,6 +36639,10 @@ video {
     --placeholder-opacity: 1;
     color: #ECECEC;
     color: rgba(236, 236, 236, var(--placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-gray-LinuxTaskbar:focus::placeholder {
+    color: rgba(0,0,0, .75);
   }
 
   .sm\:focus\:placeholder-red-100:focus::placeholder {
@@ -37499,6 +37667,10 @@ video {
     color: rgba(236, 236, 236, var(--text-opacity));
   }
 
+  .sm\:text-gray-LinuxTaskbar {
+    color: rgba(0,0,0, .75);
+  }
+
   .sm\:text-red-100 {
     --text-opacity: 1;
     color: #fff5f5;
@@ -38207,6 +38379,10 @@ video {
     color: rgba(236, 236, 236, var(--text-opacity));
   }
 
+  .sm\:hover\:text-gray-LinuxTaskbar:hover {
+    color: rgba(0,0,0, .75);
+  }
+
   .sm\:hover\:text-red-100:hover {
     --text-opacity: 1;
     color: #fff5f5;
@@ -38913,6 +39089,10 @@ video {
     --text-opacity: 1;
     color: #ECECEC;
     color: rgba(236, 236, 236, var(--text-opacity));
+  }
+
+  .sm\:focus\:text-gray-LinuxTaskbar:focus {
+    color: rgba(0,0,0, .75);
   }
 
   .sm\:focus\:text-red-100:focus {
@@ -43315,6 +43495,10 @@ video {
     border-color: rgba(236, 236, 236, var(--divide-opacity));
   }
 
+  .md\:divide-gray-LinuxTaskbar > :not(template) ~ :not(template) {
+    border-color: rgba(0,0,0, .75);
+  }
+
   .md\:divide-red-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #fff5f5;
@@ -44143,6 +44327,10 @@ video {
     background-color: rgba(236, 236, 236, var(--bg-opacity));
   }
 
+  .md\:bg-gray-LinuxTaskbar {
+    background-color: rgba(0,0,0, .75);
+  }
+
   .md\:bg-red-100 {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -44851,6 +45039,10 @@ video {
     background-color: rgba(236, 236, 236, var(--bg-opacity));
   }
 
+  .md\:hover\:bg-gray-LinuxTaskbar:hover {
+    background-color: rgba(0,0,0, .75);
+  }
+
   .md\:hover\:bg-red-100:hover {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -45557,6 +45749,10 @@ video {
     --bg-opacity: 1;
     background-color: #ECECEC;
     background-color: rgba(236, 236, 236, var(--bg-opacity));
+  }
+
+  .md\:focus\:bg-gray-LinuxTaskbar:focus {
+    background-color: rgba(0,0,0, .75);
   }
 
   .md\:focus\:bg-red-100:focus {
@@ -46288,6 +46484,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .md\:from-gray-LinuxTaskbar {
+    --gradient-from-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .md\:from-red-100 {
     --gradient-from-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -46883,6 +47084,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .md\:via-gray-LinuxTaskbar {
+    --gradient-via-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .md\:via-red-100 {
     --gradient-via-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -47457,6 +47663,10 @@ video {
     --gradient-to-color: #ECECEC;
   }
 
+  .md\:to-gray-LinuxTaskbar {
+    --gradient-to-color: rgba(0,0,0, .75);
+  }
+
   .md\:to-red-100 {
     --gradient-to-color: #fff5f5;
   }
@@ -47952,6 +48162,11 @@ video {
   .md\:hover\:from-gray-MacWindowBG:hover {
     --gradient-from-color: #ECECEC;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
+  }
+
+  .md\:hover\:from-gray-LinuxTaskbar:hover {
+    --gradient-from-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
   }
 
   .md\:hover\:from-red-100:hover {
@@ -48549,6 +48764,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .md\:hover\:via-gray-LinuxTaskbar:hover {
+    --gradient-via-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .md\:hover\:via-red-100:hover {
     --gradient-via-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -49123,6 +49343,10 @@ video {
     --gradient-to-color: #ECECEC;
   }
 
+  .md\:hover\:to-gray-LinuxTaskbar:hover {
+    --gradient-to-color: rgba(0,0,0, .75);
+  }
+
   .md\:hover\:to-red-100:hover {
     --gradient-to-color: #fff5f5;
   }
@@ -49618,6 +49842,11 @@ video {
   .md\:focus\:from-gray-MacWindowBG:focus {
     --gradient-from-color: #ECECEC;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
+  }
+
+  .md\:focus\:from-gray-LinuxTaskbar:focus {
+    --gradient-from-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
   }
 
   .md\:focus\:from-red-100:focus {
@@ -50215,6 +50444,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .md\:focus\:via-gray-LinuxTaskbar:focus {
+    --gradient-via-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .md\:focus\:via-red-100:focus {
     --gradient-via-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -50787,6 +51021,10 @@ video {
 
   .md\:focus\:to-gray-MacWindowBG:focus {
     --gradient-to-color: #ECECEC;
+  }
+
+  .md\:focus\:to-gray-LinuxTaskbar:focus {
+    --gradient-to-color: rgba(0,0,0, .75);
   }
 
   .md\:focus\:to-red-100:focus {
@@ -51439,6 +51677,10 @@ video {
     --border-opacity: 1;
     border-color: #ECECEC;
     border-color: rgba(236, 236, 236, var(--border-opacity));
+  }
+
+  .md\:border-gray-LinuxTaskbar {
+    border-color: rgba(0,0,0, .75);
   }
 
   .md\:border-red-100 {
@@ -52149,6 +52391,10 @@ video {
     border-color: rgba(236, 236, 236, var(--border-opacity));
   }
 
+  .md\:hover\:border-gray-LinuxTaskbar:hover {
+    border-color: rgba(0,0,0, .75);
+  }
+
   .md\:hover\:border-red-100:hover {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -52855,6 +53101,10 @@ video {
     --border-opacity: 1;
     border-color: #ECECEC;
     border-color: rgba(236, 236, 236, var(--border-opacity));
+  }
+
+  .md\:focus\:border-gray-LinuxTaskbar:focus {
+    border-color: rgba(0,0,0, .75);
   }
 
   .md\:focus\:border-red-100:focus {
@@ -56789,6 +57039,10 @@ video {
     color: rgba(236, 236, 236, var(--placeholder-opacity));
   }
 
+  .md\:placeholder-gray-LinuxTaskbar::placeholder {
+    color: rgba(0,0,0, .75);
+  }
+
   .md\:placeholder-red-100::placeholder {
     --placeholder-opacity: 1;
     color: #fff5f5;
@@ -57495,6 +57749,10 @@ video {
     --placeholder-opacity: 1;
     color: #ECECEC;
     color: rgba(236, 236, 236, var(--placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-gray-LinuxTaskbar:focus::placeholder {
+    color: rgba(0,0,0, .75);
   }
 
   .md\:focus\:placeholder-red-100:focus::placeholder {
@@ -58519,6 +58777,10 @@ video {
     color: rgba(236, 236, 236, var(--text-opacity));
   }
 
+  .md\:text-gray-LinuxTaskbar {
+    color: rgba(0,0,0, .75);
+  }
+
   .md\:text-red-100 {
     --text-opacity: 1;
     color: #fff5f5;
@@ -59227,6 +59489,10 @@ video {
     color: rgba(236, 236, 236, var(--text-opacity));
   }
 
+  .md\:hover\:text-gray-LinuxTaskbar:hover {
+    color: rgba(0,0,0, .75);
+  }
+
   .md\:hover\:text-red-100:hover {
     --text-opacity: 1;
     color: #fff5f5;
@@ -59933,6 +60199,10 @@ video {
     --text-opacity: 1;
     color: #ECECEC;
     color: rgba(236, 236, 236, var(--text-opacity));
+  }
+
+  .md\:focus\:text-gray-LinuxTaskbar:focus {
+    color: rgba(0,0,0, .75);
   }
 
   .md\:focus\:text-red-100:focus {
@@ -64335,6 +64605,10 @@ video {
     border-color: rgba(236, 236, 236, var(--divide-opacity));
   }
 
+  .lg\:divide-gray-LinuxTaskbar > :not(template) ~ :not(template) {
+    border-color: rgba(0,0,0, .75);
+  }
+
   .lg\:divide-red-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #fff5f5;
@@ -65163,6 +65437,10 @@ video {
     background-color: rgba(236, 236, 236, var(--bg-opacity));
   }
 
+  .lg\:bg-gray-LinuxTaskbar {
+    background-color: rgba(0,0,0, .75);
+  }
+
   .lg\:bg-red-100 {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -65871,6 +66149,10 @@ video {
     background-color: rgba(236, 236, 236, var(--bg-opacity));
   }
 
+  .lg\:hover\:bg-gray-LinuxTaskbar:hover {
+    background-color: rgba(0,0,0, .75);
+  }
+
   .lg\:hover\:bg-red-100:hover {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -66577,6 +66859,10 @@ video {
     --bg-opacity: 1;
     background-color: #ECECEC;
     background-color: rgba(236, 236, 236, var(--bg-opacity));
+  }
+
+  .lg\:focus\:bg-gray-LinuxTaskbar:focus {
+    background-color: rgba(0,0,0, .75);
   }
 
   .lg\:focus\:bg-red-100:focus {
@@ -67308,6 +67594,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .lg\:from-gray-LinuxTaskbar {
+    --gradient-from-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .lg\:from-red-100 {
     --gradient-from-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -67903,6 +68194,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .lg\:via-gray-LinuxTaskbar {
+    --gradient-via-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .lg\:via-red-100 {
     --gradient-via-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -68477,6 +68773,10 @@ video {
     --gradient-to-color: #ECECEC;
   }
 
+  .lg\:to-gray-LinuxTaskbar {
+    --gradient-to-color: rgba(0,0,0, .75);
+  }
+
   .lg\:to-red-100 {
     --gradient-to-color: #fff5f5;
   }
@@ -68972,6 +69272,11 @@ video {
   .lg\:hover\:from-gray-MacWindowBG:hover {
     --gradient-from-color: #ECECEC;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
+  }
+
+  .lg\:hover\:from-gray-LinuxTaskbar:hover {
+    --gradient-from-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
   }
 
   .lg\:hover\:from-red-100:hover {
@@ -69569,6 +69874,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .lg\:hover\:via-gray-LinuxTaskbar:hover {
+    --gradient-via-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .lg\:hover\:via-red-100:hover {
     --gradient-via-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -70143,6 +70453,10 @@ video {
     --gradient-to-color: #ECECEC;
   }
 
+  .lg\:hover\:to-gray-LinuxTaskbar:hover {
+    --gradient-to-color: rgba(0,0,0, .75);
+  }
+
   .lg\:hover\:to-red-100:hover {
     --gradient-to-color: #fff5f5;
   }
@@ -70638,6 +70952,11 @@ video {
   .lg\:focus\:from-gray-MacWindowBG:focus {
     --gradient-from-color: #ECECEC;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
+  }
+
+  .lg\:focus\:from-gray-LinuxTaskbar:focus {
+    --gradient-from-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
   }
 
   .lg\:focus\:from-red-100:focus {
@@ -71235,6 +71554,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .lg\:focus\:via-gray-LinuxTaskbar:focus {
+    --gradient-via-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .lg\:focus\:via-red-100:focus {
     --gradient-via-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -71807,6 +72131,10 @@ video {
 
   .lg\:focus\:to-gray-MacWindowBG:focus {
     --gradient-to-color: #ECECEC;
+  }
+
+  .lg\:focus\:to-gray-LinuxTaskbar:focus {
+    --gradient-to-color: rgba(0,0,0, .75);
   }
 
   .lg\:focus\:to-red-100:focus {
@@ -72459,6 +72787,10 @@ video {
     --border-opacity: 1;
     border-color: #ECECEC;
     border-color: rgba(236, 236, 236, var(--border-opacity));
+  }
+
+  .lg\:border-gray-LinuxTaskbar {
+    border-color: rgba(0,0,0, .75);
   }
 
   .lg\:border-red-100 {
@@ -73169,6 +73501,10 @@ video {
     border-color: rgba(236, 236, 236, var(--border-opacity));
   }
 
+  .lg\:hover\:border-gray-LinuxTaskbar:hover {
+    border-color: rgba(0,0,0, .75);
+  }
+
   .lg\:hover\:border-red-100:hover {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -73875,6 +74211,10 @@ video {
     --border-opacity: 1;
     border-color: #ECECEC;
     border-color: rgba(236, 236, 236, var(--border-opacity));
+  }
+
+  .lg\:focus\:border-gray-LinuxTaskbar:focus {
+    border-color: rgba(0,0,0, .75);
   }
 
   .lg\:focus\:border-red-100:focus {
@@ -77809,6 +78149,10 @@ video {
     color: rgba(236, 236, 236, var(--placeholder-opacity));
   }
 
+  .lg\:placeholder-gray-LinuxTaskbar::placeholder {
+    color: rgba(0,0,0, .75);
+  }
+
   .lg\:placeholder-red-100::placeholder {
     --placeholder-opacity: 1;
     color: #fff5f5;
@@ -78515,6 +78859,10 @@ video {
     --placeholder-opacity: 1;
     color: #ECECEC;
     color: rgba(236, 236, 236, var(--placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-gray-LinuxTaskbar:focus::placeholder {
+    color: rgba(0,0,0, .75);
   }
 
   .lg\:focus\:placeholder-red-100:focus::placeholder {
@@ -79539,6 +79887,10 @@ video {
     color: rgba(236, 236, 236, var(--text-opacity));
   }
 
+  .lg\:text-gray-LinuxTaskbar {
+    color: rgba(0,0,0, .75);
+  }
+
   .lg\:text-red-100 {
     --text-opacity: 1;
     color: #fff5f5;
@@ -80247,6 +80599,10 @@ video {
     color: rgba(236, 236, 236, var(--text-opacity));
   }
 
+  .lg\:hover\:text-gray-LinuxTaskbar:hover {
+    color: rgba(0,0,0, .75);
+  }
+
   .lg\:hover\:text-red-100:hover {
     --text-opacity: 1;
     color: #fff5f5;
@@ -80953,6 +81309,10 @@ video {
     --text-opacity: 1;
     color: #ECECEC;
     color: rgba(236, 236, 236, var(--text-opacity));
+  }
+
+  .lg\:focus\:text-gray-LinuxTaskbar:focus {
+    color: rgba(0,0,0, .75);
   }
 
   .lg\:focus\:text-red-100:focus {
@@ -85355,6 +85715,10 @@ video {
     border-color: rgba(236, 236, 236, var(--divide-opacity));
   }
 
+  .xl\:divide-gray-LinuxTaskbar > :not(template) ~ :not(template) {
+    border-color: rgba(0,0,0, .75);
+  }
+
   .xl\:divide-red-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #fff5f5;
@@ -86183,6 +86547,10 @@ video {
     background-color: rgba(236, 236, 236, var(--bg-opacity));
   }
 
+  .xl\:bg-gray-LinuxTaskbar {
+    background-color: rgba(0,0,0, .75);
+  }
+
   .xl\:bg-red-100 {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -86891,6 +87259,10 @@ video {
     background-color: rgba(236, 236, 236, var(--bg-opacity));
   }
 
+  .xl\:hover\:bg-gray-LinuxTaskbar:hover {
+    background-color: rgba(0,0,0, .75);
+  }
+
   .xl\:hover\:bg-red-100:hover {
     --bg-opacity: 1;
     background-color: #fff5f5;
@@ -87597,6 +87969,10 @@ video {
     --bg-opacity: 1;
     background-color: #ECECEC;
     background-color: rgba(236, 236, 236, var(--bg-opacity));
+  }
+
+  .xl\:focus\:bg-gray-LinuxTaskbar:focus {
+    background-color: rgba(0,0,0, .75);
   }
 
   .xl\:focus\:bg-red-100:focus {
@@ -88328,6 +88704,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .xl\:from-gray-LinuxTaskbar {
+    --gradient-from-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .xl\:from-red-100 {
     --gradient-from-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -88923,6 +89304,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .xl\:via-gray-LinuxTaskbar {
+    --gradient-via-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .xl\:via-red-100 {
     --gradient-via-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -89497,6 +89883,10 @@ video {
     --gradient-to-color: #ECECEC;
   }
 
+  .xl\:to-gray-LinuxTaskbar {
+    --gradient-to-color: rgba(0,0,0, .75);
+  }
+
   .xl\:to-red-100 {
     --gradient-to-color: #fff5f5;
   }
@@ -89992,6 +90382,11 @@ video {
   .xl\:hover\:from-gray-MacWindowBG:hover {
     --gradient-from-color: #ECECEC;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
+  }
+
+  .xl\:hover\:from-gray-LinuxTaskbar:hover {
+    --gradient-from-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
   }
 
   .xl\:hover\:from-red-100:hover {
@@ -90589,6 +90984,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .xl\:hover\:via-gray-LinuxTaskbar:hover {
+    --gradient-via-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .xl\:hover\:via-red-100:hover {
     --gradient-via-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -91163,6 +91563,10 @@ video {
     --gradient-to-color: #ECECEC;
   }
 
+  .xl\:hover\:to-gray-LinuxTaskbar:hover {
+    --gradient-to-color: rgba(0,0,0, .75);
+  }
+
   .xl\:hover\:to-red-100:hover {
     --gradient-to-color: #fff5f5;
   }
@@ -91658,6 +92062,11 @@ video {
   .xl\:focus\:from-gray-MacWindowBG:focus {
     --gradient-from-color: #ECECEC;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
+  }
+
+  .xl\:focus\:from-gray-LinuxTaskbar:focus {
+    --gradient-from-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
   }
 
   .xl\:focus\:from-red-100:focus {
@@ -92255,6 +92664,11 @@ video {
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(236, 236, 236, 0));
   }
 
+  .xl\:focus\:via-gray-LinuxTaskbar:focus {
+    --gradient-via-color: rgba(0,0,0, .75);
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
+  }
+
   .xl\:focus\:via-red-100:focus {
     --gradient-via-color: #fff5f5;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(255, 245, 245, 0));
@@ -92827,6 +93241,10 @@ video {
 
   .xl\:focus\:to-gray-MacWindowBG:focus {
     --gradient-to-color: #ECECEC;
+  }
+
+  .xl\:focus\:to-gray-LinuxTaskbar:focus {
+    --gradient-to-color: rgba(0,0,0, .75);
   }
 
   .xl\:focus\:to-red-100:focus {
@@ -93479,6 +93897,10 @@ video {
     --border-opacity: 1;
     border-color: #ECECEC;
     border-color: rgba(236, 236, 236, var(--border-opacity));
+  }
+
+  .xl\:border-gray-LinuxTaskbar {
+    border-color: rgba(0,0,0, .75);
   }
 
   .xl\:border-red-100 {
@@ -94189,6 +94611,10 @@ video {
     border-color: rgba(236, 236, 236, var(--border-opacity));
   }
 
+  .xl\:hover\:border-gray-LinuxTaskbar:hover {
+    border-color: rgba(0,0,0, .75);
+  }
+
   .xl\:hover\:border-red-100:hover {
     --border-opacity: 1;
     border-color: #fff5f5;
@@ -94895,6 +95321,10 @@ video {
     --border-opacity: 1;
     border-color: #ECECEC;
     border-color: rgba(236, 236, 236, var(--border-opacity));
+  }
+
+  .xl\:focus\:border-gray-LinuxTaskbar:focus {
+    border-color: rgba(0,0,0, .75);
   }
 
   .xl\:focus\:border-red-100:focus {
@@ -98829,6 +99259,10 @@ video {
     color: rgba(236, 236, 236, var(--placeholder-opacity));
   }
 
+  .xl\:placeholder-gray-LinuxTaskbar::placeholder {
+    color: rgba(0,0,0, .75);
+  }
+
   .xl\:placeholder-red-100::placeholder {
     --placeholder-opacity: 1;
     color: #fff5f5;
@@ -99535,6 +99969,10 @@ video {
     --placeholder-opacity: 1;
     color: #ECECEC;
     color: rgba(236, 236, 236, var(--placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-gray-LinuxTaskbar:focus::placeholder {
+    color: rgba(0,0,0, .75);
   }
 
   .xl\:focus\:placeholder-red-100:focus::placeholder {
@@ -100559,6 +100997,10 @@ video {
     color: rgba(236, 236, 236, var(--text-opacity));
   }
 
+  .xl\:text-gray-LinuxTaskbar {
+    color: rgba(0,0,0, .75);
+  }
+
   .xl\:text-red-100 {
     --text-opacity: 1;
     color: #fff5f5;
@@ -101267,6 +101709,10 @@ video {
     color: rgba(236, 236, 236, var(--text-opacity));
   }
 
+  .xl\:hover\:text-gray-LinuxTaskbar:hover {
+    color: rgba(0,0,0, .75);
+  }
+
   .xl\:hover\:text-red-100:hover {
     --text-opacity: 1;
     color: #fff5f5;
@@ -101973,6 +102419,10 @@ video {
     --text-opacity: 1;
     color: #ECECEC;
     color: rgba(236, 236, 236, var(--text-opacity));
+  }
+
+  .xl\:focus\:text-gray-LinuxTaskbar:focus {
+    color: rgba(0,0,0, .75);
   }
 
   .xl\:focus\:text-red-100:focus {

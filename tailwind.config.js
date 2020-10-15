@@ -15,7 +15,8 @@ module.exports = {
 					Windows7Highlight: '#D7E8F8',
 					MacTaskbar: 'rgba(113,128,150, .85)',
 					MacWindow: '#D7D7D7',
-					MacWindowBG: '#ECECEC'
+					MacWindowBG: '#ECECEC',
+					LinuxTaskbar: 'rgba(0,0,0, .75)'
 				},
 				blue: {
 					...colors.blue,
@@ -41,7 +42,7 @@ module.exports = {
 					700: '#074C98',
 					800: '#053972',
 					900: '#04264C'
-				},
+				}
 			}
 		}
 	},

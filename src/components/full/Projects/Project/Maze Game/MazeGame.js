@@ -23,7 +23,7 @@ function MazeGame() {
 					</button>
 				</div>
 
-				<iframe className="w-full h-full" src="http://kmdiogo.people.ysu.edu/Waru/" title="Maze Game" />
+				<iframe className="w-full h-full" src="http://nwpetho.people.ysu.edu/Maze_Game/" title="Maze Game" />
 			</div>
 		) : (
 			<div className="px-6 pb-6 h-full flex flex-col space-y-5 overflow-auto">

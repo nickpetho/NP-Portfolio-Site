@@ -20,7 +20,7 @@ function Education() {
 		<div className="h-screen education-page flex flex-col">
 			<div className="flex-grow relative">
 				<div className="px-6">
-					<div className="text-6xl underline">Education</div>
+					<h1 className="text-6xl underline">Education</h1>
 					<div className="text-3xl">Youngstown State University (YSU), Youngstown, Ohio</div>
 					<div className="text-2xl">Bachelor of Science in Computer Science, with a minor in Mathematics (2016-2020)</div>
 					<div className="text-xl">- Member of the Honors College</div>

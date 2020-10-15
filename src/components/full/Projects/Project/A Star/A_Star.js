@@ -15,7 +15,7 @@ function A_Star() {
 					unique, dynamic cost changes that adapted to several parameters each time the program was run. This
 					was my final project for my AI in Game Development class.
 				</div>
-				<div class="flex justify-center">
+				<div className="flex justify-center">
 					<img
 						className="w-2/4 h-2/4 border-2 border-black"
 						src={require('../../../../../assets/Projects/A-Star Map.png')}
@@ -24,7 +24,10 @@ function A_Star() {
 				</div>
 				<div className="flex justify-center">
 					<div className="pr-5">
-						<button className="bg-gradient-to-r text-lg focus:outline-none focus:shadow-outline px-5 py-1 rounded-md bg-gradient-to-b from-macbutton-400 to-macbutton-500 text-white">
+						<button
+							className="bg-gradient-to-r text-lg focus:outline-none focus:shadow-outline px-5 py-1 rounded-md bg-gradient-to-b from-macbutton-400 to-macbutton-500 text-white"
+							data-tip="Coming Soon!"
+						>
 							Run
 						</button>
 					</div>

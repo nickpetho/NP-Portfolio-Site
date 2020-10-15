@@ -23,7 +23,7 @@ function Experience() {
 		<div className="h-screen experience-page flex flex-col">
 			<div className="flex-grow relative">
 				<div className="px-6">
-					<div className="underline text-6xl">Work Experience</div>
+					<h1 className="underline text-6xl">Work Experience</h1>
 					<div className="text-3xl font-semibold">AIB Technician</div>
 					<div className="text-2xl italic">TecnoCap LLC (2016-2020)</div>
 					<div className="text-xl">
