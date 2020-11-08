@@ -1,5 +1,4 @@
 import React from 'react';
-import './Education.css';
 import Taskbar from '../Shared/Taskbar/Taskbar';
 
 function Education() {

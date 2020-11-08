@@ -1,5 +1,4 @@
 import React from 'react';
-import './Projects.css';
 import Taskbar from '../Shared/Taskbar/Taskbar';
 
 function Projects() {

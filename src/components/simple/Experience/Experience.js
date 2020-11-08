@@ -1,5 +1,4 @@
 import React from 'react';
-import './Experience.css';
 import Taskbar from '../Shared/Taskbar/Taskbar';
 
 function Experience() {

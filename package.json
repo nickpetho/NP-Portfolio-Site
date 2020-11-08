@@ -17,6 +17,7 @@
     "react-rnd": "^10.2.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
+    "react-scroll": "^1.8.1",
     "react-tooltip": "^8.10.8",
     "tailwindcss": "^1.8.10"
   },

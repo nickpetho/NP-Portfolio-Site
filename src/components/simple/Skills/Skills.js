@@ -1,5 +1,4 @@
 import React from 'react';
-import './Skills.css'
 import Taskbar from '../Shared/Taskbar/Taskbar';
 
 function Skills() {

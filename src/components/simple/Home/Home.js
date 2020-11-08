@@ -1,14 +1,18 @@
 import React from 'react';
-import './Home.css';
+import Section from '../Shared/Section/Section';
 import Taskbar from '../Shared/Taskbar/Taskbar';
 
 function SimpleHome() {
 	return (
-		<div className="h-screen simple-home-page flex flex-col">
+		<div className="h-screen flex">
 			<Taskbar />
-			<div className="flex flex-col items-center m-auto">
-				<h1 className="text-white text-6xl">Nick Petho</h1>
-				<div className="text-white text-3xl">Web/Software Developer</div>
+			<div className="overflow-auto w-full">
+				<Section className="bg-transparent" title="Nick Petho" subtitle="Web/Software Developer" id="Home" />
+				<Section title="Projects" id="Projects" />
+				<Section title="Skills" id="Skills" />
+				<Section title="Experience" id="Experience" />
+				<Section title="Education" id="Education" />
+				<Section title="About Me" subtitle="Web/Software Developer" id="About" />
 			</div>
 		</div>
 	);
