@@ -11,6 +11,7 @@ const Logo = ({ className }) => (
 	<div className={[ 'flex flex-col items-center', className ].join(' ')}>
 		<img className="w-32 h-16 mt-6 mb-4" src={require('../../../../assets/Logo/NPCWx192.png')} alt="" />
 		<div className="font-bold text-2xl">Nick Petho</div>
+		<div className="font-bold text-2xl">Coding</div>
 	</div>
 );
 
