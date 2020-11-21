@@ -1,16 +1,115 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Section from '../Shared/Section/Section';
 import Taskbar from '../Shared/Taskbar/Taskbar';
+import ProjectCard from '../Projects/ProjectCard/ProjectCard';
+import WaruContents from '../../full/Projects/Project/Waru/WaruContents';
+import MazeContents from '../../full/Projects/Project/Maze Game/MazeContents';
+import TACContents from '../../full/Projects/Project/TAC/TACContents';
+import AStarContents from '../../full/Projects/Project/A Star/AStarContents';
+import PySnakeContents from '../../full/Projects/Project/PySnake/PySnakeContents';
+
+const projectContents = {
+	waru: <WaruContents />,
+	maze: <MazeContents />,
+	tac: <TACContents />,
+	aStar: <AStarContents />,
+	pysnake: <PySnakeContents />
+};
 
 function SimpleHome() {
+	const [ project, setProject ] = useState(null);
+
+	function WaruClickHandler() {
+		setProject('waru');
+	}
+
+	function MazeClickHandler() {
+		setProject('maze');
+	}
+
+	function TacClickHandler() {
+		setProject('tac');
+	}
+
+	function A_StarClickHandler() {
+		setProject('aStar');
+	}
+
+	function PySnakeClickHandler() {
+		setProject('pysnake');
+	}
+
 	return (
 		<div className="h-screen flex">
 			<Taskbar />
 			<div className="overflow-auto w-full">
-				<Section className="bg-transparent" title="Nick Petho" content="Web/Software Developer" id="Home" />
-				<Section className="bg-red-700" title="Projects" id="Projects" />
 				<Section
-					className="bg-transparent"
+					className="bg-gray-200 pt-64" /* Center align text instead of padding */
+					title="Nick Petho"
+					id="Home"
+					content={
+						<div>
+							<div className="text-4xl text-center">Web/Software Developer</div>
+							<div className="text-center pt-5 italic">Specializing in Frontend Development</div>
+						</div>
+					}
+				/>
+				<Section
+					className="bg-red-700"
+					title="Projects"
+					id="Projects"
+					content={
+						<div>
+							{project ? (
+								<div>
+									<button
+										onClick={() => {
+											setProject(null);
+										}}
+									>
+										Back
+									</button>
+									{projectContents[project]}
+								</div>
+							) : (
+								<div className="grid grid-cols-3 gap-12">
+									<ProjectCard
+										title="Waru"
+										src={require('../../../assets/SimpleProjects/Waru.png')}
+										description="2D platformer made in Unity"
+										onClick={WaruClickHandler}
+									/>
+									<ProjectCard
+										title="Maze Game"
+										src={require('../../../assets/SimpleProjects/MazeGame.png')}
+										description="3D maze/treasure collection game made in Unity"
+										onClick={MazeClickHandler}
+									/>
+									<ProjectCard
+										title="TAC"
+										src={require('../../../assets/SimpleProjects/TAC_Home.jpg')}
+										description="All-in-one tutor tracking software solution"
+										onClick={TacClickHandler}
+									/>
+									<ProjectCard
+										title="A* Heuristic"
+										src={require('../../../assets/SimpleProjects/A-Star Map.png')}
+										description="An A* path finding heuristic on a 16x16 tile map"
+										onClick={A_StarClickHandler}
+									/>
+									<ProjectCard
+										title="PySnake"
+										src={require('../../../assets/SimpleProjects/PySnake.png')}
+										description="A version of the classic Snake game made with pygame"
+										onClick={PySnakeClickHandler}
+									/>
+								</div>
+							)}
+						</div>
+					}
+				/>
+				<Section
+					className="bg-gray-200"
 					title="Skills"
 					id="Skills"
 					content={
@@ -80,7 +179,7 @@ function SimpleHome() {
 					}
 				/>
 				<Section
-					className="bg-transparent"
+					className="bg-gray-200"
 					title="Education"
 					id="Education"
 					content={
