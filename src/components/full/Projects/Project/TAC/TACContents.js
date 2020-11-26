@@ -1,4 +1,5 @@
 import React from 'react';
+import MacButton from '../../MacButton/MacButton';
 
 function TACContents() {
 	return (
@@ -29,11 +30,7 @@ function TACContents() {
 				</div>
 			</div>
 			<div className="flex justify-center">
-				<button className="bg-gradient-to-r text-lg focus:outline-none focus:shadow-outline px-4 py-1 rounded-md bg-gradient-to-b from-macbutton-400 to-macbutton-500 text-white">
-					<a href="https://github.com/kmdiogo/TAC" target="_blank" rel="noopener noreferrer">
-						Code
-					</a>
-				</button>
+				<MacButton title="Code" link="https://github.com/kmdiogo/TAC" />
 			</div>
 		</div>
 	);

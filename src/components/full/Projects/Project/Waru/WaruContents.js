@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import MacButton from '../../MacButton/MacButton';
 
 function WaruContents({ ...props }) {
 	const [ playGame, setPlayGame ] = useState(false);
@@ -13,14 +14,8 @@ function WaruContents({ ...props }) {
 	return playGame ? (
 		<div className="w-full h-full" {...props}>
 			<div className="flex justify-center">
-				<button
-					className="bg-gradient-to-r text-lg focus:outline-none focus:shadow-outline px-5 py-1 rounded-md bg-gradient-to-b from-macbutton-400 to-macbutton-500 text-white"
-					onClick={handleBack}
-				>
-					Back
-				</button>
+				<MacButton title="Back" onClick={handleBack} />
 			</div>
-
 			<iframe className="w-full h-full" src="http://kmdiogo.people.ysu.edu/Waru/" title="Waru" />
 		</div>
 	) : (
@@ -40,12 +35,7 @@ function WaruContents({ ...props }) {
 				<img className="w-2/4 h-2/4" src={require('../../../../../assets/Projects/Waru.png')} alt="" />
 			</div>
 			<div className="flex justify-center">
-				<button
-					className="bg-gradient-to-r text-lg focus:outline-none focus:shadow-outline px-5 py-1 rounded-md bg-gradient-to-b from-macbutton-400 to-macbutton-500 text-white"
-					onClick={handlePlay}
-				>
-					Play
-				</button>
+				<MacButton title="Play" className="px-5" onClick={handlePlay} />
 			</div>
 		</div>
 	);

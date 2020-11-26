@@ -1,4 +1,5 @@
 import React from 'react';
+import MacButton from '../../MacButton/MacButton';
 
 function PySnakeContents() {
 	return (
@@ -27,11 +28,7 @@ function PySnakeContents() {
 				</div>
 			</div>
 			<div className="flex justify-center">
-				<button className="bg-gradient-to-r text-lg focus:outline-none focus:shadow-outline px-4 py-1 rounded-md bg-gradient-to-b from-macbutton-400 to-macbutton-500 text-white">
-					<a href="https://github.com/nickpetho/PySnake" target="_blank" rel="noopener noreferrer">
-						Code
-					</a>
-				</button>
+				<MacButton title="Code" link="https://github.com/nickpetho/PySnake" />
 			</div>
 		</div>
 	);

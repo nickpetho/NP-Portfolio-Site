@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactTooltip from 'react-tooltip';
+import MacButton from '../../MacButton/MacButton';
 
 function AStarContents() {
 	return (
@@ -22,25 +24,13 @@ function AStarContents() {
 			</div>
 			<div className="flex justify-center">
 				<div className="pr-5">
-					<button
-						className="bg-gradient-to-r text-lg focus:outline-none focus:shadow-outline px-5 py-1 rounded-md bg-gradient-to-b from-macbutton-400 to-macbutton-500 text-white"
-						data-tip="Coming Soon!"
-					>
-						Run
-					</button>
+					<MacButton title="Run" className="px-5" data-tip="Coming Soon!" />
 				</div>
 				<div className="pl-5">
-					<button className="bg-gradient-to-r text-lg focus:outline-none focus:shadow-outline px-4 py-1 rounded-md bg-gradient-to-b from-macbutton-400 to-macbutton-500 text-white">
-						<a
-							href="https://github.com/nickpetho/A_Star_Path_Finding"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							Code
-						</a>
-					</button>
+					<MacButton title="Code" link="https://github.com/nickpetho/A_Star_Path_Finding" />
 				</div>
 			</div>
+			<ReactTooltip />
 		</div>
 	);
 }

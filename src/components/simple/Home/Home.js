@@ -7,6 +7,7 @@ import MazeContents from '../../full/Projects/Project/Maze Game/MazeContents';
 import TACContents from '../../full/Projects/Project/TAC/TACContents';
 import AStarContents from '../../full/Projects/Project/A Star/AStarContents';
 import PySnakeContents from '../../full/Projects/Project/PySnake/PySnakeContents';
+import SimpleButton from '../Projects/SimpleButton/SimpleButton';
 
 const projectContents = {
 	waru: <WaruContents />,
@@ -62,13 +63,13 @@ function SimpleHome() {
 						<div>
 							{project ? (
 								<div>
-									<button
+									<SimpleButton
+										title="Back"
+										className=""
 										onClick={() => {
 											setProject(null);
 										}}
-									>
-										Back
-									</button>
+									/>
 									{projectContents[project]}
 								</div>
 							) : (

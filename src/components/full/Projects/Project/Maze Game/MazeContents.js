@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import MacButton from '../../MacButton/MacButton';
 
 function MazeContents({ ...props }) {
 	const [ playGame, setPlayGame ] = useState(false);
@@ -13,12 +14,7 @@ function MazeContents({ ...props }) {
 	return playGame ? (
 		<div className="w-full h-full p-3" {...props}>
 			<div className="flex justify-center">
-				<button
-					className="bg-gradient-to-r text-lg focus:outline-none focus:shadow-outline px-5 py-1 rounded-md bg-gradient-to-b from-macbutton-400 to-macbutton-500 text-white"
-					onClick={handleBack}
-				>
-					Back
-				</button>
+				<MacButton title="Back" className="px-5" onClick={handleBack} />
 			</div>
 
 			<iframe className="w-full h-full" src="http://nwpetho.people.ysu.edu/Maze_Game/" title="Maze Game" />
@@ -43,19 +39,10 @@ function MazeContents({ ...props }) {
 				</div>
 			</div>
 			<div className="flex justify-center">
-				<button
-					className="bg-gradient-to-r text-lg focus:outline-none focus:shadow-outline px-5 py-1 rounded-md bg-gradient-to-b from-macbutton-400 to-macbutton-500 text-white"
-					onClick={handlePlay}
-				>
-					Play
-				</button>
+				<MacButton title="Play" className="px-5" onClick={handlePlay} />
 			</div>
 			<div className="flex justify-center">
-				<button className="bg-gradient-to-r text-lg focus:outline-none focus:shadow-outline px-4 py-1 rounded-md bg-gradient-to-b from-macbutton-400 to-macbutton-500 text-white">
-					<a href="https://github.com/nickpetho/Maze-Game" target="_blank" rel="noopener noreferrer">
-						Code
-					</a>
-				</button>
+				<MacButton title="Code" link="https://github.com/nickpetho/Maze-Game" />
 			</div>
 		</div>
 	);
