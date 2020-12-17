@@ -19,7 +19,7 @@ function Home() {
 		setIsStartMenuOpen(false);
 	}
 
-	const folderIcon = require('../../../assets/Icons/folder-icon.png');
+	const folderIcon = require('../../../assets/Icons/windows10Folder.png');
 	const documentIcon = require('../../../assets/Icons/document-icon.png');
 
 	return (
@@ -42,7 +42,7 @@ function Home() {
 						<FolderIcon className={'mb-5'} label={'About Me'} imgSrc={folderIcon} />
 					</Link>
 					<Link to="home/resume">
-						<DocumentIcon className={'px-3'} label={'Resume'} imgSrc={documentIcon} />
+						<DocumentIcon className={'px-2'} label={'Resume'} imgSrc={documentIcon} />
 					</Link>
 				</div>
 				<OutsideClickHandler onOutsideClick={disableStartMenu}>

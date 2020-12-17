@@ -8,6 +8,8 @@ import TACContents from '../../full/Projects/Project/TAC/TACContents';
 import AStarContents from '../../full/Projects/Project/A Star/AStarContents';
 import PySnakeContents from '../../full/Projects/Project/PySnake/PySnakeContents';
 import SimpleButton from '../Projects/SimpleButton/SimpleButton';
+import LinkedInLogo from '../../../assets/Icons/linkedin-logo.png';
+import GitHubLogo from '../../../assets/Icons/github-logo.png';
 
 const projectContents = {
 	waru: <WaruContents />,
@@ -16,6 +18,8 @@ const projectContents = {
 	aStar: <AStarContents />,
 	pysnake: <PySnakeContents />
 };
+
+const LinkIcon = ({ children }) => <div className="h-16 w-18 mx-2 flex items-center">{children}</div>;
 
 function SimpleHome() {
 	const [ project, setProject ] = useState(null);
@@ -52,6 +56,22 @@ function SimpleHome() {
 						<div>
 							<div className="text-4xl text-center">Web/Software Developer</div>
 							<div className="text-center pt-5 italic">Specializing in Frontend Development</div>
+							<div className="flex justify-center pt-6">
+								<LinkIcon>
+									<a
+										href="https://www.linkedin.com/in/nick-petho-708b1261/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img className="h-16 w-18 p-2" src={LinkedInLogo} alt="" />
+									</a>
+								</LinkIcon>
+								<LinkIcon>
+									<a href="https://github.com/nickpetho" target="_blank" rel="noopener noreferrer">
+										<img className="h-16 w-16" src={GitHubLogo} alt="" />
+									</a>
+								</LinkIcon>
+							</div>
 						</div>
 					}
 				/>
@@ -185,12 +205,14 @@ function SimpleHome() {
 					id="Education"
 					content={
 						<div>
-							<div className="text-4xl italic">Youngstown State University (YSU), Youngstown, Ohio</div>
-							<div className="text-3xl">
+							<div className="text-4xl font-semibold">
+								Youngstown State University (YSU), Youngstown, Ohio
+							</div>
+							<div className="text-3xl italic">
 								Bachelor of Science in Computer Science, with a minor in Mathematics (2016-2020)
 							</div>
 							<div className="text-2xl">- Member of the Honors College</div>
-							<div className="text-2xl">- Achieved Dean's List (Spring 2017, Spring 2019)</div>
+							<div className="text-2xl">- Achieved Dean's List (Spring 2017, Spring 2019, Fall 2020)</div>
 						</div>
 					}
 				/>
@@ -205,8 +227,8 @@ function SimpleHome() {
 								A web developer with a passion for frontend design and development.
 							</div>
 							<div className="text-3xl py-3">
-								I am currently finishing my Bachelors degree in Computer Science with a minor in
-								Mathematics at Youngstown State University.
+								I have a Bachelors degree in Computer Science with a minor in Mathematics from
+								Youngstown State University.
 							</div>
 							<div className="text-3xl">
 								I've always been interested in software development but once I started learning about
@@ -216,9 +238,10 @@ function SimpleHome() {
 							</div>
 							<div className="text-3xl pt-2">Some other interesting things about me:</div>
 							<ul className="text-2xl">
-								<li>- Member of the YSU Association for Computing Machinery (ACM)</li>
+								<li>- Previous member of the YSU Association for Computing Machinery (ACM)</li>
 								<li>- Musician in various bands since highschool</li>
 								<li>- Studying the Hungarian language (a magyar nyelv)</li>
+								<li>- Huge soccer fan, my favorite team is Tottenham Hotspur #COYS</li>
 							</ul>
 						</div>
 					}

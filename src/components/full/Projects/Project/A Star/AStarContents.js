@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactTooltip from 'react-tooltip';
 import MacButton from '../../MacButton/MacButton';
+import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
 
 function AStarContents() {
 	return (

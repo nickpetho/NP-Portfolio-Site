@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import MacButton from '../../MacButton/MacButton';
+import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
 
 function MazeContents({ ...props }) {
 	const [ playGame, setPlayGame ] = useState(false);

@@ -1,5 +1,6 @@
 import React from 'react';
 import MacButton from '../../MacButton/MacButton';
+import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
 
 function PySnakeContents() {
 	return (

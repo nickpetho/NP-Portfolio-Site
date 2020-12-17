@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import MacButton from '../../MacButton/MacButton';
+import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
 
-function WaruContents({ ...props }) {
+function WaruContents({ buttonType, ...props }) {
 	const [ playGame, setPlayGame ] = useState(false);
 	function handlePlay() {
 		setPlayGame(true);

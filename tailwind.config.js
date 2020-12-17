@@ -1,4 +1,5 @@
 const { colors } = require('tailwindcss/defaultTheme');
+const { fontFamily } = require('tailwindcss/defaultTheme');
 
 module.exports = {
 	purge: [],
@@ -44,7 +45,26 @@ module.exports = {
 					900: '#04264C'
 				}
 			}
-		}
+		} /*,
+		fontFamily: {
+			sans: [
+				'SourceCodePro',
+				'ui-sans-serif',
+				'system-ui',
+				'-apple-system',
+				'BlinkMacSystemFont',
+				'"Segoe UI"',
+				'Roboto',
+				'"Helvetica Neue"',
+				'Arial',
+				'"Noto Sans"',
+				'sans - serif',
+				'"Apple Color Emoji"',
+				'"Segoe UI Emoji"',
+				'"Segoe UI Symbol"',
+				'"Noto Color Emoji"'
+			]
+		}*/
 	},
 	variants: {},
 	plugins: []

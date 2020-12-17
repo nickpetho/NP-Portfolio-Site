@@ -1,6 +1,6 @@
 import React from 'react';
 import Windows10Logo from '../../../../assets/Icons/windows10logo.png';
-import LinkenInLogo from '../../../../assets/Icons/linkedin-logo.png';
+import LinkedInLogo from '../../../../assets/Icons/linkedin-logo.png';
 import GitHubLogo from '../../../../assets/Icons/github-logo.png';
 
 const TaskIcon = ({ children, ...props }) => (
@@ -21,7 +21,7 @@ function Taskbar({ onLogoClick }) {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<img className="h-10 w-11 p-2" src={LinkenInLogo} alt="" />
+					<img className="h-10 w-11 p-2" src={LinkedInLogo} alt="" />
 				</a>
 			</TaskIcon>
 			<TaskIcon>

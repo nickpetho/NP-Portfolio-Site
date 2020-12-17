@@ -26,8 +26,8 @@ function AboutMe() {
 						A web developer with a passion for frontend design and development.
 					</div>
 					<div className="text-2xl py-3">
-						I am currently finishing my Bachelors degree in Computer Science with a minor in Mathematics at
-						Youngstown State University.
+						I have a Bachelors degree in Computer Science with a minor in Mathematics from Youngstown State
+						University.
 					</div>
 					<div className="text-2xl">
 						I've always been interested in software development but once I started learning about web
@@ -37,9 +37,10 @@ function AboutMe() {
 					</div>
 					<div className="text-2xl pt-2">Some other interesting things about me:</div>
 					<ul className="text-xl">
-						<li>- Member of the YSU Association for Computing Machinery (ACM)</li>
+						<li>- Previous member of the YSU Association for Computing Machinery (ACM)</li>
 						<li>- Musician in various bands since highschool</li>
 						<li>- Studying the Hungarian language (a magyar nyelv)</li>
+						<li>- Huge soccer fan, my favorite team is Tottenham Hotspur #COYS</li>
 					</ul>
 				</div>
 				<OutsideClickHandler onOutsideClick={disableStartMenu}>
