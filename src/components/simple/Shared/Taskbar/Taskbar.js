@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { MobileDeviceContext } from '../../../../App';
+import { HashLink } from 'react-router-hash-link';
 
 const TaskItem = ({ children, ...props }) => (
 	<div className="text-lg hover:text-red-700 transition-colors duration-75" {...props}>
@@ -24,22 +25,22 @@ function Taskbar({ className, ...props }) {
 			<Logo />
 			<div className="bg-black flex px-12 flex-col z-40 text-white text-center space-y-4 m-auto flex-grow justify-center">
 				<TaskItem>
-					<a href="#Home">Home</a>
+					<HashLink to="#Home">Home</HashLink>
 				</TaskItem>
 				<TaskItem>
-					<a href="#Projects">Projects</a>
+					<HashLink to="#Projects">Projects</HashLink>
 				</TaskItem>
 				<TaskItem>
-					<a href="#Skills">Skills</a>
+					<HashLink to="#Skills">Skills</HashLink>
 				</TaskItem>
 				<TaskItem>
-					<a href="#Experience">Experience</a>
+					<HashLink to="#Experience">Experience</HashLink>
 				</TaskItem>
 				<TaskItem>
-					<a href="#Education">Education</a>
+					<HashLink to="#Education">Education</HashLink>
 				</TaskItem>
 				<TaskItem>
-					<a href="#About">About</a>
+					<HashLink to="#About">About</HashLink>
 				</TaskItem>
 				<TaskItem>
 					<a

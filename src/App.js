@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import LandingPage from './components/LandingPage/LandingPage';
 import './assets/fonts/Segoe UI.ttf';
 import SimpleHome from './components/simple/Home/Home';
