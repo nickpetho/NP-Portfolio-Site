@@ -1,5 +1,5 @@
-import React /*, { useEffect } */ from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import LandingPage from './components/LandingPage/LandingPage';
 import './assets/fonts/Segoe UI.ttf';
 import SimpleHome from './components/simple/Home/Home';
@@ -10,7 +10,10 @@ import Experience from './components/full/Experience/Experience';
 import Education from './components/full/Education/Education';
 import AboutMe from './components/full/About Me/AboutMe';
 
+export const MobileDeviceContext = React.createContext(false);
+
 function App() {
+	const [ mobileDevice, setMobileDevice ] = useState(false);
 	/*useEffect(() => {
 		const script = document.createElement('script');
 		script.src = 'a.out.js';
@@ -28,8 +31,15 @@ function App() {
 		};
 	}, []);*/
 
+	useEffect(() => {
+		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+			// true for mobile device
+			setMobileDevice(true);
+		}
+	}, []);
+
 	return (
-		<React.Fragment>
+		<MobileDeviceContext.Provider value={mobileDevice}>
 			<Router>
 				<Switch>
 					<Route path="/home" component={Home} />
@@ -40,9 +50,10 @@ function App() {
 					<Route path="/aboutMe" component={AboutMe} />
 					<Route path="/simple" component={SimpleHome} />
 					<Route path="/" component={LandingPage} />
+					<Redirect to="/" />
 				</Switch>
 			</Router>
-		</React.Fragment>
+		</MobileDeviceContext.Provider>
 	);
 }
 

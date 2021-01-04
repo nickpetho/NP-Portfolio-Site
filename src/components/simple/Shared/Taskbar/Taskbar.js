@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { MobileDeviceContext } from '../../../../App';
 
 const TaskItem = ({ children, ...props }) => (
 	<div className="text-lg hover:text-red-700 transition-colors duration-75" {...props}>
@@ -15,9 +16,11 @@ const Logo = ({ className }) => (
 	</div>
 );
 
-function Taskbar() {
+function Taskbar({ className, ...props }) {
+	const mobileDevice = useContext(MobileDeviceContext);
+
 	return (
-		<div className="bg-black flex flex-col z-40 text-white space-y-4">
+		<div className={[ 'bg-black flex flex-col z-40 text-white space-y-4 h-screen', className ].join(' ')}>
 			<Logo />
 			<div className="bg-black flex px-12 flex-col z-40 text-white text-center space-y-4 m-auto flex-grow justify-center">
 				<TaskItem>
@@ -39,11 +42,19 @@ function Taskbar() {
 					<a href="#About">About</a>
 				</TaskItem>
 				<TaskItem>
-					<a href="#Resume">Resume</a>
+					<a
+						href="http://nwpetho.people.ysu.edu/Nicholas%20William%20Petho%20Resume.pdf"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Resume
+					</a>
 				</TaskItem>
-				<TaskItem>
-					<Link to="/">Sign Out</Link>
-				</TaskItem>
+				{!mobileDevice && (
+					<TaskItem>
+						<Link to="/">Sign Out</Link>
+					</TaskItem>
+				)}
 			</div>
 			<Logo className="invisible" />
 		</div>

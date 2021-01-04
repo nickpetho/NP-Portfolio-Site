@@ -1,10 +1,10 @@
 import React from 'react';
 import MacButton from '../../MacButton/MacButton';
-import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
+//import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
 
 function TACContents() {
 	return (
-		<div className="px-6 pb-6 h-full flex flex-col space-y-5 overflow-auto">
+		<div className="h-full flex flex-col space-y-5">
 			<div className="mb-3">
 				<h1 className="text-6xl inline-block border-b-4 border-black px-16 flex justify-center">
 					Tutoring Assistance Computer (TAC)

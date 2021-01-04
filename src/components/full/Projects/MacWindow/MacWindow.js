@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Rnd } from 'react-rnd';
 
-function MacWindow({ circleSize, title, children, closeTo, ...props }) {
+function MacWindow({ circleSize, title, children, closeTo, className, ...props }) {
 	const [ disableDragging, setDisableDragging ] = useState(false);
 
 	function handleMouseEnter() {
@@ -57,7 +57,7 @@ function MacWindow({ circleSize, title, children, closeTo, ...props }) {
 				</div>
 
 				<div
-					className="cursor-default flex-auto overflow-auto"
+					className="cursor-default flex-auto overflow-auto p-5"
 					onMouseEnter={handleMouseEnter}
 					onMouseLeave={handleMouseLeave}
 				>

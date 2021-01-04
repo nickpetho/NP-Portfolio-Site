@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import MacButton from '../../MacButton/MacButton';
-import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
+//import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
 
 function MazeContents({ ...props }) {
 	const [ playGame, setPlayGame ] = useState(false);
@@ -13,25 +13,25 @@ function MazeContents({ ...props }) {
 	}
 
 	return playGame ? (
-		<div className="w-full h-full p-3" {...props}>
+		<div className="w-full h-full" {...props}>
 			<div className="flex justify-center">
 				<MacButton title="Back" className="px-5" onClick={handleBack} />
 			</div>
 
-			<iframe className="w-full h-full" src="http://nwpetho.people.ysu.edu/Maze_Game/" title="Maze Game" />
+			<iframe className="h-screen w-full" src="http://nwpetho.people.ysu.edu/Maze_Game/" title="Maze Game" />
 		</div>
 	) : (
-		<div className="px-6 pb-6 h-full flex flex-col space-y-5 overflow-auto" {...props}>
+		<div className="flex flex-col space-y-5" {...props}>
 			<div className="mb-3">
 				<h1 className="text-6xl inline-block border-b-4 border-black px-16 flex justify-center">Maze Game</h1>
 			</div>
-			<div>
+			<div className="mb-4">
 				Maze Game is a complex 3D maze/treasure collection game in Unity containing UI elements, power-ups,
 				NavMesh AI navigation, and custom models created in Blender 3D. You can play a demo of Maze Game below.
 				The controls are WASD for movement, Q and E to rotate, LShift to use X-Ray, and Spacebar to use Ghost.
 				The abilities are not available to use until they are picked up and the X next to them is there.
 			</div>
-			<div class="flex justify-center">
+			<div className="flex justify-center mb-3">
 				<div>
 					<img className="pr-3 pb-3" src={require('../../../../../assets/Projects/MazeGame2.png')} alt="" />
 				</div>
@@ -39,10 +39,8 @@ function MazeContents({ ...props }) {
 					<img className="pl-3 pb-3" src={require('../../../../../assets/Projects/MazeGame1.png')} alt="" />
 				</div>
 			</div>
-			<div className="flex justify-center">
+			<div className="flex justify-center space-x-3">
 				<MacButton title="Play" className="px-5" onClick={handlePlay} />
-			</div>
-			<div className="flex justify-center">
 				<MacButton title="Code" link="https://github.com/nickpetho/Maze-Game" />
 			</div>
 		</div>

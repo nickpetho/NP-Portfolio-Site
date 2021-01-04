@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactTooltip from 'react-tooltip';
 import MacButton from '../../MacButton/MacButton';
-import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
+//import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
 
 function AStarContents() {
 	return (
-		<div className="px-6 pb-6 h-full flex flex-col space-y-5 overflow-auto">
+		<div className="flex flex-col space-y-5">
 			<div className="mb-3">
 				<h1 className="text-6xl inline-block border-b-4 border-black px-16 flex justify-center">
 					A* Path Finding Heuristic
@@ -23,13 +23,9 @@ function AStarContents() {
 					alt=""
 				/>
 			</div>
-			<div className="flex justify-center">
-				<div className="pr-5">
-					<MacButton title="Run" className="px-5" data-tip="Coming Soon!" />
-				</div>
-				<div className="pl-5">
-					<MacButton title="Code" link="https://github.com/nickpetho/A_Star_Path_Finding" />
-				</div>
+			<div className="flex justify-center space-x-5">
+				<MacButton title="Run" className="px-5" data-tip="Coming Soon!" />
+				<MacButton title="Code" link="https://github.com/nickpetho/A_Star_Path_Finding" />
 			</div>
 			<ReactTooltip />
 		</div>

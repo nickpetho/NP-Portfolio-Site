@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import MacButton from '../../MacButton/MacButton';
-import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
+//import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
 
 function WaruContents({ buttonType, ...props }) {
 	const [ playGame, setPlayGame ] = useState(false);
@@ -17,10 +17,10 @@ function WaruContents({ buttonType, ...props }) {
 			<div className="flex justify-center">
 				<MacButton title="Back" onClick={handleBack} />
 			</div>
-			<iframe className="w-full h-full" src="http://kmdiogo.people.ysu.edu/Waru/" title="Waru" />
+			<iframe className="w-full h-screen" src="http://kmdiogo.people.ysu.edu/Waru/" title="Waru" />
 		</div>
 	) : (
-		<div className="h-full flex flex-col space-y-5 overflow-auto" {...props}>
+		<div className="h-full flex flex-col space-y-5" {...props}>
 			<div className="mb-3">
 				<h1 className="text-6xl inline-block border-b-4 border-black px-16 flex justify-center">Waru</h1>
 			</div>

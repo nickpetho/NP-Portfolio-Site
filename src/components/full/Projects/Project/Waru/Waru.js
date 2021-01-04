@@ -5,7 +5,7 @@ import WaruContents from './WaruContents';
 function Waru() {
 	return (
 		<MacWindow circleSize={7} title="Waru" closeTo="/projects">
-			<WaruContents className="p-5" />
+			<WaruContents />
 		</MacWindow>
 	);
 }

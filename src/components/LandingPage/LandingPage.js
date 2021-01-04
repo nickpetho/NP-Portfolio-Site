@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './LandingPage.css';
 import userLogo from '../../assets/Icons/default-user-placeholder.png';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import ReactTooltip from 'react-tooltip';
+import { MobileDeviceContext } from '../../App';
 
 const LandingPageButton = ({ to, ...props }) => (
 	<Link
@@ -15,16 +16,18 @@ const LandingPageButton = ({ to, ...props }) => (
 );
 
 function LandingPage() {
-	return (
+	const mobileDevice = useContext(MobileDeviceContext);
+
+	return mobileDevice ? (
+		<Redirect to="/simple" />
+	) : (
 		<div className="h-screen flex justify-center items-center flex-col landing-page">
 			<img src={userLogo} alt="" />
 			<h1 className="text-6xl leading-none text-white font-hairline">Welcome</h1>
 			<h2 className="text-2xl text-white mb-6">Choose Your Version</h2>
 			<div>
 				<LandingPageButton to="/simple">Simple</LandingPageButton>
-				<LandingPageButton data-tip="Coming Soon!" to="/home">
-					Full
-				</LandingPageButton>
+				<LandingPageButton to="/home">Full</LandingPageButton>
 			</div>
 			<ReactTooltip />
 		</div>

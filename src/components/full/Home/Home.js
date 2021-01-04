@@ -41,9 +41,13 @@ function Home() {
 					<Link to="/aboutMe">
 						<FolderIcon className={'mb-5'} label={'About Me'} imgSrc={folderIcon} />
 					</Link>
-					<Link to="home/resume">
+					<a
+						href="http://nwpetho.people.ysu.edu/Nicholas%20William%20Petho%20Resume.pdf"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<DocumentIcon className={'px-2'} label={'Resume'} imgSrc={documentIcon} />
-					</Link>
+					</a>
 				</div>
 				<OutsideClickHandler onOutsideClick={disableStartMenu}>
 					<StartMenu isOpen={isStartMenuOpen} />

@@ -36,7 +36,7 @@ function AboutMe() {
 						always excited to learn new languages and technologies.
 					</div>
 					<div className="text-2xl pt-2">Some other interesting things about me:</div>
-					<ul className="text-xl">
+					<ul className="text-2xl">
 						<li>- Previous member of the YSU Association for Computing Machinery (ACM)</li>
 						<li>- Musician in various bands since highschool</li>
 						<li>- Studying the Hungarian language (a magyar nyelv)</li>
