@@ -1,25 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import MacButton from '../../MacButton/MacButton';
 //import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
 
 function WaruContents({ buttonType, ...props }) {
-	const [ playGame, setPlayGame ] = useState(false);
-	function handlePlay() {
-		setPlayGame(true);
-	}
-
-	function handleBack() {
-		setPlayGame(false);
-	}
-
-	return playGame ? (
-		<div className="w-full h-full" {...props}>
-			<div className="flex justify-center">
-				<MacButton title="Back" onClick={handleBack} />
-			</div>
-			<iframe className="w-full h-screen" src="http://kmdiogo.people.ysu.edu/Waru/" title="Waru" />
-		</div>
-	) : (
+	return (
 		<div className="h-full flex flex-col space-y-5" {...props}>
 			<div className="mb-3">
 				<h1 className="text-6xl inline-block border-b-4 border-black px-16 flex justify-center">Waru</h1>
@@ -32,11 +16,13 @@ function WaruContents({ buttonType, ...props }) {
 				<span className="font-bold">(WARNING: It starts loud)</span>. Since this is our personal project the
 				source code is not publicly available.
 			</div>
-			<div class="flex justify-center pb-6">
+			<div class="flex justify-center pb-1">
 				<img className="w-2/4 h-2/4" src={require('../../../../../assets/Projects/Waru.png')} alt="" />
 			</div>
 			<div className="flex justify-center">
-				<MacButton title="Play" className="px-5" onClick={handlePlay} />
+				<MacButton title="Play" link="http://kmdiogo.people.ysu.edu/Waru/">
+					Play
+				</MacButton>
 			</div>
 		</div>
 	);

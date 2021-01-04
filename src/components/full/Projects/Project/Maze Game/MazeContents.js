@@ -1,26 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import MacButton from '../../MacButton/MacButton';
 //import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
 
 function MazeContents({ ...props }) {
-	const [ playGame, setPlayGame ] = useState(false);
-	function handlePlay() {
-		setPlayGame(true);
-	}
-
-	function handleBack() {
-		setPlayGame(false);
-	}
-
-	return playGame ? (
-		<div className="w-full h-full" {...props}>
-			<div className="flex justify-center">
-				<MacButton title="Back" className="px-5" onClick={handleBack} />
-			</div>
-
-			<iframe className="h-screen w-full" src="http://nwpetho.people.ysu.edu/Maze_Game/" title="Maze Game" />
-		</div>
-	) : (
+	return (
 		<div className="flex flex-col space-y-5" {...props}>
 			<div className="mb-3">
 				<h1 className="text-6xl inline-block border-b-4 border-black px-16 flex justify-center">Maze Game</h1>
@@ -40,7 +23,7 @@ function MazeContents({ ...props }) {
 				</div>
 			</div>
 			<div className="flex justify-center space-x-3">
-				<MacButton title="Play" className="px-5" onClick={handlePlay} />
+				<MacButton title="Play" className="px-5" link="http://nwpetho.people.ysu.edu/Maze_Game/" />
 				<MacButton title="Code" link="https://github.com/nickpetho/Maze-Game" />
 			</div>
 		</div>
