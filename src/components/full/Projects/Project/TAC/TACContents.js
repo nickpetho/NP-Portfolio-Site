@@ -4,13 +4,13 @@ import MacButton from '../../MacButton/MacButton';
 
 function TACContents() {
 	return (
-		<div className="h-full flex flex-col space-y-5">
+		<div className="flex flex-col space-y-4">
 			<div className="mb-3">
 				<h1 className="text-6xl inline-block border-b-4 border-black px-16 flex justify-center">
-					Tutoring Assistance Computer (TAC)
+					Tutoring Assistance Computer
 				</h1>
 			</div>
-			<div>
+			<div className="text-xl">
 				The Tutoring Assistance Computer or TAC is an all-in-one tutor tracking software solution designed to
 				effectively keep track of student and employee information for the Youngstown State University Math
 				Assitance Center (MAC). I implemented SASS (CSS pre-processor) for all custom stylesheets and was in

@@ -5,13 +5,13 @@ import MacButton from '../../MacButton/MacButton';
 
 function AStarContents() {
 	return (
-		<div className="flex flex-col space-y-5">
+		<div className="flex flex-col space-y-4">
 			<div className="mb-3">
 				<h1 className="text-6xl inline-block border-b-4 border-black px-16 flex justify-center">
 					A* Path Finding Heuristic
 				</h1>
 			</div>
-			<div>
+			<div className="text-xl">
 				I developed an A* path finding heuristic on a 16x16 tile map with multiple varying tile costs and
 				unique, dynamic cost changes that adapted to several parameters each time the program was run. This was
 				my final project for my AI in Game Development class.

@@ -4,11 +4,11 @@ import MacButton from '../../MacButton/MacButton';
 
 function PySnakeContents() {
 	return (
-		<div className="flex flex-col space-y-5">
+		<div className="flex flex-col space-y-4">
 			<div className="mb-3">
 				<h1 className="text-6xl inline-block border-b-4 border-black px-16 flex justify-center">PySnake</h1>
 			</div>
-			<div>
+			<div className="text-xl">
 				PySnake, or Sneaky Snake as I originally called it, is a version of the classic Snake game made with
 				pygame, a Python library. It was one of my first full Python projects I completed.
 			</div>

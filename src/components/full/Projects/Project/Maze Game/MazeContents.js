@@ -4,11 +4,11 @@ import MacButton from '../../MacButton/MacButton';
 
 function MazeContents({ ...props }) {
 	return (
-		<div className="flex flex-col space-y-5" {...props}>
+		<div className="flex flex-col space-y-4" {...props}>
 			<div className="mb-3">
 				<h1 className="text-6xl inline-block border-b-4 border-black px-16 flex justify-center">Maze Game</h1>
 			</div>
-			<div className="mb-4">
+			<div className="text-xl mb-4">
 				Maze Game is a complex 3D maze/treasure collection game in Unity containing UI elements, power-ups,
 				NavMesh AI navigation, and custom models created in Blender 3D. You can play a demo of Maze Game below.
 				The controls are WASD for movement, Q and E to rotate, LShift to use X-Ray, and Spacebar to use Ghost.
