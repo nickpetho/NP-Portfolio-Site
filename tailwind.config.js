@@ -1,5 +1,4 @@
-const { colors } = require('tailwindcss/defaultTheme');
-const { fontFamily } = require('tailwindcss/defaultTheme');
+const { colors, fontSize, spacing } = require('tailwindcss/defaultTheme');
 
 module.exports = {
 	purge: [],
@@ -47,7 +46,34 @@ module.exports = {
 			}
 		},
 		fontFamily: {
-			sans: ['Source Code Pro', 'monospace']
+			sans: [ 'Source Code Pro', 'monospace' ]
+		},
+		fontSize: {
+			...fontSize,
+			'7xl': '4.5rem',
+			'8xl': '6rem',
+			'9xl': '8rem',
+			'10xl': '10rem',
+			'11xl': '12rem'
+		},
+		screens: {
+			sm: '640px',
+			md: '768px',
+			lg: '1024px',
+			xl: '1280px',
+			'2xl': '1540px',
+			'3xl': '2560px',
+			'4xl': '3840px'
+		},
+		spacing: {
+			...spacing,
+			'72': '18rem',
+			'84': '21rem',
+			'96': '24rem',
+			'108': '27rem',
+			'120': '30rem',
+			'132': '33rem',
+			'144': '36rem'
 		}
 	},
 	variants: {},

@@ -3,27 +3,26 @@ import './Skills.css';
 import Banner from './Banner/Banner';
 import Taskbar from './Taskbar/Taskbar';
 import Logo from './Logo/Logo';
-import JavaScript from '../../../assets/Icons/CodeIcons/Javascript_Logo.png';
-import HTML from '../../../assets/Icons/CodeIcons/HTML5_Logo.png';
-import CSS from '../../../assets/Icons/CodeIcons/CSS_Logo.png';
-import SASS from '../../../assets/Icons/CodeIcons/Sass_Logo.png';
-import Python from '../../../assets/Icons/CodeIcons/Python_Logo.png';
-import C from '../../../assets/Icons/CodeIcons/C_Logo.png';
-import C_Plus_Plus from '../../../assets/Icons/CodeIcons/C++_Logo.png';
-import C_Sharp from '../../../assets/Icons/CodeIcons/C_Sharp_Logo.png';
-import Java from '../../../assets/Icons/CodeIcons/Java_Logo.png';
-import SQL from '../../../assets/Icons/CodeIcons/SQL_Logo.png';
-import React_js from '../../../assets/Icons/CodeIcons/React_Logo.png';
-import jQuery from '../../../assets/Icons/CodeIcons/jQuery_Logo.png';
-import Node from '../../../assets/Icons/CodeIcons/Node.js_Logo.png';
-import Express from '../../../assets/Icons/CodeIcons/Express_Logo.png';
-import MongoDB from '../../../assets/Icons/CodeIcons/MongoDb_Logo.png';
-import Bootstrap from '../../../assets/Icons/CodeIcons/Bootstrap 4.png';
-import Tailwind from '../../../assets/Icons/CodeIcons/Tailwind_Logo.png';
-import REST from '../../../assets/Icons/CodeIcons/RESTful_Logo.png';
-import Git from '../../../assets/Icons/CodeIcons/Git_Logo.png';
-import Unity from '../../../assets/Icons/CodeIcons/Unity_Logo.png';
-import GIMP from '../../../assets/Icons/CodeIcons/GIMP_Logo.png';
+import JavaScript from '../../../assets/Icons/CodeIcons/Javascript_Logo.svg';
+import HTML from '../../../assets/Icons/CodeIcons/HTML5_Logo.svg';
+import CSS from '../../../assets/Icons/CodeIcons/CSS_Logo.svg';
+import SASS from '../../../assets/Icons/CodeIcons/Sass_Logo.svg';
+import Python from '../../../assets/Icons/CodeIcons/Python_Logo.svg';
+import C from '../../../assets/Icons/CodeIcons/C_Logo.svg';
+import C_Plus_Plus from '../../../assets/Icons/CodeIcons/C++_Logo.svg';
+import C_Sharp from '../../../assets/Icons/CodeIcons/C_Sharp_Logo.svg';
+import Java from '../../../assets/Icons/CodeIcons/Java_Logo.svg';
+import SQL from '../../../assets/Icons/CodeIcons/SQL_Logo.svg';
+import React_js from '../../../assets/Icons/CodeIcons/React_Logo.svg';
+import jQuery from '../../../assets/Icons/CodeIcons/jQuery_Logo.svg';
+import Node from '../../../assets/Icons/CodeIcons/Node.js_Logo.svg';
+import Express from '../../../assets/Icons/CodeIcons/Express_Logo.svg';
+import MongoDB from '../../../assets/Icons/CodeIcons/MongoDb_Logo.svg';
+import Bootstrap from '../../../assets/Icons/CodeIcons/Bootstrap 4.svg';
+import Tailwind from '../../../assets/Icons/CodeIcons/Tailwind_Logo.svg';
+import REST from '../../../assets/Icons/CodeIcons/RESTful_Logo.svg';
+import Git from '../../../assets/Icons/CodeIcons/Git_Logo.svg';
+import Unity from '../../../assets/Icons/CodeIcons/Unity_Logo.svg';
 
 function Skills() {
 	return (
@@ -31,102 +30,98 @@ function Skills() {
 			<Banner />
 			<div className="flex-grow relative">
 				<Taskbar />
-				<div className="px-24 ml-12">
-					<div className="text-4xl py-10 px-12 text-white text-center">
+				<div className="px-24 3xl:px-32 4xl:px-48 ml-12">
+					<div className="text-2xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl xl:p-10 text-white text-center">
 						I mainly use web development technologies but I am also skilled in other programming languages.
 						These are the languages, technologies, and tools that I am proficient in.
 					</div>
-					<div className="flex justify-center">
-						<div className="pr-28">
-							<div className="text-6xl underline text-white">Languages</div>
-							<ul className="text-4xl text-white">
-								<li className="flex py-2">
+					<div className="grid grid-cols-3 justify-items-center">
+						<div className="w-auto justify-center">
+							<div className="text-3xl 2xl:text-6xl 3xl:text-8xl 4xl:text-10xl underline text-white">Languages</div>
+							<ul className="text-2xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl text-white space-y-4 3xl:space-y-8 4xl:space-y-12">
+								<li className="flex">
 									<Logo imgSrc={JavaScript} />
 									Javascript
 								</li>
-								<li className="flex py-2">
+								<li className="flex">
 									<Logo imgSrc={HTML} />
 									HTML
 								</li>
-								<li className="flex pb-2">
-									<Logo className="h-16" imgSrc={CSS} />
+								<li className="flex">
+									<Logo imgSrc={CSS} />
 									CSS/SASS
-									<Logo className="w-16" imgSrc={SASS} />
+									<Logo imgSrc={SASS} />
 								</li>
-								<li className="flex py-2">
+								<li className="flex">
 									<Logo imgSrc={Python} />
 									Python
 								</li>
-								<li className="flex py-2">
+								<li className="flex">
 									<Logo imgSrc={C} />
 									C/C++
 									<Logo imgSrc={C_Plus_Plus} />
 								</li>
-								<li className="flex py-2">
+								<li className="flex">
 									<Logo imgSrc={C_Sharp} />
 									C#
 								</li>
 								<li className="flex">
-									<Logo className="h-16" imgSrc={Java} />
+									<Logo imgSrc={Java} />
 									Java
 								</li>
-								<li className="flex py-2">
+								<li className="flex">
 									<Logo imgSrc={SQL} />
 									SQL
 								</li>
 							</ul>
 						</div>
-						<div className="px-56">
-							<div className="text-6xl underline text-white">Libraries</div>
-							<ul className="text-3xl text-white">
+						<div className="w-auto">
+							<div className="text-3xl 2xl:text-6xl 3xl:text-8xl 4xl:text-10xl underline text-white">Libraries</div>
+							<ul className="text-2xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl text-white space-y-4 3xl:space-y-8 4xl:space-y-12">
 								<li className="flex py-2">
 									<Logo imgSrc={React_js} />
 									React.js
 								</li>
-								<li className="flex pt-2">
-									<Logo className="h-16" imgSrc={jQuery} />
+								<li className="flex 3xl:py-4">
+									<Logo className="h-16 3xl:h-24 4xl:h-32" imgSrc={jQuery} />
 									jQuery
 								</li>
-								<li className="flex py-2">
-									<Logo className="w-20" imgSrc={Node} />
+								<li className="flex">
+									<Logo className="w-16 3xl:w-32 4xl:w-48" imgSrc={Node} />
 									Node.js
 								</li>
-								<li className="flex py-2">
-									<Logo imgSrc={Express} />
+								<li className="flex">
+									<Logo className="w-16 3xl:w-32 4xl:w-48" imgSrc={Express} />
 									Express.js
 								</li>
-								<li className="flex py-2">
-									<Logo imgSrc={MongoDB} />
+								<li className="flex">
+									<Logo className="w-20 3xl:w-32 4xl:w-48" imgSrc={MongoDB} />
 									MongoDB
 								</li>
-								<li className="flex py-2">
+								<li className="flex">
 									<Logo imgSrc={Bootstrap} />
 									Bootstrap 4
 								</li>
-								<li className="flex py-2">
-									<Logo className="w-20" imgSrc={Tailwind} />
+								<li className="flex">
+									<Logo className="w-16 3xl:w-24 4xl:w-40" imgSrc={Tailwind} />
 									Tailwind.css
 								</li>
 							</ul>
 						</div>
-						<div className="pl-28">
-							<div className="text-6xl underline text-white">Technologies</div>
-							<ul className="text-3xl text-white">
-								<li className="flex py-2">
-									<Logo className="w-16" imgSrc={REST} />
+						<div className="w-auto">
+							<div className="text-3xl 2xl:text-6xl 3xl:text-8xl 4xl:text-10xl underline text-white">Technologies</div>
+							<ul className="text-2xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl text-white space-y-4 3xl:space-y-8 4xl:space-y-12">
+								<li className="flex">
+									<Logo className="w-16 3xl:w-24 4xl:w-40" imgSrc={REST} />
 									RESTful Web Services
 								</li>
-								<li className="flex py-2">
+								<li className="flex">
 									<Logo imgSrc={Git} />
 									Git
 								</li>
-								<li className="flex py-2">
+								<li className="flex">
 									<Logo imgSrc={Unity} />
 									Unity 3D Game Engine
-								</li>
-								<li className="flex py-2">
-									<Logo imgSrc={GIMP} />
-									GIMP2
 								</li>
 							</ul>
 						</div>

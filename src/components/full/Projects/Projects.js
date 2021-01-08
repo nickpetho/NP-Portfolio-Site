@@ -11,15 +11,15 @@ import A_Star from './Project/A Star/A_Star';
 import PySnake from './Project/PySnake/PySnake';
 
 function Projects() {
-	const folderIcon = require('../../../assets/Icons/MacFolder.png');
+	const folderIcon = require('../../../assets/Icons/MacFolder.svg');
 	let match = useRouteMatch();
 
 	const Icons = [
-		{ comp: <DesktopIcon className={'mb-5'} label={'Waru'} imgSrc={folderIcon} />, to: '/projects/waru' },
-		{ comp: <DesktopIcon className={'mb-5'} label={'Maze Game'} imgSrc={folderIcon} />, to: '/projects/maze_game' },
-		{ comp: <DesktopIcon className={'mb-5'} label={'TAC'} imgSrc={folderIcon} />, to: '/projects/TAC' },
-		{ comp: <DesktopIcon className={'mb-5'} label={'A* Heuristic'} imgSrc={folderIcon} />, to: '/projects/a_star' },
-		{ comp: <DesktopIcon className={'mb-5'} label={'PySnake'} imgSrc={folderIcon} />, to: '/projects/PySnake' }
+		{ comp: <DesktopIcon label={'Waru'} imgSrc={folderIcon} />, to: '/projects/waru' },
+		{ comp: <DesktopIcon label={'Maze Game'} imgSrc={folderIcon} />, to: '/projects/maze_game' },
+		{ comp: <DesktopIcon label={'TAC'} imgSrc={folderIcon} />, to: '/projects/TAC' },
+		{ comp: <DesktopIcon label={'A* Heuristic'} imgSrc={folderIcon} />, to: '/projects/a_star' },
+		{ comp: <DesktopIcon label={'PySnake'} imgSrc={folderIcon} />, to: '/projects/PySnake' }
 	];
 
 	return (
@@ -33,9 +33,9 @@ function Projects() {
 				<Route path={`${match.path}/PySnake`} component={PySnake} />
 			</Switch>
 			<div className="flex-grow relative">
-				<div className="p-8 flex flex-col items-start">
+				<div className="p-8 3xl:p-12 4xl:p-20 flex flex-col items-start">
 					{Icons.map((icon) => (
-						<Link className="w-16" to={icon.to}>
+						<Link className="w-16 3xl:w-32 4xl:w-48" to={icon.to}>
 							{icon.comp}
 						</Link>
 					))}

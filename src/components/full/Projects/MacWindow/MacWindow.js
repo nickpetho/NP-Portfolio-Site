@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Rnd } from 'react-rnd';
 
+/* NEED TO FIND SOLUTION FOR SVG CLOSE BUTTONS */ 
+
 function MacWindow({ circleSize, title, children, closeTo, className, ...props }) {
 	const [ disableDragging, setDisableDragging ] = useState(false);
 
@@ -28,8 +30,8 @@ function MacWindow({ circleSize, title, children, closeTo, className, ...props }
 			minHeight={500}
 		>
 			<div className="rounded-md flex flex-col bg-gray-MacWindowBG h-full">
-				<div className="h-8 bg-gray-MacWindow flex items-center border-b border-gray-500 shadow px-2 py-1">
-					<div className="flex mr-auto space-x-2">
+				<div className="h-8 3xl:h-12 4xl:h-20 bg-gray-MacWindow flex items-center border-b border-gray-500 shadow px-2 3xl:px-4 4xl:px-8 py-1">
+					<div className="flex mr-auto space-x-2 3xl:space-x-3 4xl:space-x-4">
 						<Link to={closeTo}>
 							<svg className="overflow-visible cursor-default" height="13" width="13" stroke="#E46F69">
 								<circle cx={circleSize} cy={circleSize} r={circleSize} fill="#FF635A" />
@@ -42,7 +44,7 @@ function MacWindow({ circleSize, title, children, closeTo, className, ...props }
 							<circle cx={circleSize} cy={circleSize} r={circleSize} fill="#D2D2D2" />
 						</svg>
 					</div>
-					<div className="font-medium text-gray-800">{title}</div>
+					<div className="font-medium 3xl:text-2xl 4xl:text-5xl text-gray-800">{title}</div>
 					<div className="flex ml-auto invisible">
 						<svg height="14" width="14">
 							<circle cx={circleSize} cy={circleSize} r={circleSize} fill="#FF635A" />
@@ -55,9 +57,8 @@ function MacWindow({ circleSize, title, children, closeTo, className, ...props }
 						</svg>
 					</div>
 				</div>
-
 				<div
-					className="cursor-default flex-auto overflow-auto p-5"
+					className="cursor-default flex-auto overflow-auto p-5 3xl:px-10 4xl:px-20"
 					onMouseEnter={handleMouseEnter}
 					onMouseLeave={handleMouseLeave}
 				>

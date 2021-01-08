@@ -19,34 +19,34 @@ function Home() {
 		setIsStartMenuOpen(false);
 	}
 
-	const folderIcon = require('../../../assets/Icons/windows10Folder.png');
-	const documentIcon = require('../../../assets/Icons/document-icon.png');
+	const folderIcon = require('../../../assets/Icons/windows10Folder.svg');
+	const documentIcon = require('../../../assets/Icons/document-icon.svg');
 
 	return (
 		<div className="h-screen home-page flex flex-col">
 			<div className="flex-grow relative">
-				<div className="p-6 flex flex-col items-start">
+				<div className="p-6 3xl:p-10 4xl:p-16 flex flex-col items-start">
 					<Link to="/projects">
-						<FolderIcon className={'mb-5'} label={'Projects'} imgSrc={folderIcon} />
+						<FolderIcon label={'Projects'} imgSrc={folderIcon} />
 					</Link>
 					<Link to="/skills">
-						<FolderIcon className={'mb-5'} label={'Skills'} imgSrc={folderIcon} />
+						<FolderIcon label={'Skills'} imgSrc={folderIcon} />
 					</Link>
 					<Link to="/experience">
-						<FolderIcon className={'mb-5'} label={'Experience'} imgSrc={folderIcon} />
+						<FolderIcon label={'Experience'} imgSrc={folderIcon} />
 					</Link>
 					<Link to="/education">
-						<FolderIcon className={'mb-5'} label={'Education'} imgSrc={folderIcon} />
+						<FolderIcon label={'Education'} imgSrc={folderIcon} />
 					</Link>
 					<Link to="/aboutMe">
-						<FolderIcon className={'mb-5'} label={'About Me'} imgSrc={folderIcon} />
+						<FolderIcon label={'About Me'} imgSrc={folderIcon} />
 					</Link>
 					<a
 						href="http://nwpetho.people.ysu.edu/Nicholas%20William%20Petho%20Resume.pdf"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<DocumentIcon className={'px-2'} label={'Resume'} imgSrc={documentIcon} />
+						<DocumentIcon label={'Resume'} imgSrc={documentIcon} />
 					</a>
 				</div>
 				<OutsideClickHandler onOutsideClick={disableStartMenu}>
