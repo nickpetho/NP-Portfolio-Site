@@ -87,15 +87,15 @@ function Skills() {
 									jQuery
 								</li>
 								<li className="flex">
-									<Logo className="w-12 1xl:w-16 3xl:w-32 4xl:w-48" imgSrc={Node} />
+									<Logo className="w-12 1xl:w-16 2xl:w-24 3xl:w-32 4xl:w-48" imgSrc={Node} />
 									Node.js
 								</li>
 								<li className="flex">
-									<Logo className="w-12 1xl:w-16 3xl:w-32 4xl:w-48" imgSrc={Express} />
+									<Logo className="w-12 1xl:w-16 2xl:w-24 3xl:w-32 4xl:w-48" imgSrc={Express} />
 									Express.js
 								</li>
 								<li className="flex">
-									<Logo className="w-16 1xl:w-20 3xl:w-32 4xl:w-48" imgSrc={MongoDB} />
+									<Logo className="w-16 1xl:w-20 2xl:w-24 3xl:w-32 4xl:w-48" imgSrc={MongoDB} />
 									MongoDB
 								</li>
 								<li className="flex">
@@ -103,7 +103,7 @@ function Skills() {
 									Bootstrap 4
 								</li>
 								<li className="flex">
-									<Logo className="w-12 1xl:w-16 3xl:w-24 4xl:w-40" imgSrc={Tailwind} />
+									<Logo className="w-12 1xl:w-16 2xl:w-20 3xl:w-24 4xl:w-40" imgSrc={Tailwind} />
 									Tailwind.css
 								</li>
 							</ul>
