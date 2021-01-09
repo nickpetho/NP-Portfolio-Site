@@ -25,7 +25,7 @@ function Home() {
 	return (
 		<div className="h-screen home-page flex flex-col">
 			<div className="flex-grow relative">
-				<div className="p-6 3xl:p-10 4xl:p-16 flex flex-col items-start">
+				<div className="p-3 2xl:p-6 3xl:p-10 4xl:p-16 flex flex-col items-start">
 					<Link to="/projects">
 						<FolderIcon label={'Projects'} imgSrc={folderIcon} />
 					</Link>

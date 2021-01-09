@@ -35,7 +35,7 @@ function Projects() {
 			<div className="flex-grow relative">
 				<div className="p-8 3xl:p-12 4xl:p-20 flex flex-col items-start">
 					{Icons.map((icon) => (
-						<Link className="w-16 3xl:w-32 4xl:w-48" to={icon.to}>
+						<Link className="w-12 1xl:w-16 3xl:w-32 4xl:w-48" to={icon.to}>
 							{icon.comp}
 						</Link>
 					))}

@@ -30,15 +30,15 @@ function Skills() {
 			<Banner />
 			<div className="flex-grow relative">
 				<Taskbar />
-				<div className="px-24 3xl:px-32 4xl:px-48 ml-12">
-					<div className="text-2xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl xl:p-10 text-white text-center">
+				<div className="px-16 2xl:px-24 3xl:px-32 4xl:px-48 ml-12">
+					<div className="text-xl 1xl:text-2xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl p-5 2xl:p-10 text-white text-center">
 						I mainly use web development technologies but I am also skilled in other programming languages.
 						These are the languages, technologies, and tools that I am proficient in.
 					</div>
 					<div className="grid grid-cols-3 justify-items-center">
 						<div className="w-auto justify-center">
-							<div className="text-3xl 2xl:text-6xl 3xl:text-8xl 4xl:text-10xl underline text-white">Languages</div>
-							<ul className="text-2xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl text-white space-y-4 3xl:space-y-8 4xl:space-y-12">
+							<div className="text-2xl 1xl:text-4xl 2xl:text-6xl 3xl:text-8xl 4xl:text-10xl underline text-white">Languages</div>
+							<ul className="text-xl 1xl:text-2xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl text-white space-y-4 3xl:space-y-8 4xl:space-y-12">
 								<li className="flex">
 									<Logo imgSrc={JavaScript} />
 									Javascript
@@ -76,26 +76,26 @@ function Skills() {
 							</ul>
 						</div>
 						<div className="w-auto">
-							<div className="text-3xl 2xl:text-6xl 3xl:text-8xl 4xl:text-10xl underline text-white">Libraries</div>
-							<ul className="text-2xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl text-white space-y-4 3xl:space-y-8 4xl:space-y-12">
-								<li className="flex py-2">
+							<div className="text-2xl 1xl:text-4xl 2xl:text-6xl 3xl:text-8xl 4xl:text-10xl underline text-white">Libraries</div>
+							<ul className="text-xl 1xl:text-2xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl text-white space-y-4 3xl:space-y-8 4xl:space-y-12">
+								<li className="flex 1xl:py-2">
 									<Logo imgSrc={React_js} />
 									React.js
 								</li>
 								<li className="flex 3xl:py-4">
-									<Logo className="h-16 3xl:h-24 4xl:h-32" imgSrc={jQuery} />
+									<Logo className="h-12 2xl:h-16 3xl:h-24 4xl:h-32" imgSrc={jQuery} />
 									jQuery
 								</li>
 								<li className="flex">
-									<Logo className="w-16 3xl:w-32 4xl:w-48" imgSrc={Node} />
+									<Logo className="w-12 1xl:w-16 3xl:w-32 4xl:w-48" imgSrc={Node} />
 									Node.js
 								</li>
 								<li className="flex">
-									<Logo className="w-16 3xl:w-32 4xl:w-48" imgSrc={Express} />
+									<Logo className="w-12 1xl:w-16 3xl:w-32 4xl:w-48" imgSrc={Express} />
 									Express.js
 								</li>
 								<li className="flex">
-									<Logo className="w-20 3xl:w-32 4xl:w-48" imgSrc={MongoDB} />
+									<Logo className="w-16 1xl:w-20 3xl:w-32 4xl:w-48" imgSrc={MongoDB} />
 									MongoDB
 								</li>
 								<li className="flex">
@@ -103,16 +103,16 @@ function Skills() {
 									Bootstrap 4
 								</li>
 								<li className="flex">
-									<Logo className="w-16 3xl:w-24 4xl:w-40" imgSrc={Tailwind} />
+									<Logo className="w-12 1xl:w-16 3xl:w-24 4xl:w-40" imgSrc={Tailwind} />
 									Tailwind.css
 								</li>
 							</ul>
 						</div>
 						<div className="w-auto">
-							<div className="text-3xl 2xl:text-6xl 3xl:text-8xl 4xl:text-10xl underline text-white">Technologies</div>
-							<ul className="text-2xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl text-white space-y-4 3xl:space-y-8 4xl:space-y-12">
+							<div className="text-2xl 1xl:text-4xl 2xl:text-6xl 3xl:text-8xl 4xl:text-10xl underline text-white">Technologies</div>
+							<ul className="text-xl 1xl:text-2xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl text-white space-y-3 2xl:space-y-4 3xl:space-y-8 4xl:space-y-12">
 								<li className="flex">
-									<Logo className="w-16 3xl:w-24 4xl:w-40" imgSrc={REST} />
+									<Logo className="w-12 2xl:w-16 3xl:w-24 4xl:w-40" imgSrc={REST} />
 									RESTful Web Services
 								</li>
 								<li className="flex">
