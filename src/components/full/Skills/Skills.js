@@ -11,7 +11,6 @@ import Python from '../../../assets/Icons/CodeIcons/Python_Logo.svg';
 import C from '../../../assets/Icons/CodeIcons/C_Logo.svg';
 import C_Plus_Plus from '../../../assets/Icons/CodeIcons/C++_Logo.svg';
 import C_Sharp from '../../../assets/Icons/CodeIcons/C_Sharp_Logo.svg';
-import Java from '../../../assets/Icons/CodeIcons/Java_Logo.svg';
 import SQL from '../../../assets/Icons/CodeIcons/SQL_Logo.svg';
 import React_js from '../../../assets/Icons/CodeIcons/React_Logo.svg';
 import jQuery from '../../../assets/Icons/CodeIcons/jQuery_Logo.svg';
@@ -22,6 +21,7 @@ import Bootstrap from '../../../assets/Icons/CodeIcons/Bootstrap 4.svg';
 import Tailwind from '../../../assets/Icons/CodeIcons/Tailwind_Logo.svg';
 import REST from '../../../assets/Icons/CodeIcons/RESTful_Logo.svg';
 import Git from '../../../assets/Icons/CodeIcons/Git_Logo.svg';
+import Jira from '../../../assets/Icons/CodeIcons/Jira_Logo.svg';
 import Unity from '../../../assets/Icons/CodeIcons/Unity_Logo.svg';
 
 function Skills() {
@@ -66,10 +66,6 @@ function Skills() {
 									C#
 								</li>
 								<li className="flex">
-									<Logo imgSrc={Java} />
-									Java
-								</li>
-								<li className="flex">
 									<Logo imgSrc={SQL} />
 									SQL
 								</li>
@@ -95,10 +91,6 @@ function Skills() {
 									Express.js
 								</li>
 								<li className="flex">
-									<Logo className="w-16 1xl:w-20 2xl:w-24 3xl:w-32 4xl:w-48" imgSrc={MongoDB} />
-									MongoDB
-								</li>
-								<li className="flex">
 									<Logo imgSrc={Bootstrap} />
 									Bootstrap 4
 								</li>
@@ -112,12 +104,20 @@ function Skills() {
 							<div className="text-2xl 1xl:text-4xl 2xl:text-6xl 3xl:text-8xl 4xl:text-10xl underline text-white">Technologies</div>
 							<ul className="text-xl 1xl:text-2xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl text-white space-y-3 2xl:space-y-4 3xl:space-y-8 4xl:space-y-12">
 								<li className="flex">
+									<Logo className="w-16 1xl:w-20 2xl:w-24 3xl:w-32 4xl:w-48" imgSrc={MongoDB} />
+									MongoDB
+								</li>
+								<li className="flex">
 									<Logo className="w-12 2xl:w-16 3xl:w-24 4xl:w-40" imgSrc={REST} />
 									RESTful Web Services
 								</li>
 								<li className="flex">
 									<Logo imgSrc={Git} />
 									Git
+								</li>
+								<li className="flex">
+									<Logo imgSrc={Jira} />
+									Jira
 								</li>
 								<li className="flex">
 									<Logo imgSrc={Unity} />
