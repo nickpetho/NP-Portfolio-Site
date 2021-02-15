@@ -27,7 +27,7 @@ function Experience() {
                         Work Experience
                     </h1>
                     <div className="text-3xl 1xl:text-4xl 3xl:text-6xl 4xl:text-8xl font-semibold">
-                        Web Developer
+                        Web Developer/Systems Analyst
                     </div>
                     <div className="text-2xl 1xl:text-3xl 3xl:text-5xl 4xl:text-7xl italic">
                         Westat (2021-Present)

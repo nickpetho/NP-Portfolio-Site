@@ -224,7 +224,7 @@ function SimpleHome() {
                     content={
                         <div>
                             <div className="text-3xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl font-semibold">
-                                Web Developer
+                                Web Developer/Systems Analyst
                             </div>
                             <div className="text-3xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl italic">
                                 Westat (2021-Present)
