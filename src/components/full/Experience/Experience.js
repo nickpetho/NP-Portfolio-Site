@@ -33,17 +33,17 @@ function Experience() {
                         Westat (2021-Present)
                     </div>
                     <div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl">
-                        - Create UI to support functionality of websites, web
+                        - Created UI to support functionality of websites, web
                         survey apps, and backend management systems
                     </div>
                     <div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl">
                         {' '}
-                        - Develop SQL queries and stored procedures to manage
+                        - Developed SQL queries and stored procedures to manage
                         data
                     </div>
                     <div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl">
                         {' '}
-                        - Provide technical and operational support to
+                        - Provided technical and operational support to
                         production websites and web survey applications
                     </div>
                 </div>

@@ -231,16 +231,16 @@ function SimpleHome() {
                             </div>
                             <ul className="list-disc text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-6xl space-y-3">
                                 <li>
-                                    Create UI to support functionality of
+                                    Created UI to support functionality of
                                     websites, web survey apps, and backend
                                     management systems
                                 </li>
                                 <li>
-                                    Develop SQL queries and stored procedures to
+                                    Developed SQL queries and stored procedures to
                                     manage data
                                 </li>
                                 <li>
-                                    Provide technical and operational support to
+                                    Provided technical and operational support to
                                     production websites and web survey
                                     applications
                                 </li>
