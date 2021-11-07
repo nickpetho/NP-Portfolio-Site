@@ -33,13 +33,13 @@ function Experience() {
                         Westat (2021-Present)
                     </div>
                     <div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl">
-                        - Created UI to support functionality of websites, web
-                        survey apps, and backend management systems
+                        - Created/edited UI to support functionality of websites, web survey apps,
+                        and backend management systems
                     </div>
                     <div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl">
                         {' '}
-                        - Developed SQL queries and stored procedures to manage
-                        data
+                        - Modified the frontend of multiple websites, including adding accessibility
+                        functionality
                     </div>
                     <div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl">
                         {' '}
@@ -63,10 +63,10 @@ export default Experience;
 <div className="text-3xl 1xl:text-4xl 3xl:text-6xl 4xl:text-8xl font-semibold">AIB Technician</div>
 <div className="text-2xl 1xl:text-3xl 3xl:text-5xl 4xl:text-7xl italic">TecnoCap LLC (2016-2020)</div>
 <div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl">
-	- Prepared the plant for the annual AIB (American Institute of Baking) certification inspection
+    - Prepared the plant for the annual AIB (American Institute of Baking) certification inspection
 </div>
 <div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl"> - Developed an AIB certification technician worker's manual</div>
 <div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl"> - Computerized inventory of storeroom and warehouse stock</div>
 <div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl">
-	- Assisted in improving the flow of raw material in the shearing department by designing new input/output routes
+    - Assisted in improving the flow of raw material in the shearing department by designing new input/output routes
 </div>*/

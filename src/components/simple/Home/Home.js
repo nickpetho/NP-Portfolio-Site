@@ -183,7 +183,7 @@ function SimpleHome() {
                                         <li>HTML</li>
                                         <li>CSS/SASS</li>
                                         <li>Python</li>
-                                        <li>C/C++</li>
+                                        <li>C++</li>
                                         <li>C#</li>
                                         <li>SQL</li>
                                     </ul>
@@ -231,18 +231,16 @@ function SimpleHome() {
                             </div>
                             <ul className="list-disc text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-6xl space-y-3">
                                 <li>
-                                    Created UI to support functionality of
-                                    websites, web survey apps, and backend
-                                    management systems
+                                    Created/edited  UI to support functionality of websites,
+                                    web survey apps, and backend management systems
                                 </li>
                                 <li>
-                                    Developed SQL queries and stored procedures to
-                                    manage data
+                                    Modified the frontend of multiple websites, including adding
+                                    accessibility functionality
                                 </li>
                                 <li>
                                     Provided technical and operational support to
-                                    production websites and web survey
-                                    applications
+                                    production websites and web survey applications
                                 </li>
                             </ul>
                         </div>

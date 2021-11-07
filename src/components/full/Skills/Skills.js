@@ -8,7 +8,6 @@ import HTML from '../../../assets/Icons/CodeIcons/HTML5_Logo.svg';
 import CSS from '../../../assets/Icons/CodeIcons/CSS_Logo.svg';
 import SASS from '../../../assets/Icons/CodeIcons/Sass_Logo.svg';
 import Python from '../../../assets/Icons/CodeIcons/Python_Logo.svg';
-import C from '../../../assets/Icons/CodeIcons/C_Logo.svg';
 import C_Plus_Plus from '../../../assets/Icons/CodeIcons/C++_Logo.svg';
 import C_Sharp from '../../../assets/Icons/CodeIcons/C_Sharp_Logo.svg';
 import SQL from '../../../assets/Icons/CodeIcons/SQL_Logo.svg';
@@ -57,9 +56,8 @@ function Skills() {
 									Python
 								</li>
 								<li className="flex">
-									<Logo imgSrc={C} />
-									C/C++
 									<Logo imgSrc={C_Plus_Plus} />
+									C++
 								</li>
 								<li className="flex">
 									<Logo imgSrc={C_Sharp} />

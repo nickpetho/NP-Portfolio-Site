@@ -1,6 +1,6 @@
 import React from 'react';
 import Windows7Logo from '../../../../assets/Icons/Windows7Logo.png';
-import LinkenInLogo from '../../../../assets/Icons/linkedin-logo.svg';
+import LinkedInLogo from '../../../../assets/Icons/linkedin-logo.svg';
 import GitHubLogo from '../../../../assets/Icons/github-logo.svg';
 
 const TaskIcon = ({ children, ...props }) => (
@@ -17,7 +17,7 @@ function Taskbar({ onLogoClick }) {
 			</TaskIcon>
 			<TaskIcon>
 				<a href="https://www.linkedin.com/in/nick-petho-708b1261/" target="_blank" rel="noopener noreferrer">
-					<img className="h-10 3xl:h-16 4xl:h-24 w-10 3xl:w-16 4xl:w-24 p-1 3xl:p-2 4xl:p-3 mx-1 3xl:mx-2 4xl:mx-3" src={LinkenInLogo} alt="" />
+					<img className="h-10 3xl:h-16 4xl:h-24 w-10 3xl:w-16 4xl:w-24 p-1 3xl:p-2 4xl:p-3 mx-1 3xl:mx-2 4xl:mx-3" src={LinkedInLogo} alt="" />
 				</a>
 			</TaskIcon>
 			<TaskIcon>
