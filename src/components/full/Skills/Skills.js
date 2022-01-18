@@ -15,6 +15,7 @@ import React_js from '../../../assets/Icons/CodeIcons/React_Logo.svg';
 import jQuery from '../../../assets/Icons/CodeIcons/jQuery_Logo.svg';
 import Node from '../../../assets/Icons/CodeIcons/Node.js_Logo.svg';
 import Express from '../../../assets/Icons/CodeIcons/Express_Logo.svg';
+import dotNET from '../../../assets/Icons/CodeIcons/dotNET_Logo.svg';
 import MongoDB from '../../../assets/Icons/CodeIcons/MongoDb_Logo.svg';
 import Bootstrap from '../../../assets/Icons/CodeIcons/Bootstrap 4.svg';
 import Tailwind from '../../../assets/Icons/CodeIcons/Tailwind_Logo.svg';
@@ -95,6 +96,10 @@ function Skills() {
 								<li className="flex">
 									<Logo className="w-12 1xl:w-16 2xl:w-20 3xl:w-24 4xl:w-40" imgSrc={Tailwind} />
 									Tailwind.css
+								</li>
+								<li className="flex">
+									<Logo className="w-12 1xl:w-16 2xl:w-20 3xl:w-24 4xl:w-40" imgSrc={dotNET} />
+									.NET
 								</li>
 							</ul>
 						</div>

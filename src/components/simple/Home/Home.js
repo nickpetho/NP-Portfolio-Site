@@ -199,6 +199,7 @@ function SimpleHome() {
                                         <li>Express.js</li>
                                         <li>Bootstrap 4</li>
                                         <li>Tailwind.css</li>
+                                        <li>.NET</li>
                                     </ul>
                                 </div>
                                 <div className="w-full lg:w-auto">
@@ -235,8 +236,8 @@ function SimpleHome() {
                                     web survey apps, and backend management systems
                                 </li>
                                 <li>
-                                    Modified the frontend of multiple websites, including adding
-                                    accessibility functionality
+                                    Modified the frontend of multiple websites and web survey apps,
+                                    including adding accessibility functionality
                                 </li>
                                 <li>
                                     Provided technical and operational support to

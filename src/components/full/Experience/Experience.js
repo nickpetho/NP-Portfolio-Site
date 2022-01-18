@@ -38,7 +38,7 @@ function Experience() {
                     </div>
                     <div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl">
                         {' '}
-                        - Modified the frontend of multiple websites, including adding accessibility
+                        - Modified the frontend of multiple websites and web survey apps, including adding accessibility
                         functionality
                     </div>
                     <div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl">
