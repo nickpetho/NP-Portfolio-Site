@@ -22,26 +22,26 @@ function Experience() {
     return (
         <div className="h-screen experience-page flex flex-col">
             <div className="flex-grow relative">
-                <div className="px-6 3xl:px-12 3xl:pt-6 4xl:px-24">
-                    <h1 className="text-5xl 1xl:text-6xl 3xl:text-8xl 4xl:text-10xl underline">
+                <div className="px-6 3xl:px-12 4xl:px-24">
+                    <h1 className="mt-4 text-5xl 1xl:text-6xl 2xl:text-7xl 3xl:text-8xl 4xl:text-10xl underline">
                         Work Experience
                     </h1>
-                    <div className="text-3xl 1xl:text-4xl 3xl:text-6xl 4xl:text-8xl font-semibold">
+                    <div className="pt-6 text-3xl 1xl:text-4xl 2xl:text-5xl 3xl:text-6xl 4xl:text-8xl font-semibold">
                         Web Developer/Systems Analyst
                     </div>
-                    <div className="text-2xl 1xl:text-3xl 3xl:text-5xl 4xl:text-7xl italic">
+                    <div className="py-4 text-2xl 1xl:text-3xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl italic">
                         Westat (2021-Present)
                     </div>
-                    <div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl">
+                    <div className="text-xl 1xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl">
                         - Created/edited UI to support functionality of websites, web survey apps,
                         and backend management systems
                     </div>
-                    <div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl">
+                    <div className="text-xl 1xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl">
                         {' '}
                         - Modified the frontend of multiple websites and web survey apps, including adding accessibility
                         functionality
                     </div>
-                    <div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl">
+                    <div className="text-xl 1xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl">
                         {' '}
                         - Provided technical and operational support to
                         production websites and web survey applications
@@ -57,16 +57,3 @@ function Experience() {
 }
 
 export default Experience;
-
-/*
-<h1 className="text-5xl 1xl:text-6xl 3xl:text-8xl 4xl:text-10xl underline">Work Experience</h1>
-<div className="text-3xl 1xl:text-4xl 3xl:text-6xl 4xl:text-8xl font-semibold">AIB Technician</div>
-<div className="text-2xl 1xl:text-3xl 3xl:text-5xl 4xl:text-7xl italic">TecnoCap LLC (2016-2020)</div>
-<div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl">
-    - Prepared the plant for the annual AIB (American Institute of Baking) certification inspection
-</div>
-<div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl"> - Developed an AIB certification technician worker's manual</div>
-<div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl"> - Computerized inventory of storeroom and warehouse stock</div>
-<div className="text-xl 1xl:text-2xl 3xl:text-4xl 4xl:text-5xl">
-    - Assisted in improving the flow of raw material in the shearing department by designing new input/output routes
-</div>*/

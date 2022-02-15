@@ -57,15 +57,15 @@ function SimpleHome() {
             )}
             <div className="overflow-auto w-full">
                 <Section
-                    className="bg-gray-200 justify-center"
+                    className="bg-gray-100 justify-center"
                     title="Nick Petho"
                     id="Home"
                     content={
                         <div>
-                            <div className="text-4xl 3xl:text-6xl 4xl:text-8xl text-center">
+                            <div className="text-4xl 3xl:text-6xl 4xl:text-8xl 3xl:mt-12 text-center">
                                 Web/Software Developer
                             </div>
-                            <div className="text-3xl 3xl:text-5xl 4xl:text-7xl text-center pt-5 italic">
+                            <div className="text-3xl 3xl:text-5xl 4xl:text-7xl text-center pt-5 3xl:pt-6 italic">
                                 Specializing in Frontend Development
                             </div>
                             <div className="flex justify-center pt-8 3xl:pt-16 4xl:pt-20">
@@ -162,12 +162,12 @@ function SimpleHome() {
                     }
                 />
                 <Section
-                    className="bg-gray-200"
+                    className="bg-gray-100"
                     title="Skills"
                     id="Skills"
                     content={
                         <div>
-                            <div className="text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-6xl pb-5 3xl:pb-12 4xl:pb-16 text-center">
+                            <div className="text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-7xl text-center pb-6 3xl:pb-12 4xl:pb-20">
                                 I mainly use web development technologies but I
                                 am also skilled in other programming languages.
                                 These are the languages, technologies, and tools
@@ -175,10 +175,10 @@ function SimpleHome() {
                             </div>
                             <div className="grid lg:grid-cols-3 justify-items-center">
                                 <div className="w-full lg:w-auto justify-center">
-                                    <div className="text-3xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl underline">
+                                    <div className="text-3xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl mb-4 3xl:pb-12 underline">
                                         Languages
                                     </div>
-                                    <ul className="text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-6xl list-disc">
+                                    <ul className="text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-7xl space-y-4 3xl:space-y-8 4xl:space-y-12 list-disc">
                                         <li>Javascript</li>
                                         <li>HTML</li>
                                         <li>CSS/SASS</li>
@@ -189,10 +189,10 @@ function SimpleHome() {
                                     </ul>
                                 </div>
                                 <div className="w-full lg:w-auto">
-                                    <div className="text-3xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl underline">
+                                    <div className="text-3xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl mb-4 3xl:pb-12 underline">
                                         Libraries
                                     </div>
-                                    <ul className="text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-6xl list-disc">
+                                    <ul className="text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-7xl space-y-4 3xl:space-y-8 4xl:space-y-16 list-disc">
                                         <li>React.js</li>
                                         <li>jQuery</li>
                                         <li>Node.js</li>
@@ -203,10 +203,10 @@ function SimpleHome() {
                                     </ul>
                                 </div>
                                 <div className="w-full lg:w-auto">
-                                    <div className="text-3xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl underline">
+                                    <div className="text-3xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl mb-4 3xl:pb-12 underline">
                                         Technologies
                                     </div>
-                                    <ul className="text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-6xl list-disc">
+                                    <ul className="text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-7xl space-y-4 3xl:space-y-8 4xl:space-y-12 list-disc">
                                         <li>MongoDB</li>
                                         <li>REST</li>
                                         <li>Git</li>
@@ -224,13 +224,13 @@ function SimpleHome() {
                     id="Experience"
                     content={
                         <div>
-                            <div className="text-3xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl font-semibold">
+                            <div className="text-3xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl 3xl:pt-6 font-semibold">
                                 Web Developer/Systems Analyst
                             </div>
-                            <div className="text-3xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl italic">
+                            <div className="mt-4 3xl:pt-6 text-3xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl italic">
                                 Westat (2021-Present)
                             </div>
-                            <ul className="list-disc text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-6xl space-y-3">
+                            <ul className="mt-4 3xl:pt-6 space-y-3 3xl:space-y-8 text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-7xl list-disc">
                                 <li>
                                     Created/edited  UI to support functionality of websites,
                                     web survey apps, and backend management systems
@@ -248,21 +248,21 @@ function SimpleHome() {
                     }
                 />
                 <Section
-                    className="bg-gray-200"
+                    className="bg-gray-100"
                     title="Education"
                     id="Education"
                     content={
-                        <div className="space-y-3">
-                            <div className="text-3xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl font-semibold">
+                        <div className="space-y-3 3xl:space-y-8 4xl:space-y-10">
+                            <div className="text-3xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl 3xl:pt-6 font-semibold">
                                 Youngstown State University, Youngstown, Ohio
                             </div>
-                            <div className="text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-7xl italic">
+                            <div className="py-4 text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-7xl italic">
                                 Bachelor of Science in Computer Science, with a
                                 minor in Mathematics (2016-2020)
                             </div>
-                            <ul className="list-disc text-2xl 3xl:text-4xl 4xl:text-6xl">
+                            <ul className="mt-4 list-disc text-2xl 3xl:text-4xl 4xl:text-7xl">
                                 <li>Member of the Honors College</li>
-                                <li>
+                                <li className="mt-4 3xl:pt-6 4xl:pt-12">
                                     Achieved Dean's List (Spring 2017, Spring
                                     2019, Fall 2020)
                                 </li>
@@ -275,23 +275,20 @@ function SimpleHome() {
                     title="About Me"
                     id="About"
                     content={
-                        <div className="space-y-3">
-                            <div className="text-3xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl italic">
-                                Nick Petho
+                        <div className="space-y-5 3xl:space-y-7 4xl:space-y-10">
+                            <div className="3xl:pb-6 text-3xl 1xl:text-4xl 2xl:text-5xl 3xl:text-6xl 4xl:text-8xl italic">
+                                Nick Petho (nick.petho@gmail.com)
                             </div>
-                            <div className="text-2xl xl:text-4xl 3xl:text-6xl 4xl:text-8xl italic">
-                                nick.petho@gmail.com
-                            </div>
-                            <div className="text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-7xl">
+                            <div className="text-2xl 1xl:text-3xl 3xl:text-5xl 4xl:text-7xl">
                                 A web developer with a passion for frontend
                                 design and development.
                             </div>
-                            <div className="text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-7xl">
+                            <div className="3xl:pt-6 text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-7xl">
                                 I have a Bachelors degree in Computer Science
                                 with a minor in Mathematics from Youngstown
                                 State University.
                             </div>
-                            <div className="text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-7xl">
+                            <div className="3xl:pt-6 text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-7xl">
                                 I've always been interested in software
                                 development but once I started learning about
                                 web development I really fell in love with it.
@@ -301,7 +298,7 @@ function SimpleHome() {
                                 I'm always excited to learn new languages and
                                 technologies.
                             </div>
-                            <div className="text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-7xl">
+                            <div className="3xl:pt-6 text-2xl xl:text-3xl 3xl:text-5xl 4xl:text-7xl">
                                 Some other interesting things about me:
                             </div>
                             <ul className="list-disc text-2xl 3xl:text-4xl 4xl:text-6xl list-inside">
@@ -313,8 +310,7 @@ function SimpleHome() {
                                     Musician in various bands since highschool
                                 </li>
                                 <li>
-                                    Studying the Hungarian language (a magyar
-                                    nyelv)
+                                    Studying the Hungarian (magyar nyelv) and German (deutsch Sprache) languages
                                 </li>
                                 <li>
                                     Huge soccer fan, my favorite team is

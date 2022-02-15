@@ -1,13 +1,14 @@
-const { colors, fontSize, spacing } = require('tailwindcss/defaultTheme');
+const { fontSize, spacing } = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors')
 
 module.exports = {
-	purge: [],
+	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
 		extend: {
 			colors: {
 				gray: {
 					...colors.gray,
-					'700': '#666666',
+					LandingPage: '#666666',
 					Windows10: '#525E73',
 					Windows95: '#C1C1C1',
 					Windows95Start: '#808080',
@@ -17,6 +18,9 @@ module.exports = {
 					MacWindow: '#D7D7D7',
 					MacWindowBG: '#ECECEC',
 					LinuxTaskbar: 'rgba(0,0,0, .75)'
+				},
+				slate: {
+					...colors.slate
 				},
 				blue: {
 					...colors.blue,
@@ -46,7 +50,7 @@ module.exports = {
 			}
 		},
 		fontFamily: {
-			sans: [ 'Source Code Pro', 'monospace' ]
+			sans: ['Source Code Pro', 'monospace']
 		},
 		fontSize: {
 			...fontSize,
@@ -77,6 +81,5 @@ module.exports = {
 			'144': '36rem'
 		}
 	},
-	variants: {},
 	plugins: []
 };

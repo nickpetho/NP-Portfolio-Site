@@ -1,12 +1,11 @@
 import React from 'react';
 import MacButton from '../../MacButton/MacButton';
-//import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
 
 function TACContents() {
 	return (
 		<div className="flex flex-col space-y-4 3xl:space-y-8 4xl:space-y-12">
 			<div className="mb-3">
-				<h1 className="text-4xl 1xl:text-5xl 2xl:text-6xl 3xl:text-8xl 4xl:text-9xl border-b-4 border-black px-16 flex justify-center">
+				<h1 className="text-4xl 1xl:text-5xl 2xl:text-6xl 3xl:text-8xl 4xl:text-9xl border-b-4 border-black px-16 py-4 flex justify-center">
 					Tutoring Assistance Computer
 				</h1>
 			</div>

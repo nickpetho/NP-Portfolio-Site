@@ -8,7 +8,7 @@ function Section({ className, title, content, ...props }) {
 			)}
 			{...props}
 		>
-			<h1 className="text-5xl lg:text-6xl 3xl:text-8xl 4xl:text-10xl underline">{title}</h1>
+			<h1 className="text-5xl lg:text-6xl 2xl:text-7xl 3xl:text-8xl 4xl:text-10xl underline">{title}</h1>
 			<div className="lg:text-justify pt-4 lg:pt-10 3xl:pt-16 4xl:pt-20 w-full">{content}</div>
 		</div>
 	);

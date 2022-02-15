@@ -6,7 +6,7 @@ import MagnifyingGlassIcon from '../../../../assets/Icons/MacMagnifyingGlass.png
 import { Link } from 'react-router-dom';
 
 const TaskIcon = ({ children, ...props }) => (
-	<div className="h-full w-24 3xl:w-40 flex 4xl:w-56 items-center justify-center px-1 hover:bg-gray-500" {...props}>
+	<div className="h-full w-24 3xl:w-40 flex 4xl:w-56 items-center justify-center px-1 hover:bg-slate-400" {...props}>
 		{children}
 	</div>
 );

@@ -13,7 +13,7 @@ function StartMenu({ isOpen }) {
 			<div className="p-3 3xl:p-5 4xl:p-7 4xl:ml-5 flex font-bold 3xl:text-3xl 4xl:text-5xl">Nick Petho</div>
 			<Link
 				to="/aboutMe"
-				className="bg-white p-3 3xl:p-5 4xl:p-7 3xl:text-3xl 4xl:text-5xl flex text-black hover:bg-blue-XPStartHighlight hover:text-white"
+				className="bg-white p-3 3xl:p-5 4xl:p-7 3xl:text-3xl 4xl:text-5xl flex text-black hover:bg-blue-XPStartHighlight hover:text-white items-center "
 			>
 				<img className="h-6 3xl:h-10 4xl:h-16 w-6 3xl:w-10 4xl:w-16 mr-3 3xl:mr-5 4xl:mr-8 4xl:ml-3" src={MagnifyingGlass} alt="" />
 				<div>About Me</div>

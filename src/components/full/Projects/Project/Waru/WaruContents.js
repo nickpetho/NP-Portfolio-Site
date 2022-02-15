@@ -1,12 +1,11 @@
 import React from 'react';
 import MacButton from '../../MacButton/MacButton';
-//import SimpleButton from '../../../../simple/Projects/SimpleButton/SimpleButton';
 
 function WaruContents({ buttonType, ...props }) {
 	return (
 		<div className="flex flex-col space-y-4 3xl:space-y-8 4xl:space-y-12" {...props}>
 			<div className="mb-3">
-				<h1 className="text-4xl 1xl:text-5xl 2xl:text-6xl 3xl:text-8xl 4xl:text-9xl border-b-4 border-black px-16 flex justify-center">Waru</h1>
+				<h1 className="text-4xl 1xl:text-5xl 2xl:text-6xl 3xl:text-8xl 4xl:text-9xl border-b-4 border-black px-16 py-4 flex justify-center">Waru</h1>
 			</div>
 			<div className="text-xl 3xl:text-3xl 4xl:text-5xl">
 				Waru is a 2D platformer made with the Unity game engine. I collaborated with a fellow computer science

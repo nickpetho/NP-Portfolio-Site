@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Rnd } from 'react-rnd';
 
-/* NEED TO FIND SOLUTION FOR SVG CLOSE BUTTONS */ 
+/* NEED TO FIND SOLUTION FOR SVG CLOSE BUTTONS */
 
 function MacWindow({ circleSize, title, children, closeTo, className, ...props }) {
-	const [ disableDragging, setDisableDragging ] = useState(false);
+	const [disableDragging, setDisableDragging] = useState(false);
 
 	function handleMouseEnter() {
 		setDisableDragging(true);

@@ -8,7 +8,7 @@ import DocumentIcon from './DesktopIcons/DocumentIcon';
 import OutsideClickHandler from 'react-outside-click-handler';
 
 function Home() {
-	const [ isStartMenuOpen, setIsStartMenuOpen ] = useState(false);
+	const [isStartMenuOpen, setIsStartMenuOpen] = useState(false);
 
 	function enableStartMenu() {
 		setIsStartMenuOpen(true);
