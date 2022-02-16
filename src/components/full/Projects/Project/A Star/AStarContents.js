@@ -18,7 +18,7 @@ function AStarContents() {
 			<div className="flex justify-center">
 				<img
 					className="w-2/4 h-2/4 border-2 border-black"
-					src={require('../../../../../assets/Projects/A-Star Map.png')}
+					src={require('../../../../../assets/Projects/A-Star Map.webp')}
 					alt=""
 				/>
 			</div>

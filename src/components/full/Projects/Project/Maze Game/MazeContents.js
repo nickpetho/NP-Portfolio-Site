@@ -15,10 +15,10 @@ function MazeContents({ ...props }) {
 			</div>
 			<div className="flex justify-center mb-3 space-x-3 3xl:space-x-6 4xl:space-x-12">
 				<div>
-					<img className="pb-3" src={require('../../../../../assets/Projects/MazeGame2.png')} alt="" />
+					<img className="pb-3" src={require('../../../../../assets/Projects/MazeGame2.webp')} alt="" />
 				</div>
 				<div>
-					<img className="pb-3" src={require('../../../../../assets/Projects/MazeGame1.png')} alt="" />
+					<img className="pb-3" src={require('../../../../../assets/Projects/MazeGame1.webp')} alt="" />
 				</div>
 			</div>
 			<div className="flex justify-center space-x-3 3xl:space-x-5 4xl:space-x-12">

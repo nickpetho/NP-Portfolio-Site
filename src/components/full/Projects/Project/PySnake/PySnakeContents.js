@@ -13,18 +13,18 @@ function PySnakeContents() {
 			</div>
 			<div className="flex justify-center space-x-3 3xl:space-x-16 4xl:space-x-20">
 				<div>
-					<img src={require('../../../../../assets/Projects/PySnake(1).png')} alt="" />
+					<img src={require('../../../../../assets/Projects/PySnake(1).webp')} alt="" />
 				</div>
 				<div>
-					<img src={require('../../../../../assets/Projects/PySnake(2).png')} alt="" />
+					<img src={require('../../../../../assets/Projects/PySnake(2).webp')} alt="" />
 				</div>
 			</div>
 			<div className="flex justify-center space-x-4 3xl:space-x-16 4xl:space-x-20">
 				<div>
-					<img src={require('../../../../../assets/Projects/PySnake(3).png')} alt="" />
+					<img src={require('../../../../../assets/Projects/PySnake(3).webp')} alt="" />
 				</div>
 				<div>
-					<img src={require('../../../../../assets/Projects/PySnake(4).png')} alt="" />
+					<img src={require('../../../../../assets/Projects/PySnake(4).webp')} alt="" />
 				</div>
 			</div>
 			<div className="flex justify-center">

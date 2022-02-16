@@ -16,7 +16,7 @@ function WaruContents({ buttonType, ...props }) {
 				source code is not publicly available.
 			</div>
 			<div className="flex justify-center pb-1">
-				<img className="w-2/4 h-2/4" src={require('../../../../../assets/Projects/Waru.png')} alt="" />
+				<img className="w-2/4 h-2/4" src={require('../../../../../assets/Projects/Waru.webp')} alt="" />
 			</div>
 			<div className="flex justify-center">
 				<MacButton title="Play" link="http://kmdiogo.people.ysu.edu/Waru/">

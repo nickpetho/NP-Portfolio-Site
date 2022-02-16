@@ -49,7 +49,8 @@ function SimpleHome() {
             {!mobileTaskbarOpen && (
                 <button
                     className="absolute top-0 right-0 mt-5 mr-5 space-y-1 xl:hidden z-40"
-                    onClick={() => setMobileTaskbarOpen(!mobileTaskbarOpen)}>
+                    onClick={() => setMobileTaskbarOpen(!mobileTaskbarOpen)}
+                    aria-label="Mobile Taskbar">
                     <span className="w-5 h-1 bg-black block" />
                     <span className="w-5 h-1 bg-black block" />
                     <span className="w-5 h-1 bg-black block" />
@@ -73,7 +74,8 @@ function SimpleHome() {
                                     <a
                                         href="https://www.linkedin.com/in/nick-petho-708b1261/"
                                         target="_blank"
-                                        rel="noopener noreferrer">
+                                        rel="noopener noreferrer"
+                                        aria-label="Linkedin">
                                         <img
                                             className="h-16 3xl:h-24 4xl:h-40 w-16 3xl:w-24 4xl:w-40"
                                             src={LinkedInLogo}
@@ -85,7 +87,8 @@ function SimpleHome() {
                                     <a
                                         href="https://github.com/nickpetho"
                                         target="_blank"
-                                        rel="noopener noreferrer">
+                                        rel="noopener noreferrer"
+                                        aria-label="GitHub">
                                         <img
                                             className="h-16 3xl:h-24 4xl:h-40 w-16 3xl:w-24 4xl:w-40"
                                             src={GitHubLogo}
@@ -118,7 +121,7 @@ function SimpleHome() {
                                 <div className="grid xl:grid-cols-3 gap-12">
                                     <ProjectCard
                                         title="Waru"
-                                        src={require('../../../assets/SimpleProjects/Waru.png')}
+                                        src={require('../../../assets/SimpleProjects/Waru.webp')}
                                         description="2D platformer made in Unity"
                                         onClick={() =>
                                             projectClickHandler('waru')
@@ -126,7 +129,7 @@ function SimpleHome() {
                                     />
                                     <ProjectCard
                                         title="Maze Game"
-                                        src={require('../../../assets/SimpleProjects/MazeGame.png')}
+                                        src={require('../../../assets/SimpleProjects/MazeGame.webp')}
                                         description="3D maze/treasure collection game made in Unity"
                                         onClick={() =>
                                             projectClickHandler('maze')
@@ -134,7 +137,7 @@ function SimpleHome() {
                                     />
                                     <ProjectCard
                                         title="TAC"
-                                        src={require('../../../assets/SimpleProjects/TAC_Home.jpg')}
+                                        src={require('../../../assets/SimpleProjects/TAC_Home.webp')}
                                         description="All-in-one tutor tracking software solution"
                                         onClick={() =>
                                             projectClickHandler('tac')
@@ -142,7 +145,7 @@ function SimpleHome() {
                                     />
                                     <ProjectCard
                                         title="A* Heuristic"
-                                        src={require('../../../assets/SimpleProjects/A-Star Map.png')}
+                                        src={require('../../../assets/SimpleProjects/A-Star Map.webp')}
                                         description="An A* path finding heuristic on a 16x16 tile map"
                                         onClick={() =>
                                             projectClickHandler('aStar')
@@ -150,7 +153,7 @@ function SimpleHome() {
                                     />
                                     <ProjectCard
                                         title="PySnake"
-                                        src={require('../../../assets/SimpleProjects/PySnake.png')}
+                                        src={require('../../../assets/SimpleProjects/PySnake.webp')}
                                         description="A version of the classic Snake game made with pygame"
                                         onClick={() =>
                                             projectClickHandler('pysnake')

@@ -17,13 +17,13 @@ function TACContents() {
 			</div>
 			<div class="lg:flex justify-center font-bold text-2xl 3xl:text-4xl 4xl:text-6xl 4xl:space-x-5">
 				<div>
-					<img className="lg:pr-3 pb-3" src={require('../../../../../assets/Projects/TAC_Home.jpg')} alt="" />
+					<img className="lg:pr-3 pb-3" src={require('../../../../../assets/Projects/TAC_Home.webp')} alt="" />
 					<div className="justify-center flex">TAC Home Page</div>
 				</div>
 				<div className="pt-4 lg:pt-0">
 					<img
 						className="lg:pl-3 pb-3"
-						src={require('../../../../../assets/Projects//TAC_Employee.jpg')}
+						src={require('../../../../../assets/Projects//TAC_Employee.webp')}
 						alt=""
 					/>
 					<div className="justify-center flex">TAC Administrator Page</div>
