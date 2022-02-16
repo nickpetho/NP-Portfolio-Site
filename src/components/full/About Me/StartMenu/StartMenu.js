@@ -11,6 +11,7 @@ function StartMenu({ isOpen }) {
 			<Link
 				to="/home"
 				className="p-3 3xl:px-5 4xl:p-4 4xl:px-10 3xl:text-3xl 4xl:text-5xl flex hover:bg-gray-Windows7Highlight hover:text-black"
+				aria-label="Home"
 			>
 				<div>Shut down</div>
 			</Link>

@@ -20,12 +20,18 @@ function Taskbar({ onLogoClick }) {
 					href="https://www.linkedin.com/in/nick-petho-708b1261/"
 					target="_blank"
 					rel="noopener noreferrer"
+					aria-label="Linkedin"
 				>
 					<img className="w-10 p-2 3xl:w-24 4xl:w-32 3xl:p-6 4xl:p-8" src={LinkedInLogo} alt="" />
 				</a>
 			</TaskIcon>
 			<TaskIcon>
-				<a href="https://github.com/nickpetho" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://github.com/nickpetho"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label="GitHub"
+				>
 					<img className="w-10 p-2 3xl:w-24 4xl:w-32 3xl:p-6 4xl:p-7" src={GitHubLogo} alt="" />
 				</a>
 			</TaskIcon>

@@ -18,22 +18,22 @@ function Taskbar() {
 	return (
 		<div className="h-full w-20 3xl:w-32 4xl:w-56 float-left bg-gray-LinuxTaskbar flex flex-col p-1 3xl:p-2 4xl:p-4">
 			<TaskIcon>
-				<a href="https://www.linkedin.com/in/nick-petho-708b1261/" target="_blank" rel="noopener noreferrer">
+				<a href="https://www.linkedin.com/in/nick-petho-708b1261/" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
 					<img className="h-full p-2 3xl:p-3 4xl:p-5" src={LinkedInLogo} alt="" />
 				</a>
 			</TaskIcon>
 			<TaskIcon>
-				<a href="https://github.com/nickpetho" target="_blank" rel="noopener noreferrer">
+				<a href="https://github.com/nickpetho" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
 					<img className="h-full p-2 3xl:p-3 4xl:p-5" src={GitHubLogo} alt="" />
 				</a>
 			</TaskIcon>
 			<TaskIcon>
-				<Link to="/home">
+				<Link to="/home" aria-label="Home">
 					<img className="h-full p-2 3xl:p-3 4xl:p-5" src={HomeIcon} alt="" />
 				</Link>
 			</TaskIcon>
 			<TaskIcon>
-				<Link to="/aboutMe">
+				<Link to="/aboutMe" aria-label="About Me">
 					<img className="h-full p-2 3xl:p-3 4xl:p-5" src={QuestionMark} alt="" />
 				</Link>
 			</TaskIcon>

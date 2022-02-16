@@ -1,6 +1,6 @@
 import React from 'react';
 import './Taskbar.css';
-import WindowsXPLogo from '../../../../assets/Icons/WindowsXpLogo.png';
+import WindowsXPLogo from '../../../../assets/Icons/WindowsXpLogo.webp';
 import LinkedInLogo from '../../../../assets/Icons/linkedin-logo.svg';
 import GitHubLogo from '../../../../assets/Icons/github-logo.svg';
 
@@ -26,12 +26,12 @@ function Taskbar({ onLogoClick }) {
 				</StartIcon>
 			</div>
 			<TaskIcon>
-				<a href="https://www.linkedin.com/in/nick-petho-708b1261/" target="_blank" rel="noopener noreferrer">
+				<a href="https://www.linkedin.com/in/nick-petho-708b1261/" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
 					<img className="h-10 3xl:h-16 4xl:h-24 w-10 3xl:w-16 4xl:w-24 p-1 3xl:p-2 4xl:p-3" src={LinkedInLogo} alt="" />
 				</a>
 			</TaskIcon>
 			<TaskIcon>
-				<a href="https://github.com/nickpetho" target="_blank" rel="noopener noreferrer">
+				<a href="https://github.com/nickpetho" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
 					<img className="h-10 3xl:h-16 4xl:h-24 w-10 3xl:w-16 4xl:w-24 p-1 3xl:p-2 4xl:p-3" src={GitHubLogo} alt="" />
 				</a>
 			</TaskIcon>

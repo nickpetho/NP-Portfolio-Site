@@ -17,7 +17,7 @@ function Experience() {
         setIsStartMenuOpen(false);
     }
 
-    //const folderIcon = require('../../../assets/Icons/xpFolder.png');
+    //const folderIcon = require('../../../assets/Icons/xpFolder.webp');
 
     return (
         <div className="h-screen experience-page flex flex-col">
