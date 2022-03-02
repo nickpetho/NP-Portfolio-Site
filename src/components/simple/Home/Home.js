@@ -280,7 +280,10 @@ function SimpleHome() {
                     content={
                         <div className="space-y-5 3xl:space-y-7 4xl:space-y-10">
                             <div className="3xl:pb-6 text-3xl 1xl:text-4xl 2xl:text-5xl 3xl:text-6xl 4xl:text-8xl italic">
-                                Nick Petho (nick.petho@gmail.com)
+                                Nick Petho
+                            </div>
+                            <div className="3xl:pb-6 text-2xl 1xl:text-3xl 2xl:text-4xl 3xl:text-5xl 4xl:text-7xl italic">
+                                nick.petho@gmail.com
                             </div>
                             <div className="text-2xl 1xl:text-3xl 3xl:text-5xl 4xl:text-7xl">
                                 A web developer with a passion for frontend
