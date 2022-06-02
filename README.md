@@ -18,4 +18,4 @@ demo funcationality as the "Full" version just in a simpler and easier to naviga
 
 ## Credits
 
-This site was made using React.js along with Tailwind.css to give it it's responsive design. And thanks to my good friend Matt Luonuansuu for designing my person logo as well.
+This site was made using React.js along with Tailwind.css to give it it's responsive design. And thanks to my good friend Matt Luonuonsuu for designing my person logo as well.
