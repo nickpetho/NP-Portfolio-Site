@@ -2,7 +2,7 @@
 
 Hi! Thanks for checking out my portfolio website. It has two versions available to view, "Simple" and "Full". I decided to make two versions because I wanted to
 demonstrate my design and coding abilities but also wanted to make it as quick as possible for potential employers/clients to look over and get important information.
-I felt that this "dual-site" design was the best fit.
+I felt that this "dual-site" design was the best fit. Here is a link to the site: https://nickpetho.github.io/#/
 
 ## Full Version
 
