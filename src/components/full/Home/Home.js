@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './Home.css';
-import Taskbar from './Taskbar/Taskbar';
-import StartMenu from './Start Menu/StartMenu';
-import FolderIcon from './DesktopIcons/FolderIcon';
-import DocumentIcon from './DesktopIcons/DocumentIcon';
 import OutsideClickHandler from 'react-outside-click-handler';
+import { Link } from 'react-router-dom';
+import DocumentIcon from './DesktopIcons/DocumentIcon';
+import FolderIcon from './DesktopIcons/FolderIcon';
+import './Home.css';
+import StartMenu from './Start Menu/StartMenu';
+import Taskbar from './Taskbar/Taskbar';
 
 function Home() {
 	const [isStartMenuOpen, setIsStartMenuOpen] = useState(false);

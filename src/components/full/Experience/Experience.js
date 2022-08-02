@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './Experience.css';
-import Taskbar from './Taskbar/Taskbar';
-import StartMenu from './StartMenu/StartMenu';
 import OutsideClickHandler from 'react-outside-click-handler';
+import './Experience.css';
+import StartMenu from './StartMenu/StartMenu';
+import Taskbar from './Taskbar/Taskbar';
 //import FolderIcon from './DesktopIcon/DesktopIcon';
 
 function Experience() {

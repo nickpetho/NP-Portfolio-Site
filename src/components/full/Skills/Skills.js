@@ -1,28 +1,28 @@
 import React from 'react';
-import './Skills.css';
-import Banner from './Banner/Banner';
-import Taskbar from './Taskbar/Taskbar';
-import Logo from './Logo/Logo';
-import JavaScript from '../../../assets/Icons/CodeIcons/Javascript_Logo.svg';
-import HTML from '../../../assets/Icons/CodeIcons/HTML5_Logo.svg';
-import CSS from '../../../assets/Icons/CodeIcons/CSS_Logo.svg';
-import SASS from '../../../assets/Icons/CodeIcons/Sass_Logo.svg';
-import Python from '../../../assets/Icons/CodeIcons/Python_Logo.svg';
-import C_Plus_Plus from '../../../assets/Icons/CodeIcons/C++_Logo.svg';
-import C_Sharp from '../../../assets/Icons/CodeIcons/C_Sharp_Logo.svg';
-import SQL from '../../../assets/Icons/CodeIcons/SQL_Logo.svg';
-import React_js from '../../../assets/Icons/CodeIcons/React_Logo.svg';
-import jQuery from '../../../assets/Icons/CodeIcons/jQuery_Logo.svg';
-import Node from '../../../assets/Icons/CodeIcons/Node.js_Logo.svg';
-import Express from '../../../assets/Icons/CodeIcons/Express_Logo.svg';
-import dotNET from '../../../assets/Icons/CodeIcons/dotNET_Logo.svg';
-import MongoDB from '../../../assets/Icons/CodeIcons/MongoDb_Logo.svg';
 import Bootstrap from '../../../assets/Icons/CodeIcons/Bootstrap 4.svg';
-import Tailwind from '../../../assets/Icons/CodeIcons/Tailwind_Logo.svg';
-import REST from '../../../assets/Icons/CodeIcons/RESTful_Logo.svg';
+import C_Plus_Plus from '../../../assets/Icons/CodeIcons/C++_Logo.svg';
+import CSS from '../../../assets/Icons/CodeIcons/CSS_Logo.svg';
+import C_Sharp from '../../../assets/Icons/CodeIcons/C_Sharp_Logo.svg';
+import dotNET from '../../../assets/Icons/CodeIcons/dotNET_Logo.svg';
+import Express from '../../../assets/Icons/CodeIcons/Express_Logo.svg';
 import Git from '../../../assets/Icons/CodeIcons/Git_Logo.svg';
+import HTML from '../../../assets/Icons/CodeIcons/HTML5_Logo.svg';
+import JavaScript from '../../../assets/Icons/CodeIcons/Javascript_Logo.svg';
 import Jira from '../../../assets/Icons/CodeIcons/Jira_Logo.svg';
+import jQuery from '../../../assets/Icons/CodeIcons/jQuery_Logo.svg';
+import MongoDB from '../../../assets/Icons/CodeIcons/MongoDb_Logo.svg';
+import Node from '../../../assets/Icons/CodeIcons/Node.js_Logo.svg';
+import Python from '../../../assets/Icons/CodeIcons/Python_Logo.svg';
+import React_js from '../../../assets/Icons/CodeIcons/React_Logo.svg';
+import REST from '../../../assets/Icons/CodeIcons/RESTful_Logo.svg';
+import SASS from '../../../assets/Icons/CodeIcons/Sass_Logo.svg';
+import SQL from '../../../assets/Icons/CodeIcons/SQL_Logo.svg';
+import Tailwind from '../../../assets/Icons/CodeIcons/Tailwind_Logo.svg';
 import Unity from '../../../assets/Icons/CodeIcons/Unity_Logo.svg';
+import Banner from './Banner/Banner';
+import Logo from './Logo/Logo';
+import './Skills.css';
+import Taskbar from './Taskbar/Taskbar';
 
 function Skills() {
 	return (

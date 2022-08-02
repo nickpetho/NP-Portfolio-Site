@@ -3,7 +3,7 @@ import React from 'react';
 function Section({ className, title, content, ...props }) {
 	return (
 		<div
-			className={[ 'text-center w-full flex p-10 lg:p-16 3xl:p-24 4xl:p-32 flex-col items-center min-h-screen', className ].join(
+			className={['text-center w-full flex p-10 lg:p-16 3xl:p-24 4xl:p-32 flex-col items-center min-h-screen', className].join(
 				' '
 			)}
 			{...props}

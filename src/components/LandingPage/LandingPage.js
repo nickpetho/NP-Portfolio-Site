@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import './LandingPage.css';
-import userLogo from '../../assets/Icons/Win10UserIcon.svg';
 import { Link, Redirect } from 'react-router-dom';
 import { MobileDeviceContext } from '../../App';
+import userLogo from '../../assets/Icons/Win10UserIcon.svg';
+import './LandingPage.css';
 
 const LandingPageButton = ({ to, ...props }) => (
 	<Link

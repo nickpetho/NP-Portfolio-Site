@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link, Switch, Route, useRouteMatch } from 'react-router-dom';
-import './Projects.css';
-import DesktopIcon from './DesktopIcon/DesktopIcon';
-import Taskbar from './Taskbar/Taskbar';
+import { Link, Route, Switch, useRouteMatch } from 'react-router-dom';
 import Banner from './Banner/Banner';
-import Waru from './Project/Waru/Waru';
-import MazeGame from './Project/Maze Game/MazeGame';
-import TAC from './Project/TAC/TAC';
+import DesktopIcon from './DesktopIcon/DesktopIcon';
 import A_Star from './Project/A Star/A_Star';
+import MazeGame from './Project/Maze Game/MazeGame';
 import PySnake from './Project/PySnake/PySnake';
+import TAC from './Project/TAC/TAC';
+import Waru from './Project/Waru/Waru';
+import './Projects.css';
+import Taskbar from './Taskbar/Taskbar';
 
 function Projects() {
 	const folderIcon = require('../../../assets/Icons/MacFolder.svg');

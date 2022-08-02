@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { MobileDeviceContext } from '../../../../App';
 import { HashLink } from 'react-router-hash-link';
+import { MobileDeviceContext } from '../../../../App';
 
 const TaskItem = ({ children, ...props }) => (
 	<div className="text-md 1xl:text-xl 3xl:text-3xl 4xl:text-5xl hover:text-red-700 transition-colors duration-75" {...props}>

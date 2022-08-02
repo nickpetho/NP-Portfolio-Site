@@ -1,8 +1,8 @@
 import React from 'react';
-import './Taskbar.css';
-import WindowsXPLogo from '../../../../assets/Icons/WindowsXpLogo.webp';
-import LinkedInLogo from '../../../../assets/Icons/linkedin-logo.svg';
 import GitHubLogo from '../../../../assets/Icons/github-logo.svg';
+import LinkedInLogo from '../../../../assets/Icons/linkedin-logo.svg';
+import WindowsXPLogo from '../../../../assets/Icons/WindowsXpLogo.webp';
+import './Taskbar.css';
 
 const TaskIcon = ({ children, ...props }) => (
 	<div className="h-full flex items-center px-1 3xl:px-2 4xl:px-4 hover:bg-blue-Highlight ml-3" {...props}>

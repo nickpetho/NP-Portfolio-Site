@@ -1,9 +1,9 @@
 import React from 'react';
-import LinkedInLogo from '../../../../assets/Icons/linkedin-logo.svg';
+import { Link } from 'react-router-dom';
 import GitHubLogo from '../../../../assets/Icons/github-logo.svg';
 import HomeIcon from '../../../../assets/Icons/HomeIcon.svg';
+import LinkedInLogo from '../../../../assets/Icons/linkedin-logo.svg';
 import MagnifyingGlassIcon from '../../../../assets/Icons/MacMagnifyingGlass.webp';
-import { Link } from 'react-router-dom';
 
 const TaskIcon = ({ children, ...props }) => (
 	<div className="h-full w-24 3xl:w-40 flex 4xl:w-56 items-center justify-center px-1 hover:bg-slate-400" {...props}>

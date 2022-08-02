@@ -1,9 +1,9 @@
 import React from 'react';
-import LinkedInLogo from '../../../../assets/Icons/linkedin-logo.svg';
-import GitHubLogo from '../../../../assets/Icons/github-logo.svg';
-import QuestionMark from '../../../../assets/Icons/LinuxQuestionMark.svg';
-import HomeIcon from '../../../../assets/Icons/LinuxHome.svg';
 import { Link } from 'react-router-dom';
+import GitHubLogo from '../../../../assets/Icons/github-logo.svg';
+import LinkedInLogo from '../../../../assets/Icons/linkedin-logo.svg';
+import HomeIcon from '../../../../assets/Icons/LinuxHome.svg';
+import QuestionMark from '../../../../assets/Icons/LinuxQuestionMark.svg';
 
 const TaskIcon = ({ children, ...props }) => (
 	<div

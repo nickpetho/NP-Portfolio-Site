@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './AboutMe.css';
-import Taskbar from './Taskbar/Taskbar';
-import StartMenu from './StartMenu/StartMenu';
 import OutsideClickHandler from 'react-outside-click-handler';
+import './AboutMe.css';
+import StartMenu from './StartMenu/StartMenu';
+import Taskbar from './Taskbar/Taskbar';
 
 function AboutMe() {
 	const [isStartMenuOpen, setIsStartMenuOpen] = useState(false);

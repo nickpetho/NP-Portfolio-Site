@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import { HashRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
-import LandingPage from './components/LandingPage/LandingPage';
+import { HashRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import './assets/fonts/Segoe UI.ttf';
-import SimpleHome from './components/simple/Home/Home';
+import AboutMe from './components/full/About Me/AboutMe';
+import Education from './components/full/Education/Education';
+import Experience from './components/full/Experience/Experience';
 import Home from './components/full/Home/Home';
 import Projects from './components/full/Projects/Projects';
 import Skills from './components/full/Skills/Skills';
-import Experience from './components/full/Experience/Experience';
-import Education from './components/full/Education/Education';
-import AboutMe from './components/full/About Me/AboutMe';
+import LandingPage from './components/LandingPage/LandingPage';
+import SimpleHome from './components/simple/Home/Home';
 
 export const MobileDeviceContext = React.createContext(false);
 
 function App() {
-	const [ mobileDevice, setMobileDevice ] = useState(false);
+	const [mobileDevice, setMobileDevice] = useState(false);
 	/*useEffect(() => {
 		const script = document.createElement('script');
 		script.src = 'a.out.js';

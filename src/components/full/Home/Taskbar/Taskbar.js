@@ -1,7 +1,7 @@
 import React from 'react';
-import Windows10Logo from '../../../../assets/Icons/windows10logo.svg';
-import LinkedInLogo from '../../../../assets/Icons/linkedin-logo.svg';
 import GitHubLogo from '../../../../assets/Icons/github-logo.svg';
+import LinkedInLogo from '../../../../assets/Icons/linkedin-logo.svg';
+import Windows10Logo from '../../../../assets/Icons/windows10logo.svg';
 
 const TaskIcon = ({ children, ...props }) => (
 	<div className="h-full flex items-center px-1 3xl:px-2 4xl:px-3 hover:bg-gray-800" {...props}>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import MagnifyingGlass from '../../../../assets/Icons/XPMagnifyingGlass.webp';
 import LogOff from '../../../../assets/Icons/XPLogOff.svg';
+import MagnifyingGlass from '../../../../assets/Icons/XPMagnifyingGlass.webp';
 
 function StartMenu({ isOpen }) {
 	if (!isOpen) {

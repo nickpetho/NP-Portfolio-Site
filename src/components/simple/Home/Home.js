@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
+import GitHubLogo from '../../../assets/Icons/github-logo.svg';
+import LinkedInLogo from '../../../assets/Icons/linkedin-logo.svg';
+import AStarContents from '../../full/Projects/Project/A Star/AStarContents';
+import MazeContents from '../../full/Projects/Project/Maze Game/MazeContents';
+import PySnakeContents from '../../full/Projects/Project/PySnake/PySnakeContents';
+import TACContents from '../../full/Projects/Project/TAC/TACContents';
+import WaruContents from '../../full/Projects/Project/Waru/WaruContents';
+import ProjectCard from '../Projects/ProjectCard/ProjectCard';
+import SimpleButton from '../Projects/SimpleButton/SimpleButton';
 import Section from '../Shared/Section/Section';
 import Taskbar from '../Shared/Taskbar/Taskbar';
-import ProjectCard from '../Projects/ProjectCard/ProjectCard';
-import WaruContents from '../../full/Projects/Project/Waru/WaruContents';
-import MazeContents from '../../full/Projects/Project/Maze Game/MazeContents';
-import TACContents from '../../full/Projects/Project/TAC/TACContents';
-import AStarContents from '../../full/Projects/Project/A Star/AStarContents';
-import PySnakeContents from '../../full/Projects/Project/PySnake/PySnakeContents';
-import SimpleButton from '../Projects/SimpleButton/SimpleButton';
-import LinkedInLogo from '../../../assets/Icons/linkedin-logo.svg';
-import GitHubLogo from '../../../assets/Icons/github-logo.svg';
 
 const projectContents = {
     waru: <WaruContents />,

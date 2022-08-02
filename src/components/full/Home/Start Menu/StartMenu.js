@@ -1,7 +1,7 @@
 import React from 'react';
-import userLogo from '../../../../assets/Icons/Win10UserIcon.svg';
 import { Link } from 'react-router-dom';
 import PowerIcon from '../../../../assets/Icons/PowerIcon.svg';
+import userLogo from '../../../../assets/Icons/Win10UserIcon.svg';
 
 function StartMenu({ isOpen }) {
 	if (!isOpen) {

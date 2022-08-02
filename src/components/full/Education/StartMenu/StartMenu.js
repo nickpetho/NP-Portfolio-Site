@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ShutDownLogo from '../../../../assets/Icons/95ShutDownIcon.webp';
 import MagnifyingGlass from '../../../../assets/Icons/95MagnifyingGlass.webp';
+import ShutDownLogo from '../../../../assets/Icons/95ShutDownIcon.webp';
 
 function StartMenu({ isOpen }) {
 	if (!isOpen) {
