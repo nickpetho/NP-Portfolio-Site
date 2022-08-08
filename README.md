@@ -13,8 +13,8 @@ page is based on a modern classic, Windows 7.
 
 ## Simple Version
 
-The "Simple" version of the site is a single, scrollable page with a toolbar on the side to allow for jumping to specfic sections. It contains all the same information and
-demo funcationality as the "Full" version just in a simpler and easier to navigate design.
+The "Simple" version of the site is a single, scrollable page with a toolbar on the side to allow for jumping to specific sections. It contains all the same information and
+demo functionality as the "Full" version just in a simpler and easier to navigate design.
 
 ## Credits
 
